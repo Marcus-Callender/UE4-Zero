@@ -6,14 +6,14 @@
 #include "UE4_ZeroGameModeBase.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class UE4_ZERO_API AUE4_ZeroGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
-	
-	
-	
+
+		virtual void StartPlay();
+
+
 };
