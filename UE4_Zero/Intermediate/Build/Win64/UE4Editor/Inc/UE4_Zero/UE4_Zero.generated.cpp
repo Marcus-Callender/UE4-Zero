@@ -15,12 +15,19 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 	{
 	}
 	IMPLEMENT_CLASS(AUE4_ZeroGameModeBase, 3750418435);
+	void AZeroCharicter::StaticRegisterNativesAZeroCharicter()
+	{
+	}
+	IMPLEMENT_CLASS(AZeroCharicter, 1032697293);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
+	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
 
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AUE4_ZeroGameModeBase_NoRegister();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AUE4_ZeroGameModeBase();
+	UE4_ZERO_API class UClass* Z_Construct_UClass_AZeroCharicter_NoRegister();
+	UE4_ZERO_API class UClass* Z_Construct_UClass_AZeroCharicter();
 	UE4_ZERO_API class UPackage* Z_Construct_UPackage__Script_UE4_Zero();
 	UClass* Z_Construct_UClass_AUE4_ZeroGameModeBase_NoRegister()
 	{
@@ -55,6 +62,38 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUE4_ZeroGameModeBase(Z_Construct_UClass_AUE4_ZeroGameModeBase, &AUE4_ZeroGameModeBase::StaticClass, TEXT("AUE4_ZeroGameModeBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUE4_ZeroGameModeBase);
+	UClass* Z_Construct_UClass_AZeroCharicter_NoRegister()
+	{
+		return AZeroCharicter::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AZeroCharicter()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_ACharacter();
+			Z_Construct_UPackage__Script_UE4_Zero();
+			OuterClass = AZeroCharicter::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ZeroCharicter.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ZeroCharicter.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AZeroCharicter(Z_Construct_UClass_AZeroCharicter, &AZeroCharicter::StaticClass, TEXT("AZeroCharicter"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AZeroCharicter);
 	UPackage* Z_Construct_UPackage__Script_UE4_Zero()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -63,8 +102,8 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UE4_Zero")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x20BF2F22;
-			Guid.B = 0x065A3565;
+			Guid.A = 0x4AFD0010;
+			Guid.B = 0x13059798;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

@@ -9,3 +9,6 @@
 #ifndef UE4_ZERO_UE4_ZeroGameModeBase_generated_h
 	#include "UE4_ZeroGameModeBase.h"
 #endif
+#ifndef UE4_ZERO_ZeroCharicter_generated_h
+	#include "ZeroCharicter.h"
+#endif
