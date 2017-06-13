@@ -265,3 +265,622 @@ LogInit: Object subsystem initialized
 [2017.06.13-18.38.56:764][505]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
 
 [2017.06.13-18.39.17:573][919]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.13-18.53.15:611][438]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.13-18.53.15:621][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.13-18.53.15:622][438]PIE: New page: PIE session: Start (13 Jun 2017 20:53:15)
+[2017.06.13-18.53.15:622][438]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.13-18.53.15:625][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002776s)
+[2017.06.13-18.53.15:625][438]LogAIModule: Creating AISystem for world Start
+[2017.06.13-18.53.15:626][438]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2017.06.13-18.53.15:626][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.004254s)
+[2017.06.13-18.53.15:639][438]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.13-18.53.15:647][438]LogInit: FAudioDevice initialized.
+[2017.06.13-18.53.15:679][438]LogLoad: Game class is 'GameModeBase'
+[2017.06.13-18.53.15:681][438]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.13-19.53.15
+[2017.06.13-18.53.15:681][438]LogWorld: Bringing up level for play took: 0.000921
+[2017.06.13-18.53.15:682][438]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.52
+[2017.06.13-18.53.32:370][361]Recompiling UE4_Zero...
+[2017.06.13-18.53.32:370][361]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 3445 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.13-18.53.32:379][361]Warning: Starting HotReload took  0.0s.
+[2017.06.13-18.53.46:115][952]CompilerResultsLog: New page: Compilation - 13 Jun 2017 20:53:46
+[2017.06.13-18.53.46:115][952]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2017.06.13-18.53.46:115][952]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.13-18.53.46:115][952]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.13-18.53.46:115][952]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.13-18.53.46:116][952]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 4.2448294 seconds
+[2017.06.13-18.53.46:116][952]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.06.13-18.53.46:116][952]CompilerResultsLog: Info UE4_Zero.generated.cpp
+[2017.06.13-18.53.46:116][952]CompilerResultsLog: Info UE4_ZeroGameModeBase.cpp
+[2017.06.13-18.53.46:116][952]CompilerResultsLog: Info [3/4] Link UE4Editor-UE4_Zero-3445.dll
+[2017.06.13-18.53.46:116][952]CompilerResultsLog: Info [4/4] Link UE4Editor-UE4_Zero-3445.lib
+[2017.06.13-18.53.46:116][952]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3445.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3445.exp
+[2017.06.13-18.53.46:116][952]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3445.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3445.suppressed.exp
+[2017.06.13-18.53.46:116][952]CompilerResultsLog: Info Total build time: 13.26 seconds (Local executor: 3.45 seconds)
+[2017.06.13-18.53.46:117][952]LogMainFrame: MainFrame: Module compiling took 13.754 seconds
+[2017.06.13-18.53.46:276][952]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2017.06.13-18.53.46:277][952]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.13-18.53.46:358][952]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2248 classes and 459 folders.
+[2017.06.13-18.53.46:369][952]Display: HotReload took 14.0s.
+[2017.06.13-18.53.50:240][416]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.13-18.53.50:249][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.13-18.53.50:249][416]PIE: New page: PIE session: Start (13 Jun 2017 20:53:50)
+[2017.06.13-18.53.50:249][416]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.13-18.53.50:251][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001535s)
+[2017.06.13-18.53.50:252][416]LogAIModule: Creating AISystem for world Start
+[2017.06.13-18.53.50:252][416]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2017.06.13-18.53.50:252][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.002708s)
+[2017.06.13-18.53.50:261][416]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.13-18.53.50:268][416]LogInit: FAudioDevice initialized.
+[2017.06.13-18.53.50:300][416]LogLoad: Game class is 'GameModeBase'
+[2017.06.13-18.53.50:301][416]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.13-19.53.50
+[2017.06.13-18.53.50:302][416]LogWorld: Bringing up level for play took: 0.000852
+[2017.06.13-18.53.50:303][416]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.1
+[2017.06.13-18.55.22:822][600]LogSlate: Took 0.023967 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.13-18.57.50:863][985]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 112 classes and 0 folders.
+[2017.06.13-18.57.54:698][182]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:43460).
+[2017.06.13-18.58.10:510][ 63]LogSlate: Took 0.018975 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.13-18.58.12:369][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/My_UE4_ZeroGameModeBase" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Blueprints/My_UE4_ZeroGameModeBase.uasset" SILENT=true
+[2017.06.13-18.58.12:381][283]LogSavePackage: Save=9.66ms
+[2017.06.13-18.58.12:382][283]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/My_UE4_ZeroGameModeBase4B0757394A0135EA3C206896E2ADF562.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Blueprints/My_UE4_ZeroGameModeBase.uasset'
+[2017.06.13-18.58.12:390][283]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Blueprints/My_UE4_ZeroGameModeBase.uasset
+[2017.06.13-18.58.35:248][136]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.13-18.58.35:338][141]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.UE4Zero
+
+[2017.06.13-18.58.35:339][141]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.13-18.58.35:339][141]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.06.13-18.58.35:340][141]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.13-18.58.35:340][141]LogTemp:Display: BranchPath = DESKTOP-E3PDIQS/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-E3PDIQS/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.06.13-18.58.35:369][144]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Marcus\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.06.13-18.58.35:369][144]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.06.13-18.58.35:370][144]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.06.13-18.58.35:370][144]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.06.13-18.58.35:370][144]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.06.13-18.58.35:370][144]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.06.13-18.58.45:694][362]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.13-18.59.02:270][292]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.13-18.59.02:284][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.13-18.59.02:284][292]PIE: New page: PIE session: Start (13 Jun 2017 20:59:02)
+[2017.06.13-18.59.02:284][292]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.13-18.59.02:286][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001852s)
+[2017.06.13-18.59.02:287][292]LogAIModule: Creating AISystem for world Start
+[2017.06.13-18.59.02:288][292]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2017.06.13-18.59.02:288][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003412s)
+[2017.06.13-18.59.02:312][292]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.13-18.59.02:320][292]LogInit: FAudioDevice initialized.
+[2017.06.13-18.59.02:349][292]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.13-18.59.02:351][292]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.13-19.59.02
+[2017.06.13-18.59.02:351][292]LogWorld: Bringing up level for play took: 0.000994
+[2017.06.13-18.59.02:352][292]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.149
+[2017.06.13-19.15.38:078][419]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Marcus/Pictures/IMG_6438.PNG)
+[2017.06.13-19.15.38:093][419]LogTexture:Display: Building textures: IMG_6438 (BGRA8, 416X265) - 87 MB total VRAM
+[2017.06.13-19.17.03:515][362]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Start' took 0.012
+[2017.06.13-19.17.03:518][362]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/IMG_6438] ([1] browsable assets)...
+[2017.06.13-19.17.03:524][362]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprints/IMG_6438.IMG_6438]
+[2017.06.13-19.17.03:524][362]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/IMG_6438]
+[2017.06.13-19.17.03:533][362]LogSavePackage: Save=7.12ms
+[2017.06.13-19.17.03:533][362]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Auto16765AF6D451B44C9C1361DBA921F0E81.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Blueprints/IMG_6438_Auto1.uasset'
+[2017.06.13-19.17.03:536][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Blueprints/IMG_6438_Auto1.uasset
+[2017.06.13-19.17.03:536][362]LogFileHelpers: Auto-saving content packages took 0.020
+[2017.06.13-19.17.54:318][405]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2017.06.13-19.18.05:250][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IMG_6438" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/IMG_6438.uasset" SILENT=true
+[2017.06.13-19.18.05:265][855]LogSavePackage: Save=12.82ms
+[2017.06.13-19.18.05:265][855]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_64384024501C4FD1027DF7D2C0BF2181025C.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/IMG_6438.uasset'
+[2017.06.13-19.18.05:319][855]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/IMG_6438.uasset
+[2017.06.13-19.18.26:887][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438.uasset" SILENT=true
+[2017.06.13-19.18.26:897][121]LogSavePackage: Save=7.59ms
+[2017.06.13-19.18.26:898][121]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438C4B2D6B2416A6634383BBA8F2DDB66CE.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438.uasset'
+[2017.06.13-19.18.26:905][121]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438.uasset
+[2017.06.13-19.20.03:450][765]LogEditorFactories: Performing atomic reimport of [C:/Users/Marcus/Pictures/IMG_6438.PNG]
+[2017.06.13-19.20.03:451][765]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Marcus/Pictures/IMG_6438.PNG)
+[2017.06.13-19.20.03:456][765]LogTexture:Display: Building textures: IMG_6438 (BGRA8, 416X265) - 87 MB total VRAM
+[2017.06.13-19.20.03:466][765]LogEditorFactories: -- imported successfully
+[2017.06.13-19.20.11:144][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438.uasset" SILENT=true
+[2017.06.13-19.20.11:162][511]LogSavePackage: Save=12.14ms
+[2017.06.13-19.20.11:162][511]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_64388CEE5B344E828A6090C9C59D4BB61CF9.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438.uasset'
+[2017.06.13-19.20.11:168][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438.uasset
+[2017.06.13-19.20.18:094][319]Cmd: TRANSACTION UNDO
+[2017.06.13-19.20.18:094][319]LogEditorTransaction: Undo Edit Sprite Extract Mode
+[2017.06.13-19.26.16:765][103]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\IMG_6438_Alpha.PNG)
+[2017.06.13-19.26.16:773][103]LogTexture:Display: Building textures: IMG_6438_Alpha (BGRA8, 408X193) - 87 MB total VRAM
+[2017.06.13-19.27.05:294][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha.uasset" SILENT=true
+[2017.06.13-19.27.05:307][672]LogSavePackage: Save=10.33ms
+[2017.06.13-19.27.05:307][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_AlphaA73EFFF3442A7B7F1457958BD3A3C5E6.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha.uasset'
+[2017.06.13-19.27.05:314][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha.uasset
+[2017.06.13-19.27.05:326][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_0" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_0.uasset" SILENT=true
+[2017.06.13-19.27.05:336][672]LogSavePackage: Save=6.55ms
+[2017.06.13-19.27.05:336][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_0771A85E34499A15F33F55F98BCB23776.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_0.uasset'
+[2017.06.13-19.27.05:341][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_0.uasset
+[2017.06.13-19.27.05:352][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_1" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_1.uasset" SILENT=true
+[2017.06.13-19.27.05:362][672]LogSavePackage: Save=7.23ms
+[2017.06.13-19.27.05:362][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_1FA1011B24BDFFBD71C961D8119C90699.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_1.uasset'
+[2017.06.13-19.27.05:368][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_1.uasset
+[2017.06.13-19.27.05:380][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_2" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_2.uasset" SILENT=true
+[2017.06.13-19.27.05:390][672]LogSavePackage: Save=7.61ms
+[2017.06.13-19.27.05:390][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_20C49D25845504A0CD0A298BC4D27D4E2.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_2.uasset'
+[2017.06.13-19.27.05:398][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_2.uasset
+[2017.06.13-19.27.05:409][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_3" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_3.uasset" SILENT=true
+[2017.06.13-19.27.05:417][672]LogSavePackage: Save=5.87ms
+[2017.06.13-19.27.05:417][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_32B4B44B4424C85E0D8D132B3607ADCFD.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_3.uasset'
+[2017.06.13-19.27.05:424][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_3.uasset
+[2017.06.13-19.27.05:434][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_4" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_4.uasset" SILENT=true
+[2017.06.13-19.27.05:446][672]LogSavePackage: Save=8.76ms
+[2017.06.13-19.27.05:446][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_4108B73DA47ED2685877820A90C391622.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_4.uasset'
+[2017.06.13-19.27.05:452][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_4.uasset
+[2017.06.13-19.27.05:462][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_5" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_5.uasset" SILENT=true
+[2017.06.13-19.27.05:474][672]LogSavePackage: Save=8.82ms
+[2017.06.13-19.27.05:474][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_5FED7568C415B21530C28338820671B0F.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_5.uasset'
+[2017.06.13-19.27.05:481][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_5.uasset
+[2017.06.13-19.27.05:491][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_6" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_6.uasset" SILENT=true
+[2017.06.13-19.27.05:503][672]LogSavePackage: Save=8.69ms
+[2017.06.13-19.27.05:503][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_614923B0743EF777BA2F3288DAA8EA259.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_6.uasset'
+[2017.06.13-19.27.05:509][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_6.uasset
+[2017.06.13-19.27.05:520][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_7" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_7.uasset" SILENT=true
+[2017.06.13-19.27.05:531][672]LogSavePackage: Save=8.28ms
+[2017.06.13-19.27.05:531][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_75BE20E5E4E67F61ACFD672A14522D71F.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_7.uasset'
+[2017.06.13-19.27.05:538][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_7.uasset
+[2017.06.13-19.27.05:548][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_8" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_8.uasset" SILENT=true
+[2017.06.13-19.27.05:559][672]LogSavePackage: Save=8.26ms
+[2017.06.13-19.27.05:559][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_831948C2546E603E5270488BD95A8BF0A.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_8.uasset'
+[2017.06.13-19.27.05:566][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_8.uasset
+[2017.06.13-19.27.05:577][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_9" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_9.uasset" SILENT=true
+[2017.06.13-19.27.05:589][672]LogSavePackage: Save=8.71ms
+[2017.06.13-19.27.05:589][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_96D462F034B036CE60958D8A924A9C6ED.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_9.uasset'
+[2017.06.13-19.27.05:596][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_9.uasset
+[2017.06.13-19.27.05:606][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_10" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_10.uasset" SILENT=true
+[2017.06.13-19.27.05:617][672]LogSavePackage: Save=7.90ms
+[2017.06.13-19.27.05:617][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_10196107FD406899F7F27E3BA5C22BE835.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_10.uasset'
+[2017.06.13-19.27.05:624][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_10.uasset
+[2017.06.13-19.27.05:634][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_11" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_11.uasset" SILENT=true
+[2017.06.13-19.27.05:642][672]LogSavePackage: Save=5.49ms
+[2017.06.13-19.27.05:643][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_11D20FA625435B894C06004BA9376D3E8E.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_11.uasset'
+[2017.06.13-19.27.05:649][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_11.uasset
+[2017.06.13-19.27.05:660][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_12" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_12.uasset" SILENT=true
+[2017.06.13-19.27.05:669][672]LogSavePackage: Save=6.50ms
+[2017.06.13-19.27.05:669][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_1200B57B7A4ADAF435E05B04BAF6572FAA.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_12.uasset'
+[2017.06.13-19.27.05:676][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_12.uasset
+[2017.06.13-19.27.05:686][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_13" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_13.uasset" SILENT=true
+[2017.06.13-19.27.05:697][672]LogSavePackage: Save=7.48ms
+[2017.06.13-19.27.05:697][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_13AB7396F44A8E1B9EDF3E6A822D9B6E9F.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_13.uasset'
+[2017.06.13-19.27.05:704][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_13.uasset
+[2017.06.13-19.27.05:714][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_14" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_14.uasset" SILENT=true
+[2017.06.13-19.27.05:725][672]LogSavePackage: Save=8.53ms
+[2017.06.13-19.27.05:725][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_14283D42FF4EEA1E7AC3BACF9D33572509.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_14.uasset'
+[2017.06.13-19.27.05:732][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_14.uasset
+[2017.06.13-19.27.05:743][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_15" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_15.uasset" SILENT=true
+[2017.06.13-19.27.05:753][672]LogSavePackage: Save=7.95ms
+[2017.06.13-19.27.05:753][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_1578B6D7E7494487E04530CCB0FBEA9769.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_15.uasset'
+[2017.06.13-19.27.05:760][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_15.uasset
+[2017.06.13-19.27.05:771][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_16" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_16.uasset" SILENT=true
+[2017.06.13-19.27.05:782][672]LogSavePackage: Save=8.21ms
+[2017.06.13-19.27.05:782][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_16AC5D302C46113C799E16C2BDB7023709.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_16.uasset'
+[2017.06.13-19.27.05:789][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_16.uasset
+[2017.06.13-19.27.05:799][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_17" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_17.uasset" SILENT=true
+[2017.06.13-19.27.05:810][672]LogSavePackage: Save=8.03ms
+[2017.06.13-19.27.05:810][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_176ED06E03414950EAC7CA2B9B0A0A2786.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_17.uasset'
+[2017.06.13-19.27.05:817][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_17.uasset
+[2017.06.13-19.27.05:828][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_18" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_18.uasset" SILENT=true
+[2017.06.13-19.27.05:839][672]LogSavePackage: Save=8.17ms
+[2017.06.13-19.27.05:839][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_184CD6A30845DBDA6E886C56997A80320D.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_18.uasset'
+[2017.06.13-19.27.05:846][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_18.uasset
+[2017.06.13-19.27.05:856][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_19" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_19.uasset" SILENT=true
+[2017.06.13-19.27.05:868][672]LogSavePackage: Save=9.09ms
+[2017.06.13-19.27.05:868][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_19A56BAF804C2EDF95753EED96B904601E.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_19.uasset'
+[2017.06.13-19.27.05:875][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_19.uasset
+[2017.06.13-19.27.05:885][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_20" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_20.uasset" SILENT=true
+[2017.06.13-19.27.05:895][672]LogSavePackage: Save=7.94ms
+[2017.06.13-19.27.05:896][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_20278C69F540591C07F8F9DFB69E200FDF.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_20.uasset'
+[2017.06.13-19.27.05:903][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_20.uasset
+[2017.06.13-19.27.05:913][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_21" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_21.uasset" SILENT=true
+[2017.06.13-19.27.05:924][672]LogSavePackage: Save=8.81ms
+[2017.06.13-19.27.05:924][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_21F606E9F144947B967A3BB2A4EAFA9A37.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_21.uasset'
+[2017.06.13-19.27.05:931][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_21.uasset
+[2017.06.13-19.27.05:941][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_22" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_22.uasset" SILENT=true
+[2017.06.13-19.27.05:952][672]LogSavePackage: Save=8.05ms
+[2017.06.13-19.27.05:952][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_2287E71B2242B48413BD42368AF26DC072.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_22.uasset'
+[2017.06.13-19.27.05:959][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_22.uasset
+[2017.06.13-19.27.05:970][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_23" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_23.uasset" SILENT=true
+[2017.06.13-19.27.05:980][672]LogSavePackage: Save=7.24ms
+[2017.06.13-19.27.05:980][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_2365B597A64E91A552713A08950B87E79D.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_23.uasset'
+[2017.06.13-19.27.05:987][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_23.uasset
+[2017.06.13-19.27.05:997][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_24" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_24.uasset" SILENT=true
+[2017.06.13-19.27.06:007][672]LogSavePackage: Save=7.35ms
+[2017.06.13-19.27.06:007][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_24A804EF184F5AAD8D98F4AE8B1799AE6F.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_24.uasset'
+[2017.06.13-19.27.06:014][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_24.uasset
+[2017.06.13-19.27.06:025][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_25" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_25.uasset" SILENT=true
+[2017.06.13-19.27.06:035][672]LogSavePackage: Save=7.94ms
+[2017.06.13-19.27.06:035][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_25D4A3755A440D3C7EC0C091A3282CC777.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_25.uasset'
+[2017.06.13-19.27.06:043][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_25.uasset
+[2017.06.13-19.27.06:053][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_26" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_26.uasset" SILENT=true
+[2017.06.13-19.27.06:063][672]LogSavePackage: Save=7.44ms
+[2017.06.13-19.27.06:063][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_269D7AB2C8424CA7F780966881F6EE7E39.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_26.uasset'
+[2017.06.13-19.27.06:070][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_26.uasset
+[2017.06.13-19.27.06:081][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_27" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_27.uasset" SILENT=true
+[2017.06.13-19.27.06:092][672]LogSavePackage: Save=8.38ms
+[2017.06.13-19.27.06:092][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_27471C1072400D516E021FEF8E460DF43B.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_27.uasset'
+[2017.06.13-19.27.06:099][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_27.uasset
+[2017.06.13-19.27.06:110][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_28" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_28.uasset" SILENT=true
+[2017.06.13-19.27.06:121][672]LogSavePackage: Save=8.30ms
+[2017.06.13-19.27.06:121][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_28512BA6D745B31A9DB1121AB94A0D9B70.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_28.uasset'
+[2017.06.13-19.27.06:128][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_28.uasset
+[2017.06.13-19.27.06:138][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_29" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_29.uasset" SILENT=true
+[2017.06.13-19.27.06:148][672]LogSavePackage: Save=7.25ms
+[2017.06.13-19.27.06:148][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_29C256EB17470559BDF13F008322B10978.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_29.uasset'
+[2017.06.13-19.27.06:155][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_29.uasset
+[2017.06.13-19.27.06:166][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_30" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_30.uasset" SILENT=true
+[2017.06.13-19.27.06:176][672]LogSavePackage: Save=7.97ms
+[2017.06.13-19.27.06:176][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_300D3626074E464CEC3FF1DFBC9745CA4A.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_30.uasset'
+[2017.06.13-19.27.06:181][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_30.uasset
+[2017.06.13-19.27.06:192][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_31" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_31.uasset" SILENT=true
+[2017.06.13-19.27.06:202][672]LogSavePackage: Save=8.23ms
+[2017.06.13-19.27.06:202][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_31C0276CE94C5B9220135572BBD55567F9.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_31.uasset'
+[2017.06.13-19.27.06:208][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_31.uasset
+[2017.06.13-19.27.06:219][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_32" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_32.uasset" SILENT=true
+[2017.06.13-19.27.06:229][672]LogSavePackage: Save=7.74ms
+[2017.06.13-19.27.06:229][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_32B050455A45A6E486808E0E9ADBA93279.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_32.uasset'
+[2017.06.13-19.27.06:234][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_32.uasset
+[2017.06.13-19.27.06:245][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_33" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_33.uasset" SILENT=true
+[2017.06.13-19.27.06:255][672]LogSavePackage: Save=7.86ms
+[2017.06.13-19.27.06:255][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_33463392B34A85D8149265FD934714329D.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_33.uasset'
+[2017.06.13-19.27.06:261][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_33.uasset
+[2017.06.13-19.27.06:272][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_34" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_34.uasset" SILENT=true
+[2017.06.13-19.27.06:283][672]LogSavePackage: Save=8.90ms
+[2017.06.13-19.27.06:283][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_34B13997B74A758A5E4256B99BAF3E3D2A.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_34.uasset'
+[2017.06.13-19.27.06:289][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_34.uasset
+[2017.06.13-19.27.06:299][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_35" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_35.uasset" SILENT=true
+[2017.06.13-19.27.06:310][672]LogSavePackage: Save=8.46ms
+[2017.06.13-19.27.06:310][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_357709C4AB496C5C6C5F1208B49FAFF68B.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_35.uasset'
+[2017.06.13-19.27.06:318][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_35.uasset
+[2017.06.13-19.27.06:329][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_36" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_36.uasset" SILENT=true
+[2017.06.13-19.27.06:340][672]LogSavePackage: Save=8.28ms
+[2017.06.13-19.27.06:340][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_36F4B367E2493BBBEA82AD00BF581E04F6.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_36.uasset'
+[2017.06.13-19.27.06:347][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_36.uasset
+[2017.06.13-19.27.06:358][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_37" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_37.uasset" SILENT=true
+[2017.06.13-19.27.06:368][672]LogSavePackage: Save=7.94ms
+[2017.06.13-19.27.06:368][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_3782632AB945CFAE171524B89C4FB289D4.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_37.uasset'
+[2017.06.13-19.27.06:377][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_37.uasset
+[2017.06.13-19.27.06:388][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_38" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_38.uasset" SILENT=true
+[2017.06.13-19.27.06:399][672]LogSavePackage: Save=8.03ms
+[2017.06.13-19.27.06:399][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_380D23C93B4A586685D696058A9A9DF0DD.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_38.uasset'
+[2017.06.13-19.27.06:404][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_38.uasset
+[2017.06.13-19.27.06:415][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_39" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_39.uasset" SILENT=true
+[2017.06.13-19.27.06:426][672]LogSavePackage: Save=8.15ms
+[2017.06.13-19.27.06:426][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_3901C16C1B414089423DCAD58B08DDDEC2.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_39.uasset'
+[2017.06.13-19.27.06:431][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_39.uasset
+[2017.06.13-19.27.06:444][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_40" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_40.uasset" SILENT=true
+[2017.06.13-19.27.06:455][672]LogSavePackage: Save=8.50ms
+[2017.06.13-19.27.06:455][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_4028BF08CD4FF923217FB668B6DC739C72.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_40.uasset'
+[2017.06.13-19.27.06:461][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_40.uasset
+[2017.06.13-19.27.06:481][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_41" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_41.uasset" SILENT=true
+[2017.06.13-19.27.06:492][672]LogSavePackage: Save=8.42ms
+[2017.06.13-19.27.06:492][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_414127678A4A318F37AE83378D3C9D1C09.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_41.uasset'
+[2017.06.13-19.27.06:508][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_41.uasset
+[2017.06.13-19.27.06:519][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_42" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_42.uasset" SILENT=true
+[2017.06.13-19.27.06:530][672]LogSavePackage: Save=7.99ms
+[2017.06.13-19.27.06:530][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_42162A09C3431D3E45FC1F8686374D0C51.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_42.uasset'
+[2017.06.13-19.27.06:536][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_42.uasset
+[2017.06.13-19.27.06:547][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_43" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_43.uasset" SILENT=true
+[2017.06.13-19.27.06:556][672]LogSavePackage: Save=6.71ms
+[2017.06.13-19.27.06:556][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_438C51159A40E673990B5B269577BF7E2A.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_43.uasset'
+[2017.06.13-19.27.06:563][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_43.uasset
+[2017.06.13-19.27.06:574][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_44" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_44.uasset" SILENT=true
+[2017.06.13-19.27.06:584][672]LogSavePackage: Save=7.64ms
+[2017.06.13-19.27.06:584][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_44AB88140A46744FFA3FBFC7B1010CB2C0.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_44.uasset'
+[2017.06.13-19.27.06:591][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_44.uasset
+[2017.06.13-19.27.06:602][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_45" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_45.uasset" SILENT=true
+[2017.06.13-19.27.06:611][672]LogSavePackage: Save=6.63ms
+[2017.06.13-19.27.06:611][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_455C6FC3CE48217EBA36BA18A9C6343EC9.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_45.uasset'
+[2017.06.13-19.27.06:618][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_45.uasset
+[2017.06.13-19.27.06:628][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_46" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_46.uasset" SILENT=true
+[2017.06.13-19.27.06:638][672]LogSavePackage: Save=7.78ms
+[2017.06.13-19.27.06:639][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_4662E315E34115C1DCADB647B50FBB158A.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_46.uasset'
+[2017.06.13-19.27.06:645][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_46.uasset
+[2017.06.13-19.27.06:656][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_47" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_47.uasset" SILENT=true
+[2017.06.13-19.27.06:666][672]LogSavePackage: Save=7.49ms
+[2017.06.13-19.27.06:666][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_4733663DFA4CAEA5E9B7B5D1982B938D89.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_47.uasset'
+[2017.06.13-19.27.06:673][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_47.uasset
+[2017.06.13-19.27.06:684][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_48" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_48.uasset" SILENT=true
+[2017.06.13-19.27.06:695][672]LogSavePackage: Save=8.62ms
+[2017.06.13-19.27.06:695][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_48390255C54C91EF4503B016B743CC193C.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_48.uasset'
+[2017.06.13-19.27.06:702][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_48.uasset
+[2017.06.13-19.27.06:712][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_49" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_49.uasset" SILENT=true
+[2017.06.13-19.27.06:723][672]LogSavePackage: Save=8.40ms
+[2017.06.13-19.27.06:723][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_49D99EEABB4A7E92DE1603468FAF5047D3.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_49.uasset'
+[2017.06.13-19.27.06:730][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_49.uasset
+[2017.06.13-19.27.06:740][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_50" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_50.uasset" SILENT=true
+[2017.06.13-19.27.06:750][672]LogSavePackage: Save=7.49ms
+[2017.06.13-19.27.06:750][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_508D95DE134BE90E748B7DC3AD70F82071.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_50.uasset'
+[2017.06.13-19.27.06:757][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_50.uasset
+[2017.06.13-19.27.06:768][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_51" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_51.uasset" SILENT=true
+[2017.06.13-19.27.06:779][672]LogSavePackage: Save=8.24ms
+[2017.06.13-19.27.06:779][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_5154A88D8341382466441688BFF1FA5919.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_51.uasset'
+[2017.06.13-19.27.06:786][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_51.uasset
+[2017.06.13-19.27.06:796][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_52" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_52.uasset" SILENT=true
+[2017.06.13-19.27.06:807][672]LogSavePackage: Save=9.00ms
+[2017.06.13-19.27.06:807][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_524A425CCF4DB4098812A42A8ECFE7F100.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_52.uasset'
+[2017.06.13-19.27.06:814][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_52.uasset
+[2017.06.13-19.27.06:825][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_53" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_53.uasset" SILENT=true
+[2017.06.13-19.27.06:837][672]LogSavePackage: Save=8.95ms
+[2017.06.13-19.27.06:837][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_5318EE19314D25F7F07B49F0883D00D587.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_53.uasset'
+[2017.06.13-19.27.06:844][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_53.uasset
+[2017.06.13-19.27.06:854][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_54" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_54.uasset" SILENT=true
+[2017.06.13-19.27.06:865][672]LogSavePackage: Save=8.31ms
+[2017.06.13-19.27.06:865][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_543888F96F4C8864BE3A0AB2BEF854E4A7.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_54.uasset'
+[2017.06.13-19.27.06:873][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_54.uasset
+[2017.06.13-19.27.06:883][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_55" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_55.uasset" SILENT=true
+[2017.06.13-19.27.06:894][672]LogSavePackage: Save=8.76ms
+[2017.06.13-19.27.06:894][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_55645C40DC477ADCAD45FB84893D779ACE.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_55.uasset'
+[2017.06.13-19.27.06:902][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_55.uasset
+[2017.06.13-19.27.06:912][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_56" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_56.uasset" SILENT=true
+[2017.06.13-19.27.06:923][672]LogSavePackage: Save=8.91ms
+[2017.06.13-19.27.06:923][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_562A1296B4431D574BA91B9D8A8617061B.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_56.uasset'
+[2017.06.13-19.27.06:930][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_56.uasset
+[2017.06.13-19.27.06:941][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_57" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_57.uasset" SILENT=true
+[2017.06.13-19.27.06:952][672]LogSavePackage: Save=8.62ms
+[2017.06.13-19.27.06:952][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_57FA767A6A406C43D4A84335A519EEB68C.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_57.uasset'
+[2017.06.13-19.27.06:959][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_57.uasset
+[2017.06.13-19.27.06:969][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_58" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_58.uasset" SILENT=true
+[2017.06.13-19.27.06:980][672]LogSavePackage: Save=8.83ms
+[2017.06.13-19.27.06:980][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_580B2716A3475D4E0A10BBF5A742B3C611.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_58.uasset'
+[2017.06.13-19.27.06:988][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_58.uasset
+[2017.06.13-19.27.06:998][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_59" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_59.uasset" SILENT=true
+[2017.06.13-19.27.07:009][672]LogSavePackage: Save=8.68ms
+[2017.06.13-19.27.07:010][672]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_598D6F225F4F7C1438FDC5A784DFDD3C3A.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_59.uasset'
+[2017.06.13-19.27.07:016][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_59.uasset
+[2017.06.13-19.28.02:674][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Source/IMG_6438_Alpha" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Source/IMG_6438_Alpha.uasset" SILENT=true
+[2017.06.13-19.28.02:684][658]LogSavePackage: Save=7.18ms
+[2017.06.13-19.28.02:684][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha4E2146AD43B05E0C3B214F9B092D9796.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Source/IMG_6438_Alpha.uasset'
+[2017.06.13-19.28.02:690][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Source/IMG_6438_Alpha.uasset
+[2017.06.13-19.28.02:821][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_0" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_0.uasset" SILENT=true
+[2017.06.13-19.28.02:830][658]LogSavePackage: Save=3.35ms
+[2017.06.13-19.28.02:830][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_0F7A165A14E702BCD2FFE788793A7532A.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_0.uasset'
+[2017.06.13-19.28.02:833][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_0.uasset
+[2017.06.13-19.28.02:837][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_1" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_1.uasset" SILENT=true
+[2017.06.13-19.28.02:847][658]LogSavePackage: Save=3.46ms
+[2017.06.13-19.28.02:847][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_1D86504A14A89379D37A2EEB3A3366777.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_1.uasset'
+[2017.06.13-19.28.02:850][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_1.uasset
+[2017.06.13-19.28.02:853][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_2" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_2.uasset" SILENT=true
+[2017.06.13-19.28.02:863][658]LogSavePackage: Save=3.35ms
+[2017.06.13-19.28.02:863][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_2DFA1E102468C5CC7760B65950BCFA5BF.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_2.uasset'
+[2017.06.13-19.28.02:866][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_2.uasset
+[2017.06.13-19.28.02:869][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_3" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_3.uasset" SILENT=true
+[2017.06.13-19.28.02:878][658]LogSavePackage: Save=3.35ms
+[2017.06.13-19.28.02:878][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_3A6CFCD7245853D6C8CB6EBB0A397CB81.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_3.uasset'
+[2017.06.13-19.28.02:881][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_3.uasset
+[2017.06.13-19.28.02:885][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_4" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_4.uasset" SILENT=true
+[2017.06.13-19.28.02:894][658]LogSavePackage: Save=3.09ms
+[2017.06.13-19.28.02:894][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_4AC85710246965FF5835777A768A73D5E.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_4.uasset'
+[2017.06.13-19.28.02:897][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_4.uasset
+[2017.06.13-19.28.02:901][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_5" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_5.uasset" SILENT=true
+[2017.06.13-19.28.02:910][658]LogSavePackage: Save=3.30ms
+[2017.06.13-19.28.02:910][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_53D99F89446BE03AC4A991EB2065BD31B.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_5.uasset'
+[2017.06.13-19.28.02:914][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_5.uasset
+[2017.06.13-19.28.02:917][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_6" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_6.uasset" SILENT=true
+[2017.06.13-19.28.02:927][658]LogSavePackage: Save=3.11ms
+[2017.06.13-19.28.02:927][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_684FD90174FE024F2A0FE789529D1AA9B.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_6.uasset'
+[2017.06.13-19.28.02:930][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_6.uasset
+[2017.06.13-19.28.02:934][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_7" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_7.uasset" SILENT=true
+[2017.06.13-19.28.02:944][658]LogSavePackage: Save=3.33ms
+[2017.06.13-19.28.02:945][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_7280F45A84D0F90D8AE7E159CB83C5E8C.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_7.uasset'
+[2017.06.13-19.28.02:948][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_7.uasset
+[2017.06.13-19.28.02:952][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_8" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_8.uasset" SILENT=true
+[2017.06.13-19.28.02:962][658]LogSavePackage: Save=3.43ms
+[2017.06.13-19.28.02:962][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_853E97A2A4847AA08D70EBE92BFF68B6D.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_8.uasset'
+[2017.06.13-19.28.02:965][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_8.uasset
+[2017.06.13-19.28.02:969][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_9" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_9.uasset" SILENT=true
+[2017.06.13-19.28.02:979][658]LogSavePackage: Save=3.28ms
+[2017.06.13-19.28.02:979][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_9007BF1034725EDBD3463E0836720DAFE.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_9.uasset'
+[2017.06.13-19.28.02:982][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_9.uasset
+[2017.06.13-19.28.02:986][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_10" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_10.uasset" SILENT=true
+[2017.06.13-19.28.02:996][658]LogSavePackage: Save=3.22ms
+[2017.06.13-19.28.02:996][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_10095DEE9146093C1737928ABCB3F40628.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_10.uasset'
+[2017.06.13-19.28.02:999][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_10.uasset
+[2017.06.13-19.28.03:003][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_11" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_11.uasset" SILENT=true
+[2017.06.13-19.28.03:014][658]LogSavePackage: Save=3.41ms
+[2017.06.13-19.28.03:014][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_118449E3CD454775B11826D4B887716584.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_11.uasset'
+[2017.06.13-19.28.03:017][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_11.uasset
+[2017.06.13-19.28.03:021][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_12" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_12.uasset" SILENT=true
+[2017.06.13-19.28.03:031][658]LogSavePackage: Save=3.21ms
+[2017.06.13-19.28.03:031][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_12BEF1C5F3406468DF73138982446F4C4F.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_12.uasset'
+[2017.06.13-19.28.03:034][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_12.uasset
+[2017.06.13-19.28.03:038][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_13" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_13.uasset" SILENT=true
+[2017.06.13-19.28.03:049][658]LogSavePackage: Save=3.52ms
+[2017.06.13-19.28.03:049][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_134335B6DD4DAAC4E671B8748AB6E0EC57.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_13.uasset'
+[2017.06.13-19.28.03:053][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_13.uasset
+[2017.06.13-19.28.03:056][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_14" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_14.uasset" SILENT=true
+[2017.06.13-19.28.03:067][658]LogSavePackage: Save=3.41ms
+[2017.06.13-19.28.03:067][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_1446F746B54781EBB3C3BA28BC34D2D280.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_14.uasset'
+[2017.06.13-19.28.03:070][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_14.uasset
+[2017.06.13-19.28.03:074][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_15" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_15.uasset" SILENT=true
+[2017.06.13-19.28.03:085][658]LogSavePackage: Save=3.52ms
+[2017.06.13-19.28.03:086][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_151E36EF0F499D05D73D420BBDAACACACB.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_15.uasset'
+[2017.06.13-19.28.03:089][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_15.uasset
+[2017.06.13-19.28.03:092][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_16" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_16.uasset" SILENT=true
+[2017.06.13-19.28.03:104][658]LogSavePackage: Save=3.17ms
+[2017.06.13-19.28.03:104][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_160478BF904468674D3AC9ABADB551D0B7.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_16.uasset'
+[2017.06.13-19.28.03:107][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_16.uasset
+[2017.06.13-19.28.03:110][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_17" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_17.uasset" SILENT=true
+[2017.06.13-19.28.03:122][658]LogSavePackage: Save=3.38ms
+[2017.06.13-19.28.03:122][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_1793A7C3684204D6F16AD60C8440DEB1E3.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_17.uasset'
+[2017.06.13-19.28.03:126][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_17.uasset
+[2017.06.13-19.28.03:129][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_18" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_18.uasset" SILENT=true
+[2017.06.13-19.28.03:141][658]LogSavePackage: Save=3.27ms
+[2017.06.13-19.28.03:141][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_1883D5A83D4CC4AA88FBA7D8BE4752F12F.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_18.uasset'
+[2017.06.13-19.28.03:144][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_18.uasset
+[2017.06.13-19.28.03:147][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_19" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_19.uasset" SILENT=true
+[2017.06.13-19.28.03:159][658]LogSavePackage: Save=3.17ms
+[2017.06.13-19.28.03:159][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_1967037028479C5A525D37F0B48C856645.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_19.uasset'
+[2017.06.13-19.28.03:163][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_19.uasset
+[2017.06.13-19.28.03:166][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_20" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_20.uasset" SILENT=true
+[2017.06.13-19.28.03:178][658]LogSavePackage: Save=3.30ms
+[2017.06.13-19.28.03:178][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_20A2854F6745754DD969D76082481C313F.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_20.uasset'
+[2017.06.13-19.28.03:181][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_20.uasset
+[2017.06.13-19.28.03:185][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_21" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_21.uasset" SILENT=true
+[2017.06.13-19.28.03:197][658]LogSavePackage: Save=3.39ms
+[2017.06.13-19.28.03:198][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_2149F1254C477D6C0246493AA86C714BB6.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_21.uasset'
+[2017.06.13-19.28.03:201][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_21.uasset
+[2017.06.13-19.28.03:204][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_22" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_22.uasset" SILENT=true
+[2017.06.13-19.28.03:217][658]LogSavePackage: Save=3.37ms
+[2017.06.13-19.28.03:217][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_221691DFC941ED92752B7D43BA23E2D256.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_22.uasset'
+[2017.06.13-19.28.03:220][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_22.uasset
+[2017.06.13-19.28.03:223][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_23" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_23.uasset" SILENT=true
+[2017.06.13-19.28.03:236][658]LogSavePackage: Save=3.18ms
+[2017.06.13-19.28.03:236][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_23132D76FB43915DA817DFB496D4A3AE10.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_23.uasset'
+[2017.06.13-19.28.03:239][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_23.uasset
+[2017.06.13-19.28.03:242][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_24" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_24.uasset" SILENT=true
+[2017.06.13-19.28.03:255][658]LogSavePackage: Save=3.26ms
+[2017.06.13-19.28.03:255][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_24EF2893994B19CDE6BF8EB18E28EED599.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_24.uasset'
+[2017.06.13-19.28.03:258][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_24.uasset
+[2017.06.13-19.28.03:261][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_25" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_25.uasset" SILENT=true
+[2017.06.13-19.28.03:274][658]LogSavePackage: Save=3.23ms
+[2017.06.13-19.28.03:274][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_25F907BAAF4A67FEA9FD2CC28BAAC4809F.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_25.uasset'
+[2017.06.13-19.28.03:277][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_25.uasset
+[2017.06.13-19.28.03:281][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_26" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_26.uasset" SILENT=true
+[2017.06.13-19.28.03:294][658]LogSavePackage: Save=3.16ms
+[2017.06.13-19.28.03:294][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_26A39BE06F4567482559C73DA91A7C65D5.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_26.uasset'
+[2017.06.13-19.28.03:297][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_26.uasset
+[2017.06.13-19.28.03:301][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_27" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_27.uasset" SILENT=true
+[2017.06.13-19.28.03:315][658]LogSavePackage: Save=3.53ms
+[2017.06.13-19.28.03:315][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_279FF5CF404524C90965F925BB54D8429A.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_27.uasset'
+[2017.06.13-19.28.03:318][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_27.uasset
+[2017.06.13-19.28.03:322][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_28" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_28.uasset" SILENT=true
+[2017.06.13-19.28.03:335][658]LogSavePackage: Save=3.25ms
+[2017.06.13-19.28.03:335][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_28449B948F4439BC7765C0CE99070DD35C.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_28.uasset'
+[2017.06.13-19.28.03:338][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_28.uasset
+[2017.06.13-19.28.03:341][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_29" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_29.uasset" SILENT=true
+[2017.06.13-19.28.03:355][658]LogSavePackage: Save=3.32ms
+[2017.06.13-19.28.03:355][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_29B72DCEBE41BC627C1219A9B67DD3826A.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_29.uasset'
+[2017.06.13-19.28.03:358][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_29.uasset
+[2017.06.13-19.28.03:361][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_30" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_30.uasset" SILENT=true
+[2017.06.13-19.28.03:375][658]LogSavePackage: Save=3.43ms
+[2017.06.13-19.28.03:375][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_30CEE6D4774B9BD1998AC89E9F42BB5B47.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_30.uasset'
+[2017.06.13-19.28.03:379][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_30.uasset
+[2017.06.13-19.28.03:382][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_31" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_31.uasset" SILENT=true
+[2017.06.13-19.28.03:396][658]LogSavePackage: Save=3.28ms
+[2017.06.13-19.28.03:396][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_31A856F37A48E199A95AC8DA9119ADEC7E.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_31.uasset'
+[2017.06.13-19.28.03:399][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_31.uasset
+[2017.06.13-19.28.03:403][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_32" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_32.uasset" SILENT=true
+[2017.06.13-19.28.03:417][658]LogSavePackage: Save=3.46ms
+[2017.06.13-19.28.03:417][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_32E2E84E1E4169EE402BCE4E8130B98FC3.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_32.uasset'
+[2017.06.13-19.28.03:420][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_32.uasset
+[2017.06.13-19.28.03:424][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_33" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_33.uasset" SILENT=true
+[2017.06.13-19.28.03:437][658]LogSavePackage: Save=3.22ms
+[2017.06.13-19.28.03:437][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_33BD3A99D14C30B4E1FCD43C8E3D96C212.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_33.uasset'
+[2017.06.13-19.28.03:441][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_33.uasset
+[2017.06.13-19.28.03:444][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_34" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_34.uasset" SILENT=true
+[2017.06.13-19.28.03:458][658]LogSavePackage: Save=3.27ms
+[2017.06.13-19.28.03:458][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_340B8EA96C4A0761F9F69D808B5B749682.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_34.uasset'
+[2017.06.13-19.28.03:461][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_34.uasset
+[2017.06.13-19.28.03:465][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_35" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_35.uasset" SILENT=true
+[2017.06.13-19.28.03:480][658]LogSavePackage: Save=3.33ms
+[2017.06.13-19.28.03:480][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_355E420118439BE040E9EE3C9C304F8FFE.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_35.uasset'
+[2017.06.13-19.28.03:483][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_35.uasset
+[2017.06.13-19.28.03:486][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_36" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_36.uasset" SILENT=true
+[2017.06.13-19.28.03:502][658]LogSavePackage: Save=3.55ms
+[2017.06.13-19.28.03:502][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_365BC888234D4344C52EB24CA52CFE3355.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_36.uasset'
+[2017.06.13-19.28.03:505][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_36.uasset
+[2017.06.13-19.28.03:509][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_37" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_37.uasset" SILENT=true
+[2017.06.13-19.28.03:524][658]LogSavePackage: Save=3.18ms
+[2017.06.13-19.28.03:524][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_3782F323FF4F3A7090897800884788AAE1.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_37.uasset'
+[2017.06.13-19.28.03:527][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_37.uasset
+[2017.06.13-19.28.03:530][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_38" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_38.uasset" SILENT=true
+[2017.06.13-19.28.03:545][658]LogSavePackage: Save=3.51ms
+[2017.06.13-19.28.03:545][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_3809337E7A418E64468CEEBC91F58F0DA9.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_38.uasset'
+[2017.06.13-19.28.03:548][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_38.uasset
+[2017.06.13-19.28.03:551][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_39" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_39.uasset" SILENT=true
+[2017.06.13-19.28.03:567][658]LogSavePackage: Save=3.78ms
+[2017.06.13-19.28.03:567][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_391B79F38C4CEE15E8BD7C34B475464637.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_39.uasset'
+[2017.06.13-19.28.03:570][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_39.uasset
+[2017.06.13-19.28.03:573][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_40" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_40.uasset" SILENT=true
+[2017.06.13-19.28.03:588][658]LogSavePackage: Save=3.27ms
+[2017.06.13-19.28.03:589][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_40E0E6084A471A89DF009BC38463222D6E.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_40.uasset'
+[2017.06.13-19.28.03:591][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_40.uasset
+[2017.06.13-19.28.03:595][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_41" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_41.uasset" SILENT=true
+[2017.06.13-19.28.03:610][658]LogSavePackage: Save=3.25ms
+[2017.06.13-19.28.03:610][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_4114BF69AC4CC561C6E0A02F80000E18F7.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_41.uasset'
+[2017.06.13-19.28.03:613][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_41.uasset
+[2017.06.13-19.28.03:617][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_42" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_42.uasset" SILENT=true
+[2017.06.13-19.28.03:632][658]LogSavePackage: Save=3.30ms
+[2017.06.13-19.28.03:632][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_42840622524D960DB00DB8CD9D1B10A7B9.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_42.uasset'
+[2017.06.13-19.28.03:636][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_42.uasset
+[2017.06.13-19.28.03:639][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_43" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_43.uasset" SILENT=true
+[2017.06.13-19.28.03:654][658]LogSavePackage: Save=3.22ms
+[2017.06.13-19.28.03:655][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_4337845E6D4319ECFE181D25BE7C040EE4.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_43.uasset'
+[2017.06.13-19.28.03:657][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_43.uasset
+[2017.06.13-19.28.03:661][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_44" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_44.uasset" SILENT=true
+[2017.06.13-19.28.03:677][658]LogSavePackage: Save=3.46ms
+[2017.06.13-19.28.03:677][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_4466C2212D45571D93537305A8F77666D8.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_44.uasset'
+[2017.06.13-19.28.03:680][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_44.uasset
+[2017.06.13-19.28.03:684][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_45" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_45.uasset" SILENT=true
+[2017.06.13-19.28.03:700][658]LogSavePackage: Save=3.37ms
+[2017.06.13-19.28.03:700][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_45AF7716374D1309DDBB791F9311DD4316.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_45.uasset'
+[2017.06.13-19.28.03:703][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_45.uasset
+[2017.06.13-19.28.03:707][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_46" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_46.uasset" SILENT=true
+[2017.06.13-19.28.03:724][658]LogSavePackage: Save=3.22ms
+[2017.06.13-19.28.03:724][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_468BB3826949B7B65F4B62CFA8B3B3178C.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_46.uasset'
+[2017.06.13-19.28.03:727][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_46.uasset
+[2017.06.13-19.28.03:730][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_47" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_47.uasset" SILENT=true
+[2017.06.13-19.28.03:747][658]LogSavePackage: Save=3.53ms
+[2017.06.13-19.28.03:747][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_4730DF3A4F4B015176E61C27B78BFE6717.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_47.uasset'
+[2017.06.13-19.28.03:751][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_47.uasset
+[2017.06.13-19.28.03:754][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_48" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_48.uasset" SILENT=true
+[2017.06.13-19.28.03:771][658]LogSavePackage: Save=3.32ms
+[2017.06.13-19.28.03:771][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_48B22A9D8D4AE52A8EF6FF9EBCB1F5E8C3.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_48.uasset'
+[2017.06.13-19.28.03:774][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_48.uasset
+[2017.06.13-19.28.03:777][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_49" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_49.uasset" SILENT=true
+[2017.06.13-19.28.03:796][658]LogSavePackage: Save=3.33ms
+[2017.06.13-19.28.03:796][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_4969CB2B88454D83C4F32C23A921E6B1AD.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_49.uasset'
+[2017.06.13-19.28.03:799][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_49.uasset
+[2017.06.13-19.28.03:802][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_50" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_50.uasset" SILENT=true
+[2017.06.13-19.28.03:848][658]LogSavePackage: Save=32.08ms
+[2017.06.13-19.28.03:848][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_507485BBF141E03A956FF201959392F647.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_50.uasset'
+[2017.06.13-19.28.03:851][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_50.uasset
+[2017.06.13-19.28.03:854][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_51" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_51.uasset" SILENT=true
+[2017.06.13-19.28.03:871][658]LogSavePackage: Save=3.34ms
+[2017.06.13-19.28.03:872][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_51AE10AE324B356F842EF0A4BD1A3B10C8.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_51.uasset'
+[2017.06.13-19.28.03:874][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_51.uasset
+[2017.06.13-19.28.03:878][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_52" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_52.uasset" SILENT=true
+[2017.06.13-19.28.03:896][658]LogSavePackage: Save=3.60ms
+[2017.06.13-19.28.03:896][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_52738712FA4DA2D57536216DAB35D6B030.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_52.uasset'
+[2017.06.13-19.28.03:900][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_52.uasset
+[2017.06.13-19.28.03:904][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_53" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_53.uasset" SILENT=true
+[2017.06.13-19.28.03:922][658]LogSavePackage: Save=3.41ms
+[2017.06.13-19.28.03:922][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_5325E556984B5AF2F3BD9E5DA23A983CE4.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_53.uasset'
+[2017.06.13-19.28.03:925][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_53.uasset
+[2017.06.13-19.28.03:928][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_54" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_54.uasset" SILENT=true
+[2017.06.13-19.28.03:950][658]LogSavePackage: Save=3.30ms
+[2017.06.13-19.28.03:950][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_545E19664949E558C1202D36B4A466ABEF.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_54.uasset'
+[2017.06.13-19.28.03:953][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_54.uasset
+[2017.06.13-19.28.03:957][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_55" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_55.uasset" SILENT=true
+[2017.06.13-19.28.03:975][658]LogSavePackage: Save=3.27ms
+[2017.06.13-19.28.03:976][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_559CCECE6947E30C36733794B6500E0E82.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_55.uasset'
+[2017.06.13-19.28.03:979][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_55.uasset
+[2017.06.13-19.28.03:982][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_56" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_56.uasset" SILENT=true
+[2017.06.13-19.28.04:002][658]LogSavePackage: Save=4.40ms
+[2017.06.13-19.28.04:002][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_567833A54F444B1AB01C3BF7A7C5FA3D19.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_56.uasset'
+[2017.06.13-19.28.04:006][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_56.uasset
+[2017.06.13-19.28.04:009][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_57" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_57.uasset" SILENT=true
+[2017.06.13-19.28.04:027][658]LogSavePackage: Save=3.20ms
+[2017.06.13-19.28.04:027][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_578C512E8F4384A9BAD3932E8E7F7EB2DC.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_57.uasset'
+[2017.06.13-19.28.04:030][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_57.uasset
+[2017.06.13-19.28.04:034][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_58" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_58.uasset" SILENT=true
+[2017.06.13-19.28.04:052][658]LogSavePackage: Save=3.15ms
+[2017.06.13-19.28.04:052][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_58C535D4D4425FD5ED5BDE4EA5CF6E68E9.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_58.uasset'
+[2017.06.13-19.28.04:055][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_58.uasset
+[2017.06.13-19.28.04:058][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_59" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_59.uasset" SILENT=true
+[2017.06.13-19.28.04:077][658]LogSavePackage: Save=3.52ms
+[2017.06.13-19.28.04:077][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_593BD1ED3E40BDEE9EDB834B954695F4C9.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_59.uasset'
+[2017.06.13-19.28.04:080][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_59.uasset
+[2017.06.13-19.28.07:727][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Source/IMG_6438" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Source/IMG_6438.uasset" SILENT=true
+[2017.06.13-19.28.07:737][ 70]LogSavePackage: Save=7.50ms
+[2017.06.13-19.28.07:738][ 70]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438C59DF6F144BE05BF5E3334A611BC7713.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Source/IMG_6438.uasset'
+[2017.06.13-19.28.07:743][ 70]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Source/IMG_6438.uasset
