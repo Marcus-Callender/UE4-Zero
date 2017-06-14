@@ -6,9 +6,6 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#ifndef UE4_ZERO_My_zeroPawn_generated_h
-	#include "My_zeroPawn.h"
-#endif
 #ifndef UE4_ZERO_UE4_ZeroGameModeBase_generated_h
 	#include "UE4_ZeroGameModeBase.h"
 #endif

@@ -46,15 +46,9 @@
     <ClInclude Include="..\..\Source\UE4_Zero\ZeroCharicter.h">
       <Filter>Source\UE4_Zero</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\UE4_Zero\My_zeroPawn.h">
-      <Filter>Source\UE4_Zero</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\UE4_Zero\ZeroCharicter.cpp">
-      <Filter>Source\UE4_Zero</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\UE4_Zero\My_zeroPawn.cpp">
       <Filter>Source\UE4_Zero</Filter>
     </ClCompile>
   </ItemGroup>

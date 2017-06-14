@@ -17,8 +17,6 @@ void AZeroCharicter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	bSimGravityDisabled = true;
-
 	if (GEngine)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 20.0f, FColor::Green, TEXT("Zero, Ready!"));
@@ -33,7 +31,7 @@ void AZeroCharicter::Tick(float DeltaTime)
 	FVector MoveTo = GetActorLocation();
 
 	MoveTo += GetActorRightVector() * m_moveTo.X;
-	MoveTo += (GetActorUpVector() * m_moveTo.Y) * 3.0f;
+	MoveTo += GetActorUpVector() * m_moveTo.Y;
 
 	SetActorLocation(MoveTo, true);
 	m_moveTo.X = 0.0f;
