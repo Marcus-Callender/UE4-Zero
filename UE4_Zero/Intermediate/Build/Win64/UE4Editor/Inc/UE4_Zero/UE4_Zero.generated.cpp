@@ -11,6 +11,10 @@
 PRAGMA_DISABLE_OPTIMIZATION
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
+	void AMy_zeroPawn::StaticRegisterNativesAMy_zeroPawn()
+	{
+	}
+	IMPLEMENT_CLASS(AMy_zeroPawn, 1558160707);
 	void AUE4_ZeroGameModeBase::StaticRegisterNativesAUE4_ZeroGameModeBase()
 	{
 	}
@@ -21,14 +25,49 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 	IMPLEMENT_CLASS(AZeroCharicter, 1032697293);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
+	ENGINE_API class UClass* Z_Construct_UClass_APawn();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
 
+	UE4_ZERO_API class UClass* Z_Construct_UClass_AMy_zeroPawn_NoRegister();
+	UE4_ZERO_API class UClass* Z_Construct_UClass_AMy_zeroPawn();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AUE4_ZeroGameModeBase_NoRegister();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AUE4_ZeroGameModeBase();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AZeroCharicter_NoRegister();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AZeroCharicter();
 	UE4_ZERO_API class UPackage* Z_Construct_UPackage__Script_UE4_Zero();
+	UClass* Z_Construct_UClass_AMy_zeroPawn_NoRegister()
+	{
+		return AMy_zeroPawn::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AMy_zeroPawn()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_APawn();
+			Z_Construct_UPackage__Script_UE4_Zero();
+			OuterClass = AMy_zeroPawn::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("My_zeroPawn.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("My_zeroPawn.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AMy_zeroPawn(Z_Construct_UClass_AMy_zeroPawn, &AMy_zeroPawn::StaticClass, TEXT("AMy_zeroPawn"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AMy_zeroPawn);
 	UClass* Z_Construct_UClass_AUE4_ZeroGameModeBase_NoRegister()
 	{
 		return AUE4_ZeroGameModeBase::StaticClass();
@@ -102,8 +141,8 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UE4_Zero")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x4AFD0010;
-			Guid.B = 0x13059798;
+			Guid.A = 0xFD6436C7;
+			Guid.B = 0x987923C1;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
