@@ -25,6 +25,10 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	
+	void  MoveHorizontal(float value);
+	void  MoveVertical(float value);
+
+private:
+	FVector m_moveTo;
 	
 };

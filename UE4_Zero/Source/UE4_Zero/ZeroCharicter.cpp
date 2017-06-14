@@ -7,7 +7,7 @@
 // Sets default values
 AZeroCharicter::AZeroCharicter()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 }
@@ -16,7 +16,7 @@ AZeroCharicter::AZeroCharicter()
 void AZeroCharicter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	if (GEngine)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 20.0f, FColor::Green, TEXT("Zero, Ready!"));
@@ -28,6 +28,14 @@ void AZeroCharicter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	FVector MoveTo = GetActorLocation();
+
+	MoveTo += GetActorRightVector() * m_moveTo.X;
+	MoveTo += GetActorUpVector() * m_moveTo.Y;
+
+	SetActorLocation(MoveTo, true);
+	m_moveTo.X = 0.0f;
+	m_moveTo.Y = 0.0f;
 }
 
 // Called to bind functionality to input
@@ -35,5 +43,17 @@ void AZeroCharicter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	InputComponent->BindAxis("Horizontal", this, &AZeroCharicter::MoveHorizontal);
+	InputComponent->BindAxis("Vertical", this, &AZeroCharicter::MoveVertical);
+}
+
+void AZeroCharicter::MoveHorizontal(float value)
+{
+	m_moveTo.X = value;
+}
+
+void AZeroCharicter::MoveVertical(float value)
+{
+	m_moveTo.Y = value;
 }
 
