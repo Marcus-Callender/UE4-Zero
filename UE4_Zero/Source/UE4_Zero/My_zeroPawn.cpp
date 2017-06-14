@@ -37,6 +37,7 @@ void AMy_zeroPawn::Tick(float DeltaTime)
 	MoveTo += (GetActorUpVector() * m_moveTo.Y) * 3.0f;
 
 	SetActorLocation(MoveTo, true);
+	//SetActorLocation(MoveTo, false);
 	m_moveTo.X = 0.0f;
 	m_moveTo.Y = 0.0f;
 
