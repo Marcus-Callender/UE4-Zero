@@ -1,0 +1,35 @@
+﻿Log file open, 06/15/17 15:14:04
+LogInit:Display: Running engine for game: UE4_Zero
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-815923953) SRandInit(-815923953).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.089507
+LogInit:Warning: Incompatible or missing module: UE4Editor-UE4_Zero.dll
+Running C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero Development Win64 -project="C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Performing full C++ include scan (building a new target)
+Creating makefile for UE4_Zero (no existing makefile)
+@progress push 5%
+Parsing headers for UE4_ZeroEditor
+  Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/My_PlayerController.h(1): Error: #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+Error: UnrealHeaderTool failed for target 'UE4_ZeroEditor' (platform: Win64, module info: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+LogInit:Warning: Still incompatible or missing module: UE4Editor-UE4_Zero.dll
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (32)
+LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+LogModuleManager: Shutting down and abandoning module Landscape (24)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+LogModuleManager: Shutting down and abandoning module Renderer (14)
+LogModuleManager: Shutting down and abandoning module Engine (12)
+LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+LogModuleManager: Shutting down and abandoning module PakFile (2)
+LogExit: Exiting.
+Log file closed, 06/15/17 15:14:20

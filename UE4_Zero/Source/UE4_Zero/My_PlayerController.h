@@ -5,7 +5,7 @@
 #include "GameFramework/PlayerController.h"
 #include "My_PlayerController.generated.h"
 
-#include "PlayerZero.h"
+//#include "PlayerZero.h"
 
 /**
  *
@@ -23,6 +23,6 @@ class UE4_ZERO_API AMy_PlayerController : public APlayerController
 
 private:
 
-	APlayerZero[2] m_zeros;
+	//APlayerZero*[2] m_zeros;
 
 };

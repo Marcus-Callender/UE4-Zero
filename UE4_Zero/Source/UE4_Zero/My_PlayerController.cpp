@@ -10,7 +10,7 @@ AMy_PlayerController::AMy_PlayerController()
 {
 	for (TObjectIterator<APlayerZero> Itr; Itr; ++Itr)
 	{
-		m_zeros[0] = itr;
+		//m_zeros[0] = itr;
 	}
 }
 
@@ -18,7 +18,7 @@ void AMy_PlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 
-	inputCompanant->bindaxis
+	//inputCompanant->bindaxis
 }
 
 void AMy_PlayerController::MoveHorizontal(float value)

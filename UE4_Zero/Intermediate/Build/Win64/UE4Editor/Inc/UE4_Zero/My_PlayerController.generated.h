@@ -11,9 +11,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UE4_ZERO_My_PlayerController_generated_h
 
-#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_RPC_WRAPPERS
-#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_INCLASS_NO_PURE_DECLS \
+#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_RPC_WRAPPERS
+#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAMy_PlayerController(); \
 	friend UE4_ZERO_API class UClass* Z_Construct_UClass_AMy_PlayerController(); \
@@ -24,7 +24,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_INCLASS \
+#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_INCLASS \
 	private: \
 	static void StaticRegisterNativesAMy_PlayerController(); \
 	friend UE4_ZERO_API class UClass* Z_Construct_UClass_AMy_PlayerController(); \
@@ -35,9 +35,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_STANDARD_CONSTRUCTORS \
+#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMy_PlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AMy_PlayerController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMy_PlayerController) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMy_PlayerController); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMy_PlayerController); \
@@ -48,9 +48,7 @@ private: \
 public:
 
 
-#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMy_PlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMy_PlayerController(AMy_PlayerController&&); \
@@ -58,29 +56,29 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMy_PlayerController); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMy_PlayerController); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMy_PlayerController)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMy_PlayerController)
 
 
-#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_PRIVATE_PROPERTY_OFFSET
-#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_11_PROLOG
-#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_GENERATED_BODY_LEGACY \
+#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_PRIVATE_PROPERTY_OFFSET
+#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_13_PROLOG
+#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_PRIVATE_PROPERTY_OFFSET \
-	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_RPC_WRAPPERS \
-	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_INCLASS \
-	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_STANDARD_CONSTRUCTORS \
+	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_PRIVATE_PROPERTY_OFFSET \
+	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_RPC_WRAPPERS \
+	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_INCLASS \
+	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_GENERATED_BODY \
+#define UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_PRIVATE_PROPERTY_OFFSET \
-	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_INCLASS_NO_PURE_DECLS \
-	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_14_ENHANCED_CONSTRUCTORS \
+	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_PRIVATE_PROPERTY_OFFSET \
+	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_INCLASS_NO_PURE_DECLS \
+	UE4_Zero_Source_UE4_Zero_My_PlayerController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
