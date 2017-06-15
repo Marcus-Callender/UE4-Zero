@@ -6,6 +6,12 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
+#ifndef UE4_ZERO_My_PlayerController_generated_h
+	#include "My_PlayerController.h"
+#endif
+#ifndef UE4_ZERO_PlayerZero_generated_h
+	#include "PlayerZero.h"
+#endif
 #ifndef UE4_ZERO_UE4_ZeroGameModeBase_generated_h
 	#include "UE4_ZeroGameModeBase.h"
 #endif

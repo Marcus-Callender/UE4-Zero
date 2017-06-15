@@ -11,6 +11,14 @@
 PRAGMA_DISABLE_OPTIMIZATION
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
+	void AMy_PlayerController::StaticRegisterNativesAMy_PlayerController()
+	{
+	}
+	IMPLEMENT_CLASS(AMy_PlayerController, 2337898669);
+	void APlayerZero::StaticRegisterNativesAPlayerZero()
+	{
+	}
+	IMPLEMENT_CLASS(APlayerZero, 3123205842);
 	void AUE4_ZeroGameModeBase::StaticRegisterNativesAUE4_ZeroGameModeBase()
 	{
 	}
@@ -21,14 +29,84 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 	IMPLEMENT_CLASS(AZeroCharicter, 1032697293);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
-	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
+	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
+	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 
+	UE4_ZERO_API class UClass* Z_Construct_UClass_AMy_PlayerController_NoRegister();
+	UE4_ZERO_API class UClass* Z_Construct_UClass_AMy_PlayerController();
+	UE4_ZERO_API class UClass* Z_Construct_UClass_APlayerZero_NoRegister();
+	UE4_ZERO_API class UClass* Z_Construct_UClass_APlayerZero();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AUE4_ZeroGameModeBase_NoRegister();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AUE4_ZeroGameModeBase();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AZeroCharicter_NoRegister();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AZeroCharicter();
 	UE4_ZERO_API class UPackage* Z_Construct_UPackage__Script_UE4_Zero();
+	UClass* Z_Construct_UClass_AMy_PlayerController_NoRegister()
+	{
+		return AMy_PlayerController::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AMy_PlayerController()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_APlayerController();
+			Z_Construct_UPackage__Script_UE4_Zero();
+			OuterClass = AMy_PlayerController::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900284;
+
+
+				OuterClass->ClassConfigName = FName(TEXT("Game"));
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Collision Rendering Utilities|Transformation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("My_PlayerController.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("My_PlayerController.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AMy_PlayerController(Z_Construct_UClass_AMy_PlayerController, &AMy_PlayerController::StaticClass, TEXT("AMy_PlayerController"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AMy_PlayerController);
+	UClass* Z_Construct_UClass_APlayerZero_NoRegister()
+	{
+		return APlayerZero::StaticClass();
+	}
+	UClass* Z_Construct_UClass_APlayerZero()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_ACharacter();
+			Z_Construct_UPackage__Script_UE4_Zero();
+			OuterClass = APlayerZero::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PlayerZero.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PlayerZero.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerZero(Z_Construct_UClass_APlayerZero, &APlayerZero::StaticClass, TEXT("APlayerZero"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerZero);
 	UClass* Z_Construct_UClass_AUE4_ZeroGameModeBase_NoRegister()
 	{
 		return AUE4_ZeroGameModeBase::StaticClass();
@@ -102,8 +180,8 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UE4_Zero")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x4AFD0010;
-			Guid.B = 0x13059798;
+			Guid.A = 0xD99178F7;
+			Guid.B = 0x558E8705;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

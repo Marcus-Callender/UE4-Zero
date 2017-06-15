@@ -559,7 +559,11 @@
     <NMakeOutput>..\..\Binaries\HTML5\UE4_Zero-HTML5-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\UE4_Zero\My_PlayerController.cpp" />
+    <ClCompile Include="..\..\Source\UE4_Zero\PlayerZero.cpp" />
     <ClCompile Include="..\..\Source\UE4_Zero\ZeroCharicter.cpp" />
+    <ClInclude Include="..\..\Source\UE4_Zero\My_PlayerController.h" />
+    <ClInclude Include="..\..\Source\UE4_Zero\PlayerZero.h" />
     <ClInclude Include="..\..\Source\UE4_Zero\ZeroCharicter.h" />
     <None Include="..\..\UE4_Zero.uproject" />
     <None Include="..\..\Source\UE4_Zero.Target.cs" />
