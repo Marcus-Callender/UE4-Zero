@@ -6,11 +6,31 @@
 
 #include "PlayerZero.h"
 
+#include <string.h>
+
 AMy_PlayerController::AMy_PlayerController()
 {
 	for (TObjectIterator<APlayerZero> Itr; Itr; ++Itr)
 	{
 		//m_zeros[0] = itr;
+		
+		Itr->InputEnabled();
+
+		if (GEngine)
+		{
+			if (Itr->InputEnabled())
+			{
+
+				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Input Enabled: True"));
+			}
+			else
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Input Enabled: False"));
+
+			}
+		}
+
+		break;
 	}
 }
 

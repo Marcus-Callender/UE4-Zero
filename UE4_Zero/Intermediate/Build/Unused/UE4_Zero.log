@@ -1,7 +1,2 @@
-﻿  Performing 3 actions (4 in parallel)
-  My_PlayerController.cpp
-  [2/3] Link UE4Editor-UE4_Zero.dll
-  [3/3] Link UE4Editor-UE4_Zero.lib
-     Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.exp
-     Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.suppressed.exp
-  Total build time: 4.78 seconds (Local executor: 3.76 seconds)
+﻿  Compiling game modules for hot reload
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): warning MSB5021: "cmd" and its child processes are being terminated in order to cancel the build.

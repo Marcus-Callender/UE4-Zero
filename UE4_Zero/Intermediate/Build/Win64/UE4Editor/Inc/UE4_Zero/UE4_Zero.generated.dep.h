@@ -9,12 +9,12 @@
 #ifndef UE4_ZERO_My_PlayerController_generated_h
 	#include "My_PlayerController.h"
 #endif
+#ifndef UE4_ZERO_PlayerMovement_generated_h
+	#include "PlayerMovement.h"
+#endif
 #ifndef UE4_ZERO_PlayerZero_generated_h
 	#include "PlayerZero.h"
 #endif
 #ifndef UE4_ZERO_UE4_ZeroGameModeBase_generated_h
 	#include "UE4_ZeroGameModeBase.h"
-#endif
-#ifndef UE4_ZERO_ZeroCharicter_generated_h
-	#include "ZeroCharicter.h"
 #endif

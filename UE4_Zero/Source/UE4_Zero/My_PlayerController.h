@@ -7,6 +7,8 @@
 
 //#include "PlayerZero.h"
 
+//#include "GameFramework/Character.h"
+
 /**
  *
  */
@@ -23,6 +25,6 @@ class UE4_ZERO_API AMy_PlayerController : public APlayerController
 
 private:
 
-	//APlayerZero*[2] m_zeros;
+	//APlayerZero * m_charicters[2];
 
 };

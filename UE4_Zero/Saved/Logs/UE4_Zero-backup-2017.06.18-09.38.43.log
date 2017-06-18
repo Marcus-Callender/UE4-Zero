@@ -1,0 +1,1066 @@
+﻿Log file open, 06/17/17 17:45:13
+LogInit:Display: Running engine for game: UE4_Zero
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1738163904) SRandInit(-1738163904).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.098123
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.17-16.45.15:376][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.17-16.45.15:376][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.17-16.45.15:391][  0]LogInit: Computer: DESKTOP-E3PDIQS
+[2017.06.17-16.45.15:391][  0]LogInit: User: Marcus
+[2017.06.17-16.45.15:391][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.17-16.45.15:391][  0]LogInit: High frequency timer resolution =2.929686 MHz
+[2017.06.17-16.45.15:391][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.17-16.45.15:391][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.17-16.45.15:391][  0]LogMemory: Process Physical Memory: 263.73 MB used, 263.73 MB peak
+[2017.06.17-16.45.15:391][  0]LogMemory: Process Virtual Memory: 262.21 MB used, 262.21 MB peak
+[2017.06.17-16.45.15:391][  0]LogMemory: Physical Memory: 6847.70 MB used,  9488.73 MB free, 16336.43 MB total
+[2017.06.17-16.45.15:391][  0]LogMemory: Virtual Memory: 644.24 MB used,  9488.73 MB free, 134217728.00 MB total
+[2017.06.17-16.45.15:691][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.06.17-16.45.16:633][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.17-16.45.17:246][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.06.17-16.45.17:246][  0]LogD3D11RHI:       2006/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.17-16.45.17:248][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.17-16.45.17:248][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.17-16.45.17:248][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.17-16.45.17:254][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.17-16.45.17:254][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.17-16.45.17:254][  0]LogWindows: EnumDisplayDevices:
+[2017.06.17-16.45.17:254][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2017.06.17-16.45.17:254][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
+[2017.06.17-16.45.17:254][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.06.17-16.45.17:254][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.06.17-16.45.17:255][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.17-16.45.17:255][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.06.17-16.45.17:255][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.17-16.45.17:255][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.17-16.45.17:255][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.17-16.45.17:836][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.17-16.45.17:867][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.17-16.45.17:869][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Intermediate/Shaders/WorkingDirectory/8804/).
+[2017.06.17-16.45.17:869][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Marcus/AppData/Local/Temp/UnrealShaderWorkingDir/A59333F94EF97077969119A1850574FE/'.
+[2017.06.17-16.45.17:869][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.17-16.45.19:195][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.17-16.45.19:357][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.17-16.45.19:519][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.17-16.45.19:688][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.17-16.45.19:861][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.17-16.45.20:030][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.17-16.45.20:199][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.17-16.45.20:369][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.17-16.45.20:526][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.17-16.45.20:687][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.17-16.45.20:854][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.17-16.45.21:020][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.17-16.45.21:185][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.17-16.45.21:345][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.17-16.45.21:509][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.17-16.45.21:840][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.17-16.45.21:840][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.17-16.45.21:989][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.17-16.45.22:264][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.17-16.45.22:375][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.17-16.45.22:545][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.17-16.45.22:717][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.17-16.45.22:891][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.17-16.45.23:055][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.17-16.45.23:055][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.17-16.45.24:780][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.17-16.45.24:829][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.17-16.45.24:829][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Marcus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.17-16.45.24:829][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.17-16.45.24:829][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.17-16.45.24:829][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.17-16.45.24:829][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.17-16.45.24:847][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.17-16.45.24:860][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marcus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.17-16.45.24:869][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.17-16.45.24:869][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.17-16.45.24:870][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.17-16.45.25:231][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.17-16.45.25:234][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.17-16.45.25:842][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.17-16.45.26:036][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.17-16.45.26:234][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.17-16.45.26:234][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.17-16.45.26:234][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.17-16.45.27:427][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: ue4_zero, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 276590260
+[2017.06.17-16.45.27:567][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2017.06.17-16.45.27:728][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.059480 seconds
+[2017.06.17-16.45.27:733][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.17-16.45.27:733][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.06.17-16.45.27:733][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.17-16.45.28:068][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.17-16.45.33:509][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.17-16.45.33:649][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.17-16.45.35:478][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.17-16.45.36:873][  0]SourceControl: Info Source control is disabled
+[2017.06.17-16.45.36:875][  0]SourceControl: Info Source control is disabled
+[2017.06.17-16.45.37:057][  0]SourceControl: Info Source control is disabled
+[2017.06.17-16.45.37:233][  0]SourceControl: Info Source control is disabled
+[2017.06.17-16.45.41:820][  0]LogEngine: Initializing Engine...
+[2017.06.17-16.45.41:820][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.17-16.45.41:935][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.17-16.45.41:935][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.17-16.45.42:395][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.17-16.45.42:401][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-16.45.42:420][  0]LogInit: FAudioDevice initialized.
+[2017.06.17-16.45.42:445][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.17-16.45.42:450][  0]LogInit: Texture streaming: Enabled
+[2017.06.17-16.45.42:846][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.17-16.45.42:846][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={0ABEF516-4BC7-6EFD-CD2B-798E6C84DC22}
+[2017.06.17-16.45.43:171][  0]LogInit: Transaction tracking system initialized
+[2017.06.17-16.45.44:509][  0]BlueprintLog: New page: Editor Load
+[2017.06.17-16.45.47:907][  0]LocalizationService: Info Localization service is disabled
+[2017.06.17-16.45.50:348][  0]LogConsoleResponse:Display: 
+[2017.06.17-16.45.50:560][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.17-16.45.50:560][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.17-16.45.51:082][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/' took 0.02s
+[2017.06.17-16.45.54:304][  0]SourceControl: Info Source control is disabled
+[2017.06.17-16.45.54:304][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.17-16.45.54:305][  0]LightingResults: New page: Lighting Build
+[2017.06.17-16.45.54:456][  0]MapCheck: New page: Map Check
+[2017.06.17-16.45.54:456][  0]LightingResults: New page: Lighting Build
+[2017.06.17-16.45.54:664][  0]LogAIModule: Creating AISystem for world Start
+[2017.06.17-16.45.54:686][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.17-16.45.54:687][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.17-16.45.54:783][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.471ms to complete.
+[2017.06.17-16.45.54:783][  0]LogFileHelpers: Loading map 'Start' took 0.479
+[2017.06.17-16.45.55:043][  0]LogCollectionManager: Loaded 0 collections in 0.001843 seconds
+[2017.06.17-16.45.55:250][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Collections/' took 0.01s
+[2017.06.17-16.45.55:250][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Developers/Marcus/Collections/' took 0.01s
+[2017.06.17-16.45.55:250][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Collections/' took 0.01s
+[2017.06.17-16.45.55:250][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.17-16.45.55:261][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2250 classes and 455 folders.
+[2017.06.17-16.45.55:512][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0026 seconds. Added 0 classes and 0 folders.
+[2017.06.17-16.45.55:587][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0029 seconds. Added 0 classes and 0 folders.
+[2017.06.17-16.45.55:746][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2017.06.17-16.45.55:914][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.17-16.45.55:920][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.17-16.45.56:102][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2017.06.17-16.45.56:103][  0]LogLoad: (Engine Initialization) Total time: 45.01 seconds
+[2017.06.17-16.45.56:103][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.24 seconds
+[2017.06.17-16.45.56:103][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.17-16.45.56:103][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.17-16.45.56:113][  0]LogOcInput: OculusInput pre-init called
+[2017.06.17-16.45.56:129][  0]LogAssetRegistry: Asset discovery search completed in 28.5842 seconds
+[2017.06.17-16.45.56:129][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.06.17-16.45.56:129][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.06.17-16.45.56:134][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.17-16.45.56:141][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.17-16.45.56:144][  0]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.17-16.45.56:149][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.17-16.45.56:245][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.17-16.45.56:290][  2]LogRenderer: Reallocating scene render targets to support 872x432 NumSamples 1 (Frame:2).
+[2017.06.17-16.46.13:113][995]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1983).
+[2017.06.17-16.46.14:422][150]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-16.46.14:432][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-16.46.14:433][150]PIE: New page: PIE session: Start (17 Jun 2017 18:46:14)
+[2017.06.17-16.46.14:433][150]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-16.46.14:435][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002180s)
+[2017.06.17-16.46.14:435][150]LogAIModule: Creating AISystem for world Start
+[2017.06.17-16.46.14:436][150]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2017.06.17-16.46.14:436][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003024s)
+[2017.06.17-16.46.14:456][150]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-16.46.14:462][150]LogInit: FAudioDevice initialized.
+[2017.06.17-16.46.14:509][150]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-16.46.14:511][150]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-17.46.14
+[2017.06.17-16.46.14:512][150]LogWorld: Bringing up level for play took: 0.001360
+[2017.06.17-16.46.14:667][150]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0027 seconds. Added 11 classes and 0 folders.
+[2017.06.17-16.46.14:668][150]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.638
+[2017.06.17-16.46.17:674][499]Recompiling UE4_Zero...
+[2017.06.17-16.46.17:674][499]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 8588 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.17-16.46.17:680][499]Warning: Starting HotReload took  0.0s.
+[2017.06.17-16.46.21:815][974]CompilerResultsLog: New page: Compilation - 17 Jun 2017 18:46:21
+[2017.06.17-16.46.21:815][974]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.17-16.46.21:815][974]CompilerResultsLog: Info Target is up to date
+[2017.06.17-16.46.21:815][974]CompilerResultsLog: Info Total build time: 3.71 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.06.17-16.46.21:815][974]LogMainFrame: MainFrame: Module compiling took 4.147 seconds
+[2017.06.17-16.46.21:838][974]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2252 classes and 459 folders.
+[2017.06.17-16.46.21:838][974]Display: HotReload took  4.2s.
+[2017.06.17-16.51.42:228][ 36]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-16.51.42:239][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-16.51.42:239][ 36]PIE: New page: PIE session: Start (17 Jun 2017 18:51:42)
+[2017.06.17-16.51.42:239][ 36]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-16.51.42:242][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002480s)
+[2017.06.17-16.51.42:243][ 36]LogAIModule: Creating AISystem for world Start
+[2017.06.17-16.51.42:243][ 36]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2017.06.17-16.51.42:243][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003601s)
+[2017.06.17-16.51.42:256][ 36]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-16.51.42:264][ 36]LogInit: FAudioDevice initialized.
+[2017.06.17-16.51.42:294][ 36]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-16.51.42:296][ 36]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-17.51.42
+[2017.06.17-16.51.42:296][ 36]LogWorld: Bringing up level for play took: 0.001484
+[2017.06.17-16.51.42:298][ 36]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.991
+[2017.06.17-16.52.33:029][809]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.17-16.52.33:136][809]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/PlayerMovement.h'
+[2017.06.17-16.52.33:194][809]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/PlayerMovement.cpp'
+[2017.06.17-16.55.52:165][570]LogSlate: Took 0.000413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.17-16.56.01:298][597]LogSavePackage: Save=33.33ms
+[2017.06.17-16.56.01:298][597]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start_Auto137E810A84AB779F196FAFBA400ACF452.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Maps/Start_Auto1.umap'
+[2017.06.17-16.56.01:302][597]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Maps/Start_Auto1.umap
+[2017.06.17-16.56.01:305][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Start' took 0.101
+[2017.06.17-16.56.01:305][597]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.101
+[2017.06.17-17.03.47:292][230]LogEditorViewport: Clicking on Actor (LMB): BP_PlayerZero_C (BP_PlayerZero)
+[2017.06.17-17.03.54:005][ 19]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.17-17.04.07:799][641]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/PlayerZero.h'
+[2017.06.17-17.04.07:885][641]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/PlayerZero.cpp'
+[2017.06.17-17.05.26:873][181]Recompiling UE4_Zero...
+[2017.06.17-17.05.26:873][181]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 2124 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.17-17.05.26:881][181]Warning: Starting HotReload took  0.0s.
+[2017.06.17-17.05.38:372][309]CompilerResultsLog: New page: Compilation - 17 Jun 2017 19:05:38
+[2017.06.17-17.05.38:372][309]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.17-17.05.38:372][309]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.17-17.05.38:372][309]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.17-17.05.38:372][309]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 4.4749273 seconds
+[2017.06.17-17.05.38:372][309]LogMainFrame: MainFrame: Module compiling took 11.507 seconds
+[2017.06.17-17.05.38:372][309]Warning: HotReload failed, recompile failed
+[2017.06.17-17.06.16:080][674]LogSavePackage: Save=40.78ms
+[2017.06.17-17.06.16:080][674]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start_Auto25B770A72411A2FAAD5D1158F0031161D.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Maps/Start_Auto2.umap'
+[2017.06.17-17.06.16:094][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Maps/Start_Auto2.umap
+[2017.06.17-17.06.16:099][674]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Start' took 0.140
+[2017.06.17-17.06.16:099][674]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.140
+[2017.06.17-17.06.31:929][723]Recompiling UE4_Zero...
+[2017.06.17-17.06.31:929][723]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 6953 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.17-17.06.31:936][723]Warning: Starting HotReload took  0.0s.
+[2017.06.17-17.06.57:375][202]CompilerResultsLog: New page: Compilation - 17 Jun 2017 19:06:57
+[2017.06.17-17.06.57:376][202]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.17-17.06.57:376][202]CompilerResultsLog: Info Performing full C++ include scan (no include cache file)
+[2017.06.17-17.06.57:376][202]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.17-17.06.57:376][202]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.17-17.06.57:376][202]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 4.8082316 seconds
+[2017.06.17-17.06.57:376][202]CompilerResultsLog: Info Performing 6 actions (4 in parallel)
+[2017.06.17-17.06.57:376][202]CompilerResultsLog: Info PlayerMovement.cpp
+[2017.06.17-17.06.57:376][202]CompilerResultsLog: Info UE4_Zero.generated.cpp
+[2017.06.17-17.06.57:376][202]CompilerResultsLog: Info My_PlayerController.cpp
+[2017.06.17-17.06.57:376][202]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(52) : error C2065: 'Umy_customMovement': undeclared identifier
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(52) : error C2672: 'UObject::CreateDefaultSubobject': no matching overloaded function found
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(52) : error C2974: 'UObject::CreateDefaultSubobject': invalid template argument for 'TReturnType', type expected
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error c:\program files\epic games\ue_4.15\engine\source\runtime\coreuobject\public\UObject/Object.h(98) : note: see declaration of 'UObject::CreateDefaultSubobject'
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(54) : error C2027: use of undefined type 'UPlayerMovement'
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error c:\users\marcus\desktop\github\ue4-zero\ue4_zero\source\ue4_zero\PlayerZero.h(37) : note: see declaration of 'UPlayerMovement'
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(54) : error C2227: left of '->UpdatedComponent' must point to class/struct/union/generic type
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(80) : error C2653: 'AMy_Charicter': is not a class or namespace name
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(80) : error C2276: '&': illegal operation on bound member function expression
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(80) : error C2672: 'UInputComponent::BindAction': no matching overloaded function found
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(80) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,TBaseDelegate<void,FKey>::TBaseDelegate<TTypeWrapper<void>,FKey>::TUObjectMethodDelegate<UserClass>::FMethodPtr)': expects 4 arguments - 3 provided
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(692) : note: see declaration of 'UInputComponent::BindAction'
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(80) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,TBaseDelegate<void>::TBaseDelegate<TTypeWrapper<void>>::TUObjectMethodDelegate<UserClass>::FMethodPtr)': expects 4 arguments - 3 provided
+[2017.06.17-17.06.57:376][202]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(680) : note: see declaration of 'UInputComponent::BindAction'
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(82) : error C2653: 'AMy_Charicter': is not a class or namespace name
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(82) : error C2276: '&': illegal operation on bound member function expression
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(82) : error C2660: 'UInputComponent::BindAxis': function does not take 2 arguments
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(83) : error C2653: 'AMy_Charicter': is not a class or namespace name
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(83) : error C2276: '&': illegal operation on bound member function expression
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(83) : error C2660: 'UInputComponent::BindAxis': function does not take 2 arguments
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(84) : error C2653: 'AMy_Charicter': is not a class or namespace name
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(84) : error C2276: '&': illegal operation on bound member function expression
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(84) : error C2660: 'UInputComponent::BindAxis': function does not take 2 arguments
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(94) : error C2653: 'AMy_Charicter': is not a class or namespace name
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(96) : error C2065: 'm_Movement': undeclared identifier
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(96) : error C2227: left of '->UpdatedComponent' must point to class/struct/union/generic type
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(96) : note: type is 'unknown-type'
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(96) : error C2065: 'RootComponent': undeclared identifier
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(98) : error C2065: 'm_Movement': undeclared identifier
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(98) : error C2227: left of '->AddInputVector' must point to class/struct/union/generic type
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(98) : note: type is 'unknown-type'
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(98) : error C3861: 'GetActorForwardVector': identifier not found
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(102) : error C2653: 'AMy_Charicter': is not a class or namespace name
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(104) : error C2065: 'm_Movement': undeclared identifier
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(104) : error C2227: left of '->UpdatedComponent' must point to class/struct/union/generic type
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(104) : note: type is 'unknown-type'
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(104) : error C2065: 'RootComponent': undeclared identifier
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(106) : error C2065: 'm_Movement': undeclared identifier
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(106) : error C2227: left of '->AddInputVector' must point to class/struct/union/generic type
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(106) : note: type is 'unknown-type'
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(106) : error C3861: 'GetActorRightVector': identifier not found
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(110) : error C2653: 'AMy_Charicter': is not a class or namespace name
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(112) : error C3861: 'GetActorRotation': identifier not found
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(114) : error C3861: 'SetActorRotation': identifier not found
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(117) : error C2653: 'AMy_Charicter': is not a class or namespace name
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(119) : error C2065: 'm_particals': undeclared identifier
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(119) : error C2227: left of '->Template' must point to class/struct/union/generic type
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(119) : note: type is 'unknown-type'
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(121) : error C2065: 'm_particals': undeclared identifier
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(121) : error C2227: left of '->ToggleActive' must point to class/struct/union/generic type
+[2017.06.17-17.06.57:377][202]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(121) : note: type is 'unknown-type'
+[2017.06.17-17.06.57:377][202]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero-6953.dll
+[2017.06.17-17.06.57:377][202]CompilerResultsLog: Info Total build time: 24.88 seconds (Local executor: 0.00 seconds)
+[2017.06.17-17.06.57:377][202]LogMainFrame: MainFrame: Module compiling took 25.456 seconds
+[2017.06.17-17.06.57:377][202]Warning: HotReload failed, recompile failed
+[2017.06.17-17.07.01:046][611]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.06.17-17.07.09:087][435]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.17-17.07.09:231][444]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.UE4Zero
+
+[2017.06.17-17.07.09:231][444]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.17-17.07.09:231][444]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.06.17-17.07.09:232][444]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.17-17.07.09:232][444]LogTemp:Display: BranchPath = DESKTOP-E3PDIQS/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-E3PDIQS/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.06.17-17.07.09:250][446]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Marcus\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.06.17-17.07.09:250][446]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.06.17-17.07.09:250][446]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.06.17-17.07.09:251][446]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.06.17-17.07.09:251][446]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.06.17-17.07.09:251][446]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.06.17-17.09.53:862][ 44]Recompiling UE4_Zero...
+[2017.06.17-17.09.53:863][ 44]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 6705 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.17-17.09.53:870][ 44]Warning: Starting HotReload took  0.0s.
+[2017.06.17-17.10.09:382][691]CompilerResultsLog: New page: Compilation - 17 Jun 2017 19:10:09
+[2017.06.17-17.10.09:382][691]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.17-17.10.09:382][691]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.17-17.10.09:382][691]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.17-17.10.09:383][691]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 4.3640383 seconds
+[2017.06.17-17.10.09:383][691]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.17-17.10.09:383][691]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.17-17.10.09:383][691]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-6705.dll
+[2017.06.17-17.10.09:383][691]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-6705.lib
+[2017.06.17-17.10.09:383][691]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6705.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6705.exp
+[2017.06.17-17.10.09:383][691]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6705.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6705.suppressed.exp
+[2017.06.17-17.10.09:384][691]CompilerResultsLog:Error: Error PlayerZero.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UPawnMovementComponent * __cdecl APlayerZero::GetMovementComponent(void)const " (?GetMovementComponent@APlayerZero@@UEBAPEAVUPawnMovementComponent@@XZ)
+[2017.06.17-17.10.09:384][691]CompilerResultsLog:Error: Error UE4_Zero.generated.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UPawnMovementComponent * __cdecl APlayerZero::GetMovementComponent(void)const " (?GetMovementComponent@APlayerZero@@UEBAPEAVUPawnMovementComponent@@XZ)
+[2017.06.17-17.10.09:384][691]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero-6705.dll : fatal error LNK1120: 1 unresolved externals
+[2017.06.17-17.10.09:384][691]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero-6705.dll
+[2017.06.17-17.10.09:384][691]CompilerResultsLog: Info Total build time: 15.03 seconds (Local executor: 0.00 seconds)
+[2017.06.17-17.10.09:385][691]LogMainFrame: MainFrame: Module compiling took 15.529 seconds
+[2017.06.17-17.10.09:385][691]Warning: HotReload failed, recompile failed
+[2017.06.17-17.14.14:756][361]Recompiling UE4_Zero...
+[2017.06.17-17.14.14:757][361]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 6110 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.17-17.14.14:764][361]Warning: Starting HotReload took  0.0s.
+[2017.06.17-17.14.29:209][943]CompilerResultsLog: New page: Compilation - 17 Jun 2017 19:14:29
+[2017.06.17-17.14.29:209][943]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.17-17.14.29:210][943]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.17-17.14.29:210][943]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.17-17.14.29:210][943]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 4.0272367 seconds
+[2017.06.17-17.14.29:210][943]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2017.06.17-17.14.29:210][943]CompilerResultsLog: Info My_PlayerController.cpp
+[2017.06.17-17.14.29:210][943]CompilerResultsLog: Info UE4_Zero.generated.cpp
+[2017.06.17-17.14.29:210][943]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.17-17.14.29:211][943]CompilerResultsLog: Info [4/5] Link UE4Editor-UE4_Zero-6110.dll
+[2017.06.17-17.14.29:211][943]CompilerResultsLog: Info [5/5] Link UE4Editor-UE4_Zero-6110.lib
+[2017.06.17-17.14.29:211][943]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6110.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6110.exp
+[2017.06.17-17.14.29:211][943]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6110.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6110.suppressed.exp
+[2017.06.17-17.14.29:211][943]CompilerResultsLog: Info Total build time: 13.99 seconds (Local executor: 5.39 seconds)
+[2017.06.17-17.14.29:211][943]LogMainFrame: MainFrame: Module compiling took 14.464 seconds
+[2017.06.17-17.14.29:371][943]LogClass: Could not find existing class PlayerZero in package /Script/UE4_Zero for HotReload, assuming new class
+[2017.06.17-17.14.29:376][943]LogHotReload: Re-instancing PlayerZero after hot-reload.
+[2017.06.17-17.14.29:468][943]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/Start.Start:PersistentLevel.BP_PlayerZero_192.CollisionCylinder is already used by CapsuleComponent /Game/Maps/Start.Start:PersistentLevel.REINST_BP_PlayerZero_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.17-17.14.29:468][943]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/Start.Start:PersistentLevel.BP_PlayerZero_192.Arrow is already used by ArrowComponent /Game/Maps/Start.Start:PersistentLevel.REINST_BP_PlayerZero_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.17-17.14.29:469][943]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/Start.Start:PersistentLevel.BP_PlayerZero_192.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/Start.Start:PersistentLevel.REINST_BP_PlayerZero_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.17-17.14.29:469][943]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/Start.Start:PersistentLevel.BP_PlayerZero_192.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/Start.Start:PersistentLevel.REINST_BP_PlayerZero_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.17-17.14.29:564][943]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.17-17.14.29:565][943]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.17-17.14.29:627][943]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2252 classes and 459 folders.
+[2017.06.17-17.14.29:627][943]Display: HotReload took 14.9s.
+[2017.06.17-17.14.40:823][280]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-17.14.40:834][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-17.14.40:834][280]PIE: New page: PIE session: Start (17 Jun 2017 19:14:40)
+[2017.06.17-17.14.40:834][280]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-17.14.40:837][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002318s)
+[2017.06.17-17.14.40:837][280]LogAIModule: Creating AISystem for world Start
+[2017.06.17-17.14.40:838][280]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2017.06.17-17.14.40:838][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003731s)
+[2017.06.17-17.14.40:849][280]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-17.14.40:857][280]LogInit: FAudioDevice initialized.
+[2017.06.17-17.14.40:888][280]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-17.14.40:890][280]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-18.14.40
+[2017.06.17-17.14.40:891][280]LogWorld: Bringing up level for play took: 0.001421
+[2017.06.17-17.14.40:892][280]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.415
+[2017.06.17-17.14.57:188][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.17-17.14.57:243][193]LogSavePackage: Save=25.66ms
+[2017.06.17-17.14.57:243][193]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/StartEB00CD5A4325F63C943A7AB7E563D493.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap'
+[2017.06.17-17.14.57:248][193]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap
+[2017.06.17-17.14.57:273][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start_BuiltData" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset" SILENT=true
+[2017.06.17-17.14.57:305][193]LogSavePackage: Save=12.40ms
+[2017.06.17-17.14.57:305][193]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start_BuiltDataAE868D4342D37D3B6AFB36A68A918BF9.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset'
+[2017.06.17-17.14.57:308][193]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset
+[2017.06.17-17.16.40:789][920]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-17.16.40:799][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-17.16.40:800][920]PIE: New page: PIE session: Start (17 Jun 2017 19:16:40)
+[2017.06.17-17.16.40:800][920]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-17.16.40:802][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002579s)
+[2017.06.17-17.16.40:804][920]LogAIModule: Creating AISystem for world Start
+[2017.06.17-17.16.40:804][920]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2017.06.17-17.16.40:804][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.004358s)
+[2017.06.17-17.16.40:843][920]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-17.16.40:851][920]LogInit: FAudioDevice initialized.
+[2017.06.17-17.16.40:883][920]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-17.16.40:885][920]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-18.16.40
+[2017.06.17-17.16.40:886][920]LogWorld: Bringing up level for play took: 0.001487
+[2017.06.17-17.16.40:886][920]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.42
+[2017.06.17-17.21.34:119][335]Recompiling UE4_Zero...
+[2017.06.17-17.21.34:119][335]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 5918 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.17-17.21.34:127][335]Warning: Starting HotReload took  0.0s.
+[2017.06.17-17.21.40:788][696]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-17.21.40:798][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-17.21.40:798][696]PIE: New page: PIE session: Start (17 Jun 2017 19:21:40)
+[2017.06.17-17.21.40:798][696]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-17.21.40:801][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002405s)
+[2017.06.17-17.21.40:802][696]LogAIModule: Creating AISystem for world Start
+[2017.06.17-17.21.40:802][696]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2017.06.17-17.21.40:802][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003779s)
+[2017.06.17-17.21.40:836][696]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-17.21.40:867][696]LogInit: FAudioDevice initialized.
+[2017.06.17-17.21.40:895][696]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-17.21.40:897][696]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-18.21.40
+[2017.06.17-17.21.40:897][696]LogWorld: Bringing up level for play took: 0.001427
+[2017.06.17-17.21.40:898][696]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.408
+[2017.06.17-17.21.58:989][444]CompilerResultsLog: New page: Compilation - 17 Jun 2017 19:21:58
+[2017.06.17-17.21.58:989][444]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.17-17.21.58:989][444]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.17-17.21.58:989][444]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.17-17.21.58:989][444]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 4.7066487 seconds
+[2017.06.17-17.21.58:989][444]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2017.06.17-17.21.58:989][444]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.17-17.21.58:990][444]CompilerResultsLog: Info PlayerMovement.cpp
+[2017.06.17-17.21.58:990][444]CompilerResultsLog: Info UE4_Zero.generated.cpp
+[2017.06.17-17.21.58:990][444]CompilerResultsLog: Info [4/5] Link UE4Editor-UE4_Zero-5918.dll
+[2017.06.17-17.21.58:990][444]CompilerResultsLog: Info [5/5] Link UE4Editor-UE4_Zero-5918.lib
+[2017.06.17-17.21.58:990][444]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-5918.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-5918.exp
+[2017.06.17-17.21.58:990][444]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-5918.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-5918.suppressed.exp
+[2017.06.17-17.21.58:990][444]CompilerResultsLog: Info Total build time: 24.22 seconds (Local executor: 14.05 seconds)
+[2017.06.17-17.21.58:990][444]LogMainFrame: MainFrame: Module compiling took 24.878 seconds
+[2017.06.17-17.21.59:170][444]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0031 seconds. Added 5 classes and 2 folders.
+[2017.06.17-17.21.59:172][444]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.17-17.21.59:201][444]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2252 classes and 459 folders.
+[2017.06.17-17.21.59:201][444]Display: HotReload took 25.1s.
+[2017.06.17-17.22.33:660][467]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-17.22.33:671][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-17.22.33:672][467]PIE: New page: PIE session: Start (17 Jun 2017 19:22:33)
+[2017.06.17-17.22.33:672][467]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-17.22.33:674][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002129s)
+[2017.06.17-17.22.33:675][467]LogAIModule: Creating AISystem for world Start
+[2017.06.17-17.22.33:675][467]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2017.06.17-17.22.33:675][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003525s)
+[2017.06.17-17.22.33:715][467]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-17.22.33:722][467]LogInit: FAudioDevice initialized.
+[2017.06.17-17.22.33:755][467]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-17.22.33:757][467]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-18.22.33
+[2017.06.17-17.22.33:757][467]LogWorld: Bringing up level for play took: 0.001276
+[2017.06.17-17.22.33:758][467]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.452
+[2017.06.17-17.22.40:005][195]Cmd: SELECT NONE
+[2017.06.17-17.26.54:965][265]Recompiling UE4_Zero...
+[2017.06.17-17.26.54:965][265]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 686 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.17-17.26.54:974][265]Warning: Starting HotReload took  0.0s.
+[2017.06.17-17.27.11:452][784]CompilerResultsLog: New page: Compilation - 17 Jun 2017 19:27:11
+[2017.06.17-17.27.11:452][784]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.17-17.27.11:452][784]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.17-17.27.11:452][784]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.17-17.27.11:453][784]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 4.3486544 seconds
+[2017.06.17-17.27.11:453][784]CompilerResultsLog: Info Performing 6 actions (4 in parallel)
+[2017.06.17-17.27.11:453][784]CompilerResultsLog: Info My_PlayerController.cpp
+[2017.06.17-17.27.11:453][784]CompilerResultsLog: Info UE4_Zero.generated.cpp
+[2017.06.17-17.27.11:453][784]CompilerResultsLog: Info PlayerMovement.cpp
+[2017.06.17-17.27.11:453][784]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.17-17.27.11:453][784]CompilerResultsLog:Error: Error c:\users\marcus\desktop\github\ue4-zero\ue4_zero\source\ue4_zero\PlayerZero.h(37) : error C2555: 'APlayerZero::GetMovementComponent': overriding virtual function return type differs and is not covariant from 'ACharacter::GetMovementComponent'
+[2017.06.17-17.27.11:453][784]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(464) : note: see declaration of 'ACharacter::GetMovementComponent'
+[2017.06.17-17.27.11:453][784]CompilerResultsLog:Error: Error c:\users\marcus\desktop\github\ue4-zero\ue4_zero\source\ue4_zero\PlayerZero.h(37) : error C2555: 'APlayerZero::GetMovementComponent': overriding virtual function return type differs and is not covariant from 'ACharacter::GetMovementComponent'
+[2017.06.17-17.27.11:454][784]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(464) : note: see declaration of 'ACharacter::GetMovementComponent'
+[2017.06.17-17.27.11:454][784]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(111) : error C2556: 'UPawnMovementComponent *APlayerZero::GetMovementComponent(void) const': overloaded function differs only by return type from 'UPlayerMovement *APlayerZero::GetMovementComponent(void) const'
+[2017.06.17-17.27.11:454][784]CompilerResultsLog:Error: Error c:\users\marcus\desktop\github\ue4-zero\ue4_zero\source\ue4_zero\PlayerZero.h(37) : note: see declaration of 'APlayerZero::GetMovementComponent'
+[2017.06.17-17.27.11:454][784]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(110) : error C2371: 'APlayerZero::GetMovementComponent': redefinition; different basic types
+[2017.06.17-17.27.11:454][784]CompilerResultsLog:Error: Error c:\users\marcus\desktop\github\ue4-zero\ue4_zero\source\ue4_zero\PlayerZero.h(37) : note: see declaration of 'APlayerZero::GetMovementComponent'
+[2017.06.17-17.27.11:455][784]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero-686.dll
+[2017.06.17-17.27.11:455][784]CompilerResultsLog: Info Total build time: 15.96 seconds (Local executor: 0.00 seconds)
+[2017.06.17-17.27.11:455][784]LogMainFrame: MainFrame: Module compiling took 16.497 seconds
+[2017.06.17-17.27.11:455][784]Warning: HotReload failed, recompile failed
+[2017.06.17-17.30.30:646][548]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2017.06.17-17.30.36:083][199]Recompiling UE4_Zero...
+[2017.06.17-17.30.36:084][199]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 6374 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.17-17.30.36:090][199]Warning: Starting HotReload took  0.0s.
+[2017.06.17-17.30.50:089][748]CompilerResultsLog: New page: Compilation - 17 Jun 2017 19:30:50
+[2017.06.17-17.30.50:089][748]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.17-17.30.50:089][748]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.17-17.30.50:089][748]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.17-17.30.50:089][748]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 4.0096846 seconds
+[2017.06.17-17.30.50:089][748]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2017.06.17-17.30.50:089][748]CompilerResultsLog: Info UE4_Zero.generated.cpp
+[2017.06.17-17.30.50:089][748]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.17-17.30.50:089][748]CompilerResultsLog: Info My_PlayerController.cpp
+[2017.06.17-17.30.50:090][748]CompilerResultsLog: Info [4/5] Link UE4Editor-UE4_Zero-6374.dll
+[2017.06.17-17.30.50:090][748]CompilerResultsLog: Info [5/5] Link UE4Editor-UE4_Zero-6374.lib
+[2017.06.17-17.30.50:090][748]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6374.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6374.exp
+[2017.06.17-17.30.50:090][748]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6374.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6374.suppressed.exp
+[2017.06.17-17.30.50:090][748]CompilerResultsLog: Info Total build time: 13.61 seconds (Local executor: 5.12 seconds)
+[2017.06.17-17.30.50:091][748]LogMainFrame: MainFrame: Module compiling took 14.013 seconds
+[2017.06.17-17.30.50:256][748]LogClass: Could not find existing class PlayerZero in package /Script/UE4_Zero for HotReload, assuming new class
+[2017.06.17-17.30.50:260][748]LogHotReload: Re-instancing PlayerZero after hot-reload.
+[2017.06.17-17.30.50:403][748]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0027 seconds. Added 5 classes and 2 folders.
+[2017.06.17-17.30.50:405][748]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.17-17.30.50:433][748]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2252 classes and 459 folders.
+[2017.06.17-17.30.50:433][748]Display: HotReload took 14.4s.
+[2017.06.17-17.30.55:590][362]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-17.30.55:601][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-17.30.55:601][362]PIE: New page: PIE session: Start (17 Jun 2017 19:30:55)
+[2017.06.17-17.30.55:601][362]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-17.30.55:603][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002091s)
+[2017.06.17-17.30.55:604][362]LogAIModule: Creating AISystem for world Start
+[2017.06.17-17.30.55:605][362]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2017.06.17-17.30.55:605][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003569s)
+[2017.06.17-17.30.55:616][362]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-17.30.55:624][362]LogInit: FAudioDevice initialized.
+[2017.06.17-17.30.55:654][362]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-17.30.55:656][362]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-18.30.55
+[2017.06.17-17.30.55:656][362]LogWorld: Bringing up level for play took: 0.001379
+[2017.06.17-17.30.55:657][362]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.351
+[2017.06.17-17.31.05:806][571]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-17.31.05:817][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-17.31.05:817][571]PIE: New page: PIE session: Start (17 Jun 2017 19:31:05)
+[2017.06.17-17.31.05:817][571]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-17.31.05:819][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001817s)
+[2017.06.17-17.31.05:820][571]LogAIModule: Creating AISystem for world Start
+[2017.06.17-17.31.05:820][571]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2017.06.17-17.31.05:820][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003112s)
+[2017.06.17-17.31.05:831][571]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-17.31.05:838][571]LogInit: FAudioDevice initialized.
+[2017.06.17-17.31.05:868][571]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-17.31.05:870][571]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-18.31.05
+[2017.06.17-17.31.05:870][571]LogWorld: Bringing up level for play took: 0.001139
+[2017.06.17-17.31.05:871][571]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.565
+[2017.06.17-17.31.28:641][236]LogEditorViewport: Clicking on Actor (LMB): BP_PlayerZero_C (BP_PlayerZero)
+[2017.06.17-17.31.30:668][465]LogEditorViewport: Clicking on Actor (LMB): BP_PlayerZero_C (BP_PlayerZero)
+[2017.06.17-17.31.30:759][474]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (IMG_6438_Alpha_Sprite_4)
+[2017.06.17-17.31.57:884][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Start' took 0.008
+[2017.06.17-17.31.57:887][686]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/My_UE4_ZeroGameModeBase] ([1] browsable assets)...
+[2017.06.17-17.31.57:887][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/My_UE4_ZeroGameModeBase]
+[2017.06.17-17.31.57:917][686]LogSavePackage: Save=8.35ms
+[2017.06.17-17.31.57:917][686]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/My_UE4_ZeroGameModeBase_Auto39F4613C7497E4DD74B03C084F3995BB9.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Blueprints/My_UE4_ZeroGameModeBase_Auto3.uasset'
+[2017.06.17-17.31.57:920][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Blueprints/My_UE4_ZeroGameModeBase_Auto3.uasset
+[2017.06.17-17.31.57:921][686]LogFileHelpers: Auto-saving content packages took 0.036
+[2017.06.17-17.32.02:774][240]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/PlayerZero.h'
+[2017.06.17-17.32.02:829][240]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/PlayerZero.cpp'
+[2017.06.17-17.32.13:144][441]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.17-17.32.15:407][613]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 112 classes and 0 folders.
+[2017.06.17-17.32.16:072][613]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.17-17.32.16:267][613]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.17-17.33.28:877][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.17-17.33.28:951][119]LogSavePackage: Save=26.31ms
+[2017.06.17-17.33.28:951][119]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start4992B47B42E6C5ED861ABB9C35632502.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap'
+[2017.06.17-17.33.28:956][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap
+[2017.06.17-17.33.28:981][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start_BuiltData" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset" SILENT=true
+[2017.06.17-17.33.29:010][119]LogSavePackage: Save=8.84ms
+[2017.06.17-17.33.29:010][119]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start_BuiltData365E829A4942BE18D3BBAA80D01D96B1.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset'
+[2017.06.17-17.33.29:013][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset
+[2017.06.17-17.33.32:500][519]Recompiling UE4_Zero...
+[2017.06.17-17.33.32:500][519]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 9727 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.17-17.33.32:507][519]Warning: Starting HotReload took  0.0s.
+[2017.06.17-17.33.37:293][945]CompilerResultsLog: New page: Compilation - 17 Jun 2017 19:33:37
+[2017.06.17-17.33.37:293][945]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.17-17.33.37:293][945]CompilerResultsLog: Info Target is up to date
+[2017.06.17-17.33.37:293][945]CompilerResultsLog: Info Total build time: 4.25 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.06.17-17.33.37:294][945]LogMainFrame: MainFrame: Module compiling took 4.800 seconds
+[2017.06.17-17.33.37:554][945]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2252 classes and 459 folders.
+[2017.06.17-17.33.37:554][945]Display: HotReload took  5.1s.
+[2017.06.17-17.33.53:957][995]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-17.33.53:976][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-17.33.53:976][995]PIE: New page: PIE session: Start (17 Jun 2017 19:33:53)
+[2017.06.17-17.33.53:976][995]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-17.33.53:979][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003035s)
+[2017.06.17-17.33.53:980][995]LogAIModule: Creating AISystem for world Start
+[2017.06.17-17.33.53:980][995]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2017.06.17-17.33.53:980][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.004392s)
+[2017.06.17-17.33.54:050][995]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-17.33.54:059][995]LogInit: FAudioDevice initialized.
+[2017.06.17-17.33.54:091][995]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-17.33.54:094][995]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-18.33.54
+[2017.06.17-17.33.54:094][995]LogWorld: Bringing up level for play took: 0.001478
+[2017.06.17-17.33.54:095][995]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.789
+[2017.06.17-17.33.57:959][414]Cmd: SELECT NONE
+[2017.06.17-17.34.09:667][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.17-17.34.09:722][802]LogSavePackage: Save=24.99ms
+[2017.06.17-17.34.09:722][802]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/StartAD675CA343327874036036BB2F371DE5.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap'
+[2017.06.17-17.34.09:727][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap
+[2017.06.17-17.34.09:750][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start_BuiltData" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset" SILENT=true
+[2017.06.17-17.34.09:777][802]LogSavePackage: Save=8.82ms
+[2017.06.17-17.34.09:777][802]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start_BuiltData52B9EAB94B8C617ADD781E912B155497.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset'
+[2017.06.17-17.34.09:780][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset
+[2017.06.17-17.34.22:217][642]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-17.34.22:227][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-17.34.22:227][642]PIE: New page: PIE session: Start (17 Jun 2017 19:34:22)
+[2017.06.17-17.34.22:228][642]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-17.34.22:230][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001903s)
+[2017.06.17-17.34.22:230][642]LogAIModule: Creating AISystem for world Start
+[2017.06.17-17.34.22:230][642]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2017.06.17-17.34.22:231][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003065s)
+[2017.06.17-17.34.22:272][642]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-17.34.22:279][642]LogInit: FAudioDevice initialized.
+[2017.06.17-17.34.22:313][642]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-17.34.22:315][642]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-18.34.22
+[2017.06.17-17.34.22:315][642]LogWorld: Bringing up level for play took: 0.001239
+[2017.06.17-17.34.22:316][642]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 1.01
+[2017.06.17-17.34.38:143][457]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.17-17.34.59:729][ 31]Recompiling UE4_Zero...
+[2017.06.17-17.34.59:729][ 31]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 8356 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.17-17.34.59:735][ 31]Warning: Starting HotReload took  0.0s.
+[2017.06.17-17.35.04:631][555]CompilerResultsLog: New page: Compilation - 17 Jun 2017 19:35:04
+[2017.06.17-17.35.04:632][555]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.17-17.35.04:632][555]CompilerResultsLog: Info Target is up to date
+[2017.06.17-17.35.04:632][555]CompilerResultsLog: Info Total build time: 4.47 seconds (NoActionsToExecute executor: 0.01 seconds)
+[2017.06.17-17.35.04:632][555]LogMainFrame: MainFrame: Module compiling took 4.909 seconds
+[2017.06.17-17.35.04:868][555]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2252 classes and 459 folders.
+[2017.06.17-17.35.04:868][555]Display: HotReload took  5.1s.
+[2017.06.17-17.35.06:114][685]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-17.35.06:125][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-17.35.06:125][685]PIE: New page: PIE session: Start (17 Jun 2017 19:35:06)
+[2017.06.17-17.35.06:125][685]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-17.35.06:127][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002110s)
+[2017.06.17-17.35.06:128][685]LogAIModule: Creating AISystem for world Start
+[2017.06.17-17.35.06:128][685]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.06.17-17.35.06:128][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003316s)
+[2017.06.17-17.35.06:191][685]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-17.35.06:198][685]LogInit: FAudioDevice initialized.
+[2017.06.17-17.35.06:231][685]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-17.35.06:233][685]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-18.35.06
+[2017.06.17-17.35.06:233][685]LogWorld: Bringing up level for play took: 0.001209
+[2017.06.17-17.35.06:234][685]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.928
+[2017.06.17-17.35.30:396][519]LogEditorActor: Deleted Actor: BP_PlayerZero_C
+[2017.06.17-17.35.30:408][519]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.06.17-17.35.31:881][696]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-17.35.31:891][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-17.35.31:891][696]PIE: New page: PIE session: Start (17 Jun 2017 19:35:31)
+[2017.06.17-17.35.31:892][696]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-17.35.31:894][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001906s)
+[2017.06.17-17.35.31:895][696]LogAIModule: Creating AISystem for world Start
+[2017.06.17-17.35.31:895][696]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2017.06.17-17.35.31:895][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003795s)
+[2017.06.17-17.35.31:909][696]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-17.35.31:916][696]LogInit: FAudioDevice initialized.
+[2017.06.17-17.35.31:945][696]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-17.35.31:947][696]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-18.35.31
+[2017.06.17-17.35.31:947][696]LogWorld: Bringing up level for play took: 0.001190
+[2017.06.17-17.35.31:949][696]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.643
+[2017.06.17-17.35.54:864][415]Cmd: TRANSACTION UNDO
+[2017.06.17-17.35.54:864][415]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.06.17-17.35.56:377][594]Cmd: TRANSACTION UNDO
+[2017.06.17-17.35.56:377][594]LogEditorTransaction: Undo Delete selection
+[2017.06.17-17.36.08:474][909]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:145752).
+[2017.06.17-17.36.47:482][462]BlueprintLog: New page: Compile BP_PlayerZero
+[2017.06.17-17.36.47:521][462]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/Start.Start:PersistentLevel.BP_PlayerZero_192.CollisionCylinder is already used by CapsuleComponent /Game/Maps/Start.Start:PersistentLevel.REINST_BP_PlayerZero_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.17-17.36.47:521][462]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/Start.Start:PersistentLevel.BP_PlayerZero_192.Arrow is already used by ArrowComponent /Game/Maps/Start.Start:PersistentLevel.REINST_BP_PlayerZero_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.17-17.36.47:521][462]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/Start.Start:PersistentLevel.BP_PlayerZero_192.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/Start.Start:PersistentLevel.REINST_BP_PlayerZero_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.17-17.36.47:522][462]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/Start.Start:PersistentLevel.BP_PlayerZero_192.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/Start.Start:PersistentLevel.REINST_BP_PlayerZero_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.17-17.36.47:522][462]LogUObjectGlobals:Warning: Guid referenced by SpringArmComponent /Game/Maps/Start.Start:PersistentLevel.BP_PlayerZero_192.SpringArm is already used by SpringArmComponent /Game/Maps/Start.Start:PersistentLevel.REINST_BP_PlayerZero_C_0.SpringArm, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.17-17.36.47:522][462]LogUObjectGlobals:Warning: Guid referenced by CameraComponent /Game/Maps/Start.Start:PersistentLevel.BP_PlayerZero_192.PlayerCamera is already used by CameraComponent /Game/Maps/Start.Start:PersistentLevel.REINST_BP_PlayerZero_C_0.PlayerCamera, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.17-17.36.47:523][462]LogUObjectGlobals:Warning: Guid referenced by PlayerMovement /Game/Maps/Start.Start:PersistentLevel.BP_PlayerZero_192.CustomMovement is already used by PlayerMovement /Game/Maps/Start.Start:PersistentLevel.REINST_BP_PlayerZero_C_0.CustomMovement, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.17-17.36.54:413][160]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.17-17.36.55:338][263]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.17-17.44.53:050][966]LogSavePackage: Save=29.28ms
+[2017.06.17-17.44.53:050][966]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start_Auto41AC5E7B442EAD78A91D4A78EA236EFF2.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Maps/Start_Auto4.umap'
+[2017.06.17-17.44.53:054][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Maps/Start_Auto4.umap
+[2017.06.17-17.44.53:057][966]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Start' took 0.083
+[2017.06.17-17.44.53:057][966]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.083
+[2017.06.17-17.44.53:060][966]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_PlayerZero] ([1] browsable assets)...
+[2017.06.17-17.44.53:060][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PlayerZero]
+[2017.06.17-17.44.53:060][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerZero" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/BP_PlayerZero_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.06.17-17.44.53:099][966]LogSavePackage: Save=15.55ms
+[2017.06.17-17.44.53:099][966]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/BP_PlayerZero_Auto41820559B4EED9B50EC0F45B136F5EEE9.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/BP_PlayerZero_Auto4.uasset'
+[2017.06.17-17.44.53:102][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/BP_PlayerZero_Auto4.uasset
+[2017.06.17-17.44.53:104][966]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/My_UE4_ZeroGameModeBase] ([1] browsable assets)...
+[2017.06.17-17.44.53:104][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/My_UE4_ZeroGameModeBase]
+[2017.06.17-17.44.53:135][966]LogSavePackage: Save=8.42ms
+[2017.06.17-17.44.53:135][966]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/My_UE4_ZeroGameModeBase_Auto4C50DBE384ADDE7770EAEA881BE6E28E0.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Blueprints/My_UE4_ZeroGameModeBase_Auto4.uasset'
+[2017.06.17-17.44.53:140][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Blueprints/My_UE4_ZeroGameModeBase_Auto4.uasset
+[2017.06.17-17.44.53:140][966]LogFileHelpers: Auto-saving content packages took 0.082
+[2017.06.17-18.12.59:852][554]LogHttp:Warning: 0000020FB217B880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.17-18.12.59:854][554]LogHttp:Warning: 0000020FB217B880: libcurl info message cache 0 (Connection 18 seems to be dead!)
+[2017.06.17-18.12.59:880][554]LogHttp:Warning: 0000020FB217B880: libcurl info message cache 1 (Closing connection 18)
+[2017.06.17-18.12.59:890][554]LogHttp:Warning: 0000020FB217B880: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.17-18.12.59:890][554]LogHttp:Warning: 0000020FB217B880: libcurl info message cache 3 (Closing connection 19)
+[2017.06.17-18.13.39:184][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerZero" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/BP_PlayerZero.uasset" SILENT=true
+[2017.06.17-18.13.39:234][801]LogSavePackage: Save=24.13ms
+[2017.06.17-18.13.39:234][801]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/BP_PlayerZero0015792841ECEE73E6973F9CD6836D6E.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/BP_PlayerZero.uasset'
+[2017.06.17-18.13.39:241][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/BP_PlayerZero.uasset
+[2017.06.17-18.13.48:058][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/My_UE4_ZeroGameModeBase" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Blueprints/My_UE4_ZeroGameModeBase.uasset" SILENT=true
+[2017.06.17-18.13.48:090][826]LogSavePackage: Save=11.16ms
+[2017.06.17-18.13.48:090][826]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/My_UE4_ZeroGameModeBase74E9D9B046D51500F572699F50874B61.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Blueprints/My_UE4_ZeroGameModeBase.uasset'
+[2017.06.17-18.13.48:096][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Blueprints/My_UE4_ZeroGameModeBase.uasset
+[2017.06.17-18.13.52:174][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.17-18.13.52:248][272]LogSavePackage: Save=27.14ms
+[2017.06.17-18.13.52:248][272]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start13EC86D9421F80D6575B8E9F080B5E75.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap'
+[2017.06.17-18.13.52:253][272]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap
+[2017.06.17-18.13.52:300][272]LogFileHelpers: Saving map 'Start' took 0.227
+[2017.06.17-18.14.17:865][105]Running C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero Win64 Development -editorrecompile "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" -invalidatemakefilesonly
+[2017.06.17-18.14.18:274][105]Invalidating makefiles only in this run.
+[2017.06.17-18.14.18:393][105]Recompiling UE4_Zero...
+[2017.06.17-18.14.18:394][105]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 1865 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.17-18.14.30:851][105]CompilerResultsLog: New page: Compilation - 17 Jun 2017 20:14:30
+[2017.06.17-18.14.30:852][105]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.17-18.14.30:852][105]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.17-18.14.30:852][105]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.17-18.14.30:852][105]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 3.3796645 seconds
+[2017.06.17-18.14.30:852][105]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2017.06.17-18.14.30:852][105]CompilerResultsLog: Info UE4_Zero.generated.cpp
+[2017.06.17-18.14.30:852][105]CompilerResultsLog: Info my_Controler.cpp
+[2017.06.17-18.14.30:852][105]CompilerResultsLog: Info [3/4] Link UE4Editor-UE4_Zero-1865.dll
+[2017.06.17-18.14.30:852][105]CompilerResultsLog: Info [4/4] Link UE4Editor-UE4_Zero-1865.lib
+[2017.06.17-18.14.30:852][105]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1865.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1865.exp
+[2017.06.17-18.14.30:853][105]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1865.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1865.suppressed.exp
+[2017.06.17-18.14.30:853][105]CompilerResultsLog: Info Total build time: 12.15 seconds (Local executor: 5.02 seconds)
+[2017.06.17-18.14.30:853][105]LogMainFrame: MainFrame: Module compiling took 12.467 seconds
+[2017.06.17-18.14.31:045][105]LogClass: Could not find existing class my_Controler in package /Script/UE4_Zero for HotReload, assuming new class
+[2017.06.17-18.14.31:056][105]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0029 seconds. Added 6 classes and 2 folders.
+[2017.06.17-18.14.31:058][105]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.17-18.14.31:400][105]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2253 classes and 459 folders.
+[2017.06.17-18.14.31:400][105]Display: HotReload took 13.0s.
+[2017.06.17-18.14.31:401][105]Warning: HotReload operation took 13.0s.
+[2017.06.17-18.14.31:521][105]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/my_Controler.h'
+[2017.06.17-18.14.31:602][105]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/my_Controler.cpp'
+[2017.06.17-18.14.31:641][106]LogHotReload: New module detected: UE4Editor-UE4_Zero-1865.dll
+[2017.06.17-18.14.31:663][107]LogHotReload: Starting Hot-Reload from IDE
+[2017.06.17-18.14.31:913][107]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0027 seconds. Added 6 classes and 2 folders.
+[2017.06.17-18.14.31:916][107]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.17-18.14.32:159][107]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2253 classes and 459 folders.
+[2017.06.17-18.14.32:166][107]Display: HotReload took  0.5s.
+[2017.06.17-18.14.38:166][669]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/my_Controler.h'
+[2017.06.17-18.14.38:200][669]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/my_Controler.cpp'
+[2017.06.17-18.14.40:710][937]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/my_Controler.h'
+[2017.06.17-18.14.40:746][937]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/my_Controler.cpp'
+[2017.06.17-18.26.44:737][381]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.17-18.26.44:748][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.17-18.26.44:749][381]PIE: New page: PIE session: Start (17 Jun 2017 20:26:44)
+[2017.06.17-18.26.44:749][381]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.17-18.26.44:755][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006585s)
+[2017.06.17-18.26.44:757][381]LogAIModule: Creating AISystem for world Start
+[2017.06.17-18.26.44:757][381]LogPlayLevel: PIE: World Init took: (0.001425s)
+[2017.06.17-18.26.44:757][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.008587s)
+[2017.06.17-18.26.44:821][381]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.17-18.26.44:834][381]LogInit: FAudioDevice initialized.
+[2017.06.17-18.26.44:864][381]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.17-18.26.44:867][381]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.17-19.26.44
+[2017.06.17-18.26.44:867][381]LogWorld: Bringing up level for play took: 0.001741
+[2017.06.17-18.26.44:869][381]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.432
+[2017.06.17-18.26.47:838][677]Cmd: SELECT NONE
+[2017.06.17-18.26.48:069][704]Cmd: POLY SELECT ADJACENT WALLS
+[2017.06.17-18.27.58:741][375]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.06.17-18.28.02:199][376]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/ZeroCharicter.h'
+[2017.06.17-18.28.03:408][376]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/ZeroCharicter.cpp'
+[2017.06.17-18.28.35:151][461]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.17-18.28.35:678][462]Cmd: QUIT_EDITOR
+[2017.06.17-18.28.36:295][462]LogExit: Preparing to exit.
+[2017.06.17-18.28.37:272][462]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/' was aborted.
+[2017.06.17-18.28.37:388][462]LogExit: Editor shut down
+[2017.06.17-18.28.37:390][462]LogExit: Transaction tracking system shut down
+[2017.06.17-18.28.37:520][462]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.17-18.28.37:521][462]LogExit: Object subsystem successfully closed.
+[2017.06.17-18.28.37:540][462]LogD3D11RHI: Shutdown
+[2017.06.17-18.28.37:540][462]LogD3D11RHI: CleanupD3DDevice
+[2017.06.17-18.28.37:696][462]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.17-18.28.37:756][462]LogModuleManager: Shutting down and abandoning module UE4_Zero (513)
+[2017.06.17-18.28.37:756][462]LogModuleManager: Shutting down and abandoning module BlueprintGraph (511)
+[2017.06.17-18.28.37:756][462]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (509)
+[2017.06.17-18.28.37:756][462]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (504)
+[2017.06.17-18.28.37:756][462]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2017.06.17-18.28.37:756][462]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.06.17-18.28.37:756][462]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.06.17-18.28.37:756][462]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.06.17-18.28.37:756][462]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.06.17-18.28.37:757][462]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.17-18.28.37:773][462]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.06.17-18.28.37:773][462]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.06.17-18.28.37:773][462]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.06.17-18.28.37:773][462]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Collections/' was aborted.
+[2017.06.17-18.28.37:773][462]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Developers/Marcus/Collections/' was aborted.
+[2017.06.17-18.28.37:773][462]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Collections/' was aborted.
+[2017.06.17-18.28.37:773][462]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.06.17-18.28.37:774][462]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.06.17-18.28.37:775][462]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.06.17-18.28.37:775][462]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.06.17-18.28.37:775][462]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.06.17-18.28.37:775][462]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.06.17-18.28.37:775][462]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.06.17-18.28.37:775][462]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.06.17-18.28.37:992][462]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.06.17-18.28.38:038][462]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.06.17-18.28.38:038][462]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.06.17-18.28.38:038][462]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.06.17-18.28.38:038][462]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.06.17-18.28.38:038][462]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.06.17-18.28.38:038][462]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.06.17-18.28.38:038][462]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.06.17-18.28.38:038][462]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.06.17-18.28.38:038][462]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.06.17-18.28.38:044][462]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.06.17-18.28.38:044][462]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.06.17-18.28.38:046][462]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.06.17-18.28.38:112][462]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.06.17-18.28.38:115][462]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.06.17-18.28.38:116][462]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.06.17-18.28.38:116][462]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.06.17-18.28.38:117][462]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.06.17-18.28.38:117][462]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Binaries/Win64' was aborted.
+[2017.06.17-18.28.38:117][462]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.06.17-18.28.38:119][462]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.06.17-18.28.38:119][462]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.06.17-18.28.38:119][462]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.06.17-18.28.38:119][462]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.06.17-18.28.38:220][462]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.06.17-18.28.38:322][462]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.06.17-18.28.38:327][462]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.06.17-18.28.38:327][462]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.06.17-18.28.38:327][462]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.06.17-18.28.38:327][462]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.06.17-18.28.38:327][462]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.06.17-18.28.38:327][462]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.06.17-18.28.38:526][462]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.17-18.28.38:526][462]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/' was aborted.
+[2017.06.17-18.28.38:526][462]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.17-18.28.38:527][462]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.06.17-18.28.38:531][462]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.06.17-18.28.38:531][462]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.06.17-18.28.38:531][462]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.06.17-18.28.38:531][462]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.06.17-18.28.38:531][462]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.06.17-18.28.38:531][462]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.06.17-18.28.38:531][462]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.06.17-18.28.38:531][462]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.06.17-18.28.38:575][462]LogDerivedDataCache: Shutdown
+[2017.06.17-18.28.38:575][462]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.06.17-18.28.38:575][462]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.06.17-18.28.38:575][462]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.06.17-18.28.38:575][462]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.06.17-18.28.38:575][462]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.06.17-18.28.38:575][462]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.17-18.28.38:576][462]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.17-18.28.38:576][462]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.17-18.28.38:576][462]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.17-18.28.38:576][462]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA0311AFE-401C-0409-7E9A-C19D106308D9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=97d3f40d403ff4a258d6f980a741b4dc%7C969837ba78db4a5a8b4180254925176e%7C81706c51-5e4d-4c53-8181-bc8c50ced6a7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.17-18.28.38:583][462]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.17-18.28.38:586][462]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.17-18.28.38:586][462]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.17-18.28.38:586][462]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.17-18.28.38:586][462]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.17-18.28.38:586][462]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.17-18.28.38:592][462]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.17-18.28.38:592][462]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.17-18.28.38:592][462]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.17-18.28.38:592][462]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.17-18.28.38:592][462]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.17-18.28.38:592][462]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.17-18.28.38:592][462]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.17-18.28.38:592][462]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.17-18.28.38:592][462]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.17-18.28.38:592][462]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.17-18.28.38:597][462]LogExit: Exiting.
+[2017.06.17-18.28.38:614][462]Log file closed, 06/17/17 19:28:38

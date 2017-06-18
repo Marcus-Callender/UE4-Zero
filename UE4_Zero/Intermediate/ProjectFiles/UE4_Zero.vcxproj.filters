@@ -1,67 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\UE4_Zero.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{DC957A39-BCA6-41E2-B763-51416E6B287C}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\UE4_Zero.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\UE4_ZeroEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{78412767-7029-4739-852F-A094B075523F}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\UE4_Zero">
-			<UniqueIdentifier>{154C3452-21BA-47EA-9251-BF60C7734F77}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\UE4_Zero\My_PlayerController.cpp">
-			<Filter>Source\UE4_Zero</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\UE4_Zero\My_PlayerController.h">
-			<Filter>Source\UE4_Zero</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\UE4_Zero\PlayerZero.cpp">
-			<Filter>Source\UE4_Zero</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\UE4_Zero\PlayerZero.h">
-			<Filter>Source\UE4_Zero</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\UE4_Zero\UE4_Zero.Build.cs">
-			<Filter>Source\UE4_Zero</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\UE4_Zero\UE4_Zero.cpp">
-			<Filter>Source\UE4_Zero</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\UE4_Zero\UE4_Zero.h">
-			<Filter>Source\UE4_Zero</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\UE4_Zero\UE4_ZeroGameModeBase.cpp">
-			<Filter>Source\UE4_Zero</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\UE4_Zero\UE4_ZeroGameModeBase.h">
-			<Filter>Source\UE4_Zero</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\UE4_Zero\ZeroCharicter.cpp">
-			<Filter>Source\UE4_Zero</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\UE4_Zero\ZeroCharicter.h">
-			<Filter>Source\UE4_Zero</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\UE4_Zero.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C16CB949-9B83-40AF-9525-153EC9104024}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UE4_Zero.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UE4_ZeroEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E31557AE-5D85-4B33-B379-063E6D86C106}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UE4_Zero">
+      <UniqueIdentifier>{2894A0F0-46A3-4FF7-9C3F-F25BF2F3C1F1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UE4_Zero\My_PlayerController.cpp">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_Zero\My_PlayerController.h">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4_Zero\PlayerMovement.cpp">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_Zero\PlayerMovement.h">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4_Zero\PlayerZero.cpp">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_Zero\PlayerZero.h">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\UE4_Zero\UE4_Zero.Build.cs">
+      <Filter>Source\UE4_Zero</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UE4_Zero\UE4_Zero.cpp">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_Zero\UE4_Zero.h">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4_Zero\UE4_ZeroGameModeBase.cpp">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_Zero\UE4_ZeroGameModeBase.h">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4_Zero\ZeroCharicter.cpp">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_Zero\ZeroCharicter.h">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UE4_Zero\my_Controler.h">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UE4_Zero\my_Controler.cpp">
+      <Filter>Source\UE4_Zero</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

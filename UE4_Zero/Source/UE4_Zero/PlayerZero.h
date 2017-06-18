@@ -25,9 +25,16 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	class UPlayerMovement* m_Movement;
+
+	//virtual Umy_customMovement* GetMovementComponent() const override;
+	virtual UPawnMovementComponent* GetMovementComponent() const override;
+
 	void MoveHorizontal(float value);
 	void SetVerticalVelocity(float value);
 
 private:
-	float m_toMove;
+
+	bool m_faceing_Left_Right = false;
+
 };
