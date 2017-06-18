@@ -116,4 +116,6 @@
 #define MESHUTILITIES_API 
 #define KISMET_API DLLIMPORT
 #define NETWORKREPLAYSTREAMING_API 
+#define WITH_BOX2D 1
+#define PAPER2D_API DLLIMPORT
 #include "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\UE4_Zero.h"

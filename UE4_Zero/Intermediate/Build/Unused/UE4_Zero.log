@@ -1,2 +1,6 @@
 ﻿  Compiling game modules for hot reload
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): warning MSB5021: "cmd" and its child processes are being terminated in order to cancel the build.
+  Parsing headers for UE4_ZeroEditor
+    Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/PlayerZero.h(1): error : #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+EXEC : error : UnrealHeaderTool failed for target 'UE4_ZeroEditor' (platform: Win64, module info: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" UE4_ZeroEditor Win64 Development "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

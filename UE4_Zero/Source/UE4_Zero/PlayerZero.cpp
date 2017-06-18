@@ -5,6 +5,8 @@
 
 #include "PlayerMovement.h"
 
+#include "PaperFlipbookComponent.h"
+
 // Sets default values
 APlayerZero::APlayerZero()
 {
@@ -29,7 +31,7 @@ APlayerZero::APlayerZero()
 
 	m_Movement->UpdatedComponent = RootComponent;
 
-	//m_Movement->m_Sprite = CreateOptionalDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite0"));
+	m_Movement->m_Sprite = CreateOptionalDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite0"));
 
 	if (GEngine)
 	{
@@ -48,7 +50,7 @@ APlayerZero::APlayerZero()
 void APlayerZero::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
