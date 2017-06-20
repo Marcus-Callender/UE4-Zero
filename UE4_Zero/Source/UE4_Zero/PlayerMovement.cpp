@@ -18,7 +18,7 @@ void UPlayerMovement::TickComponent(float dt, ELevelTick TickType, FActorCompone
 	// creates a vector by multplying the direction to move, time taken in this frame and player speed 
 	FVector ToMove = ConsumeInputVector().GetClampedToMaxSize(1.0f) * dt * m_playerSpeed;
 
-	UPaperFlipbook* DesiredAnimation = (ToMove.IsNearlyZero()) ? m_WalkAnim : m_StandAnim;
+	//UPaperFlipbook* DesiredAnimation = (ToMove.IsNearlyZero()) ? m_WalkAnim : m_StandAnim;
 
 	if (!ToMove.IsNearlyZero())
 	{
@@ -33,3 +33,18 @@ void UPlayerMovement::TickComponent(float dt, ELevelTick TickType, FActorCompone
 		}
 	}
 }
+
+void UPlayerMovement::Initialize()
+{
+	//m_Sprite = Cast<UPaperFlipbookComponent>(GetOwner()->GetComponentByClass(UPaperFlipbookComponent::StaticClass()));
+
+	if (m_Sprite != nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Found Paper Book!"));
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Couldent find Book."));
+	}
+}
+
