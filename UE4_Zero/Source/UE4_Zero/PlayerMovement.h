@@ -19,7 +19,7 @@ public:
 
 	class UPaperFlipbookComponent* m_Sprite;
 
-	void Initialize();
+	//void Initialize();
 
 private:
 

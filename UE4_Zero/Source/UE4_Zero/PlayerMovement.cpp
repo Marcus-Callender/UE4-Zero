@@ -34,17 +34,17 @@ void UPlayerMovement::TickComponent(float dt, ELevelTick TickType, FActorCompone
 	}
 }
 
-void UPlayerMovement::Initialize()
-{
-	//m_Sprite = Cast<UPaperFlipbookComponent>(GetOwner()->GetComponentByClass(UPaperFlipbookComponent::StaticClass()));
-
-	if (m_Sprite != nullptr)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Found Paper Book!"));
-	}
-	else
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Couldent find Book."));
-	}
-}
+//void UPlayerMovement::Initialize()
+//{
+//	//m_Sprite = Cast<UPaperFlipbookComponent>(GetOwner()->GetComponentByClass(UPaperFlipbookComponent::StaticClass()));
+//
+//	if (m_Sprite != nullptr)
+//	{
+//		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Found Paper Book!"));
+//	}
+//	else
+//	{
+//		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Couldent find Book."));
+//	}
+//}
 

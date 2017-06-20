@@ -34,7 +34,7 @@ APlayerZero::APlayerZero()
 
 	m_Movement->m_Sprite = CreateOptionalDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite0"));
 
-	m_Movement->Initialize();
+	//m_Movement->Initialize();
 
 	//m_Sprite = Cast<UPaperSprite>(GetOwner()->GetComponentByClass(UPaperSprite::StaticClass()));
 	//APaperSpriteActor* spawnedSprite = pWorld->SpawnActorDeferred<APaperSpriteActor>(APaperSpriteActor::StaticClass(), FVector::ZeroVector, FRotator::ZeroRotator, pOwner);
