@@ -1,2 +1,4 @@
 ﻿  Compiling game modules for hot reload
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): warning MSB5021: "cmd" and its child processes are being terminated in order to cancel the build.
+  Target is up to date
+  Deploying UE4_ZeroEditor Win64 Development...
+  Total build time: 5.63 seconds (NoActionsToExecute executor: 0.00 seconds)
