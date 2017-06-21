@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\UE4_Zero.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{04B99086-B9CA-4B4B-BC23-AB02DCF1918F}</UniqueIdentifier>
+			<UniqueIdentifier>{50537209-1184-460D-A1FB-3E8DA4BE6E34}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\UE4_Zero.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{85FF7CBB-66A2-47D4-B619-4A70E313B02F}</UniqueIdentifier>
+			<UniqueIdentifier>{600958E2-1E8D-4CB9-939B-40F80D40C91D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\UE4_Zero">
-			<UniqueIdentifier>{6D518563-1B3B-4E85-B66C-CC72009D27BE}</UniqueIdentifier>
+			<UniqueIdentifier>{B37BE1D6-DB99-4C21-9327-CDBBBD2CABD1}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\UE4_Zero\My_PlayerController.cpp">
 			<Filter>Source\UE4_Zero</Filter>

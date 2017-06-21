@@ -1,9 +1,0 @@
-{
-	"Changelist" : 3249277,
-	"CompatibleChangelist" : 3195953,
-	"BuildId" : "33ba34c1-6184-43f4-8a2a-ada0084b1acc",
-	"Modules" : 
-	{
-		"UE4_Zero" : "UE4Editor-UE4_Zero-6626.dll"
-	}
-}
