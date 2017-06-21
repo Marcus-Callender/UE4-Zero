@@ -63,7 +63,6 @@
 "C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
 "C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
 "C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
-"C:\Program Files\Epic Games\UE_4.15\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Paper2D.lib"
 /OUT:"C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero.dll"
 /IMPLIB:"C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.suppressed.lib"
 /PDB:"C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero.pdb"

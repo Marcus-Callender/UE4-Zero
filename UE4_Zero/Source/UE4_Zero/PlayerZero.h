@@ -28,7 +28,7 @@ public:
 	class UPlayerMovement* m_Movement;
 
 	//virtual Umy_customMovement* GetMovementComponent() const override;
-	//virtual UPawnMovementComponent* GetMovementComponent() const override;
+	virtual UPawnMovementComponent* GetMovementComponent() const override;
 
 	void MoveHorizontal(float value);
 	void SetVerticalVelocity(float value);
@@ -36,10 +36,5 @@ public:
 private:
 
 	bool m_faceing_Left_Right = false;
-
-	class USpringArmComponent* m_CameraArm;
-	//class UPaperSprite* m_Sprite;
-
-	void FlipCharicter();
 
 };

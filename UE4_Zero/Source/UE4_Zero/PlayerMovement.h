@@ -19,8 +19,6 @@ public:
 
 	class UPaperFlipbookComponent* m_Sprite;
 
-	void Initialize();
-
 private:
 
 	float m_playerSpeed = 350.0f;
