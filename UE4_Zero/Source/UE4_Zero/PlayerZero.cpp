@@ -28,22 +28,41 @@ APlayerZero::APlayerZero()
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
 	m_Movement = CreateDefaultSubobject<UPlayerMovement>(TEXT("CustomMovement"));
-	
+
 	m_Movement->UpdatedComponent = RootComponent;
-	
-	//m_Movement->m_Sprite = CreateOptionalDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite0"));
-	
-	TArray<UStaticMeshComponent*> Comps;
+
+	//-----------------------------------------
+
+	TArray<UPaperFlipbookComponent*> FlipbookComponents;
+	this->GetComponents(FlipbookComponents);
+
+	if (GEngine)
+	{
+		if (FlipbookComponents.Num() > 0)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Flipbook found"));
+		}
+		else
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Flipbook not found"));
+		}
+
+	}
+
+
+	TArray<UActorComponent*> Comps;
 
 	GetComponents(Comps);
 
-	if (Comps.Num() > 0)
+	for (int z = 0; z < Comps.Num(); z++)
 	{
-		UStaticMeshComponent* FoundComp = Comps[0];
+		UActorComponent* FoundComp = Comps[z];
+
 		if (GEngine)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, Comps[0]->GetName());
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, Comps[z]->GetName());
 		}
+
 
 		//do stuff with FoundComp
 	}
@@ -56,16 +75,20 @@ APlayerZero::APlayerZero()
 	{
 		UPaperFlipbookComponent* FoundComp = Found[0];
 
-		
 		if (FoundComp != nullptr)
 		{
 			//FoundComp->SetActive(false);
+
+			if (GEngine)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, FoundComp->GetName());
+			}
 		}
 		else
 		{
 			if (GEngine)
 			{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Find failed"));
+				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Find failed"));
 			}
 		}
 	}
@@ -76,21 +99,28 @@ APlayerZero::APlayerZero()
 	{
 		if (MyComp)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Componant Found: True"));
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Flipbook Found: True"));
 		}
 		else
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Componant Found: False"));
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Flipbook Found: False"));
 		}
 	}
 
-	//getcomp
-	//
-	//AActor* foundObject = RootComponent->GetComponentByClass(UPaperFlipbookComponent::StaticClass();
-	//
-	//if ()
-	//
-	//m_Movement->m_Sprite = Cast<UPaperFlipbookComponent>());
+	UCapsuleComponent* coll = Cast<UCapsuleComponent>(this->GetComponentByClass(UCapsuleComponent::StaticClass()));
+
+	if (GEngine)
+	{
+		if (coll != nullptr)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Capsule Found: True"));
+			//coll->SetWorldRotation(FRotator(30.0, 0.0f, 90.0f));
+		}
+		else
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Capsule Found: False"));
+		}
+	}
 
 	if (GEngine)
 	{
@@ -109,7 +139,7 @@ APlayerZero::APlayerZero()
 void APlayerZero::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
