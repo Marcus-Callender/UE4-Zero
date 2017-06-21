@@ -5,6 +5,8 @@
 
 #include "PlayerMovement.h"
 
+#include "PaperFlipbookComponent.h"
+
 // Sets default values
 APlayerZero::APlayerZero()
 {
@@ -12,16 +14,16 @@ APlayerZero::APlayerZero()
 	PrimaryActorTick.bCanEverTick = true;
 
 	// sets up the position of the camera relative 
-	USpringArmComponent* SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
-	SpringArm->SetupAttachment(RootComponent);
-	SpringArm->RelativeRotation = FRotator(-30.0f, 0.0f, 0.0f);
-	SpringArm->TargetArmLength = 400.0f;
-	SpringArm->bEnableCameraLag = true;
-	SpringArm->CameraLagSpeed = 3.0f;
+	m_CameraArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
+	m_CameraArm->SetupAttachment(RootComponent);
+	m_CameraArm->RelativeRotation = FRotator(-30.0f, 0.0f, 0.0f);
+	m_CameraArm->TargetArmLength = 400.0f;
+	m_CameraArm->bEnableCameraLag = true;
+	m_CameraArm->CameraLagSpeed = 3.0f;
 
 	// creates a camera and attaches it to the spring arm
 	UCameraComponent* Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("PlayerCamera"));
-	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
+	Camera->SetupAttachment(m_CameraArm, USpringArmComponent::SocketName);
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
@@ -29,7 +31,7 @@ APlayerZero::APlayerZero()
 
 	m_Movement->UpdatedComponent = RootComponent;
 
-	//m_Movement->m_Sprite = CreateOptionalDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite0"));
+	m_Movement->m_Sprite = CreateOptionalDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite0"));
 
 	if (GEngine)
 	{
@@ -71,6 +73,25 @@ void APlayerZero::MoveHorizontal(float value)
 {
 	if (m_Movement && (m_Movement->UpdatedComponent == RootComponent))
 	{
+		if (value > 0.0f)
+		{
+			if (!m_faceing_Left_Right)
+			{
+				FlipCharicter();
+			}
+
+			m_faceing_Left_Right = true;
+		}
+		else if (value < 0.0f)
+		{
+			if (m_faceing_Left_Right)
+			{
+				FlipCharicter();
+			}
+
+			m_faceing_Left_Right = false;
+		}
+
 		m_Movement->AddInputVector(GetActorRightVector() * value);
 	}
 }
@@ -86,5 +107,22 @@ void APlayerZero::SetVerticalVelocity(float value)
 UPawnMovementComponent * APlayerZero::GetMovementComponent() const
 {
 	return m_Movement;
+}
+
+void APlayerZero::FlipCharicter()
+{
+	if (m_faceing_Left_Right)
+	{
+		//EDIT
+		//m_Movement->m_Sprite->SetRelativeLocation(FVector(-30.0f, 0.0f, 90.0f));
+
+		m_CameraArm->RelativeRotation = FRotator(-30.0f, 180.0f, 0.0f);
+	}
+	else
+	{
+		//m_Movement->m_Sprite->SetRelativeLocation(FVector(30.0f, 0.0f, 270.0f));
+
+		m_CameraArm->RelativeRotation = FRotator(-30.0f, 0.0f, 0.0f);
+	}
 }
 

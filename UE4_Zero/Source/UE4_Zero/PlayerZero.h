@@ -35,6 +35,10 @@ public:
 
 private:
 
+	void FlipCharicter();
+
 	bool m_faceing_Left_Right = false;
+
+	class USpringArmComponent* m_CameraArm;
 
 };

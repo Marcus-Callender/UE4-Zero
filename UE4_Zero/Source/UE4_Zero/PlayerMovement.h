@@ -17,8 +17,17 @@ public:
 
 	virtual void TickComponent(float dt, enum ELevelTick TickType, FActorComponentTickFunction* ThisTickComponent) override;
 
+	class UPaperFlipbookComponent* m_Sprite;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+		class UPaperFlipbook* m_StandAnim;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+		class UPaperFlipbook* m_WalkAnim;
 	
 private:
 
 	float m_playerSpeed = 350.0f;
+
+
 };
