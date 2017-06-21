@@ -27,10 +27,10 @@ APlayerZero::APlayerZero()
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
-	//m_Movement = CreateDefaultSubobject<UPlayerMovement>(TEXT("CustomMovement"));
-	//
-	//m_Movement->UpdatedComponent = RootComponent;
-	//
+	m_Movement = CreateDefaultSubobject<UPlayerMovement>(TEXT("CustomMovement"));
+	
+	m_Movement->UpdatedComponent = RootComponent;
+	
 	//m_Movement->m_Sprite = CreateOptionalDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite0"));
 	
 	TArray<UStaticMeshComponent*> Comps;
@@ -40,7 +40,11 @@ APlayerZero::APlayerZero()
 	if (Comps.Num() > 0)
 	{
 		UStaticMeshComponent* FoundComp = Comps[0];
-		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, Comps[0]->GetName());
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, Comps[0]->GetName());
+		}
+
 		//do stuff with FoundComp
 	}
 
@@ -52,25 +56,32 @@ APlayerZero::APlayerZero()
 	{
 		UPaperFlipbookComponent* FoundComp = Found[0];
 
-		//if (FoundComp != nullptr)
-		//{
-		//	//FoundComp->SetActive(false);
-		//}
-		//else
-		//{
-		//	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Find failed"));
-		//}
+		
+		if (FoundComp != nullptr)
+		{
+			//FoundComp->SetActive(false);
+		}
+		else
+		{
+			if (GEngine)
+			{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Find failed"));
+			}
+		}
 	}
 
 	UPaperFlipbookComponent* MyComp = Cast<UPaperFlipbookComponent>(this->GetComponentByClass(UPaperFlipbookComponent::StaticClass()));
 
-	if (MyComp)
+	if (GEngine)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Componant Found: True"));
-	}
-	else
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Componant Found: False"));
+		if (MyComp)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Componant Found: True"));
+		}
+		else
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Componant Found: False"));
+		}
 	}
 
 	//getcomp
