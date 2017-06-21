@@ -41,4 +41,14 @@ private:
 
 	class USpringArmComponent* m_CameraArm;
 
+	class UPaperFlipbook* m_Animation;
+	class UPaperFlipbookComponent* m_Sprite;
+
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+		class UPaperFlipbook* m_StandAnim;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+		class UPaperFlipbook* m_WalkAnim;
 };

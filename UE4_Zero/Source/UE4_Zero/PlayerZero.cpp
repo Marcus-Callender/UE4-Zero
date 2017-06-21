@@ -31,108 +31,20 @@ APlayerZero::APlayerZero()
 
 	m_Movement->UpdatedComponent = RootComponent;
 
-	//-----------------------------------------
+	m_Sprite = CreateDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite"));
 
-	TArray<UPaperFlipbookComponent*> FlipbookComponents;
-	this->GetComponents(FlipbookComponents);
+	m_Movement->m_WalkAnim = m_WalkAnim;
+	m_Movement->m_StandAnim = m_StandAnim;
 
-	if (GEngine)
+	//static ConstructorHelpers::FObjectFinder<const TArray<UPaperFlipbook>&> WalkAnim(TEXT("/Game/Images/Animations/Walk.uasset"));
+
+	//if (WalkAnim.Succeeded())
 	{
-		if (FlipbookComponents.Num() > 0)
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Flipbook found"));
-		}
-		else
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Flipbook not found"));
-		}
-
+		//UPaperFlipbook* walkAnimCast = static_cast <UPaperFlipbook*>();
+		//m_Animation = WalkAnim.Object;
+		//m_Sprite->SetFlipbook(m_Animation);
 	}
 
-
-	TArray<UActorComponent*> Comps;
-
-	GetComponents(Comps);
-
-	for (int z = 0; z < Comps.Num(); z++)
-	{
-		UActorComponent* FoundComp = Comps[z];
-
-		if (GEngine)
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, Comps[z]->GetName());
-		}
-
-
-		//do stuff with FoundComp
-	}
-
-	TArray<UPaperFlipbookComponent*> Found;
-
-	GetComponents(Found);
-
-	if (Found.Num() > 0)
-	{
-		UPaperFlipbookComponent* FoundComp = Found[0];
-
-		if (FoundComp != nullptr)
-		{
-			//FoundComp->SetActive(false);
-
-			if (GEngine)
-			{
-				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, FoundComp->GetName());
-			}
-		}
-		else
-		{
-			if (GEngine)
-			{
-				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Find failed"));
-			}
-		}
-	}
-
-	UPaperFlipbookComponent* MyComp = Cast<UPaperFlipbookComponent>(this->GetComponentByClass(UPaperFlipbookComponent::StaticClass()));
-
-	if (GEngine)
-	{
-		if (MyComp)
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Flipbook Found: True"));
-		}
-		else
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Flipbook Found: False"));
-		}
-	}
-
-	UCapsuleComponent* coll = Cast<UCapsuleComponent>(this->GetComponentByClass(UCapsuleComponent::StaticClass()));
-
-	if (GEngine)
-	{
-		if (coll != nullptr)
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Capsule Found: True"));
-			//coll->SetWorldRotation(FRotator(30.0, 0.0f, 90.0f));
-		}
-		else
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Capsule Found: False"));
-		}
-	}
-
-	if (GEngine)
-	{
-		if (InputEnabled())
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Input Enabled: True"));
-		}
-		else
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Input Enabled: False"));
-		}
-	}
 }
 
 // Called when the game starts or when spawned
