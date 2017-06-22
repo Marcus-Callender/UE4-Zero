@@ -6,6 +6,9 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
+#ifndef UE4_ZERO_Bullet_generated_h
+	#include "Bullet.h"
+#endif
 #ifndef UE4_ZERO_My_PlayerController_generated_h
 	#include "My_PlayerController.h"
 #endif

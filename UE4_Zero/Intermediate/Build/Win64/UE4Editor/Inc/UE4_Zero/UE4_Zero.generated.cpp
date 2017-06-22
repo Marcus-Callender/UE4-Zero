@@ -11,6 +11,10 @@
 PRAGMA_DISABLE_OPTIMIZATION
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
+	void ABullet::StaticRegisterNativesABullet()
+	{
+	}
+	IMPLEMENT_CLASS(ABullet, 444424619);
 	void AMy_PlayerController::StaticRegisterNativesAMy_PlayerController()
 	{
 	}
@@ -29,6 +33,7 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 	IMPLEMENT_CLASS(AUE4_ZeroGameModeBase, 3750418435);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
+	ENGINE_API class UClass* Z_Construct_UClass_APawn();
 	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
 	ENGINE_API class UClass* Z_Construct_UClass_UPawnMovementComponent();
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
@@ -36,6 +41,8 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 	PAPER2D_API class UClass* Z_Construct_UClass_UPaperFlipbookComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 
+	UE4_ZERO_API class UClass* Z_Construct_UClass_ABullet_NoRegister();
+	UE4_ZERO_API class UClass* Z_Construct_UClass_ABullet();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AMy_PlayerController_NoRegister();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AMy_PlayerController();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_UPlayerMovement_NoRegister();
@@ -45,6 +52,38 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AUE4_ZeroGameModeBase_NoRegister();
 	UE4_ZERO_API class UClass* Z_Construct_UClass_AUE4_ZeroGameModeBase();
 	UE4_ZERO_API class UPackage* Z_Construct_UPackage__Script_UE4_Zero();
+	UClass* Z_Construct_UClass_ABullet_NoRegister()
+	{
+		return ABullet::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ABullet()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_APawn();
+			Z_Construct_UPackage__Script_UE4_Zero();
+			OuterClass = ABullet::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Bullet.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Bullet.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ABullet(Z_Construct_UClass_ABullet, &ABullet::StaticClass, TEXT("ABullet"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ABullet);
 	UClass* Z_Construct_UClass_AMy_PlayerController_NoRegister()
 	{
 		return AMy_PlayerController::StaticClass();
@@ -195,8 +234,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UE4_Zero")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x32349C11;
-			Guid.B = 0xBF04E63C;
+			Guid.A = 0x3725710D;
+			Guid.B = 0x93D584E3;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

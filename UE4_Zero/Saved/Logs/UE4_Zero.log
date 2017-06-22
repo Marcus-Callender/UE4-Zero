@@ -7026,3 +7026,219 @@ LogInit: Object subsystem initialized
 [2017.06.22-16.30.59:290][968]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.22-17.30.59
 [2017.06.22-16.30.59:290][968]LogWorld: Bringing up level for play took: 0.001210
 [2017.06.22-16.30.59:291][968]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.581
+[2017.06.22-16.34.32:216][529]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-16.34.32:233][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-16.34.32:233][529]PIE: New page: PIE session: Start (22 Jun 2017 18:34:32)
+[2017.06.22-16.34.32:233][529]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.22-16.34.32:235][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001883s)
+[2017.06.22-16.34.32:236][529]LogAIModule: Creating AISystem for world Start
+[2017.06.22-16.34.32:236][529]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2017.06.22-16.34.32:236][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003121s)
+[2017.06.22-16.34.32:257][529]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-16.34.32:267][529]LogInit: FAudioDevice initialized.
+[2017.06.22-16.34.32:297][529]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.22-16.34.32:299][529]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.22-17.34.32
+[2017.06.22-16.34.32:299][529]LogWorld: Bringing up level for play took: 0.001174
+[2017.06.22-16.34.32:301][529]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.41
+[2017.06.22-16.36.02:326][373]LogHttp:Warning: 000001DAC3559F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.22-16.36.02:326][373]LogHttp:Warning: 000001DAC3559F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1dab05e7fd0 [can pipeline])
+[2017.06.22-16.36.02:326][373]LogHttp:Warning: 000001DAC3559F00: libcurl info message cache 1 (Re-using existing connection! (#45) with host datarouter.ol.epicgames.com)
+[2017.06.22-16.36.02:327][373]LogHttp:Warning: 000001DAC3559F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.198.55.107) port 443 (#45))
+[2017.06.22-16.36.02:327][373]LogHttp:Warning: 000001DAC3559F00: libcurl info message cache 3 (upload completely sent off: 345 out of 345 bytes)
+[2017.06.22-16.36.02:327][373]LogHttp:Warning: 000001DAC3559F00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2017.06.22-16.36.02:327][373]LogHttp:Warning: 000001DAC3559F00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.22-16.36.02:327][373]LogHttp:Warning: 000001DAC3559F00: libcurl info message cache 6 (Closing connection 45)
+[2017.06.22-16.36.02:327][373]LogHttp:Warning: 000001DAC3559F00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.06.22-16.36.02:327][373]LogHttp:Warning: 000001DAC3559F00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF784E9CE-4B98-9F36-B7C0-F9BA2970FEBC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=97d3f40d403ff4a258d6f980a741b4dc%7C969837ba78db4a5a8b4180254925176e%7C81706c51-5e4d-4c53-8181-bc8c50ced6a7&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.22-16.36.02:328][373]LogHttp:Warning: 000001DAC3559F00: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.22-16.36.02:328][373]LogHttp:Warning: 000001DAC3559F00: libcurl info message cache 10 (Closing connection 46)
+[2017.06.22-16.46.06:578][900]Recompiling UE4_Zero...
+[2017.06.22-16.46.06:578][900]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 6403 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.22-16.46.06:585][900]Warning: Starting HotReload took  0.0s.
+[2017.06.22-16.46.26:186][202]CompilerResultsLog: New page: Compilation - 22 Jun 2017 18:46:26
+[2017.06.22-16.46.26:187][202]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.22-16.46.26:187][202]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.22-16.46.26:187][202]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.22-16.46.26:188][202]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 8.1292834 seconds
+[2017.06.22-16.46.26:188][202]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2017.06.22-16.46.26:188][202]CompilerResultsLog: Info UE4_Zero.generated.cpp
+[2017.06.22-16.46.26:188][202]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.22-16.46.26:188][202]CompilerResultsLog: Info My_PlayerController.cpp
+[2017.06.22-16.46.26:188][202]CompilerResultsLog: Info [4/5] Link UE4Editor-UE4_Zero-6403.dll
+[2017.06.22-16.46.26:188][202]CompilerResultsLog: Info [5/5] Link UE4Editor-UE4_Zero-6403.lib
+[2017.06.22-16.46.26:188][202]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6403.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6403.exp
+[2017.06.22-16.46.26:189][202]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6403.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6403.suppressed.exp
+[2017.06.22-16.46.26:189][202]CompilerResultsLog: Info Total build time: 19.09 seconds (Local executor: 3.49 seconds)
+[2017.06.22-16.46.26:189][202]LogMainFrame: MainFrame: Module compiling took 19.618 seconds
+[2017.06.22-16.46.26:378][202]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 4 classes and 2 folders.
+[2017.06.22-16.46.26:380][202]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.22-16.46.26:644][202]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2251 classes and 459 folders.
+[2017.06.22-16.46.26:644][202]Display: HotReload took 20.1s.
+[2017.06.22-16.46.29:945][592]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-16.46.29:961][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-16.46.29:961][592]PIE: New page: PIE session: Start (22 Jun 2017 18:46:29)
+[2017.06.22-16.46.29:961][592]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.22-16.46.29:963][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001881s)
+[2017.06.22-16.46.29:964][592]LogAIModule: Creating AISystem for world Start
+[2017.06.22-16.46.29:964][592]LogPlayLevel: PIE: World Init took: (0.001242s)
+[2017.06.22-16.46.29:965][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003616s)
+[2017.06.22-16.46.30:010][592]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-16.46.30:020][592]LogInit: FAudioDevice initialized.
+[2017.06.22-16.46.30:050][592]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.22-16.46.30:052][592]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.22-17.46.30
+[2017.06.22-16.46.30:053][592]LogWorld: Bringing up level for play took: 0.001235
+[2017.06.22-16.46.30:054][592]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.656
+[2017.06.22-16.47.40:068][437]Recompiling UE4_Zero...
+[2017.06.22-16.47.40:068][437]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 4997 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.22-16.47.40:075][437]Warning: Starting HotReload took  0.0s.
+[2017.06.22-16.47.56:789][788]CompilerResultsLog: New page: Compilation - 22 Jun 2017 18:47:56
+[2017.06.22-16.47.56:789][788]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.22-16.47.56:789][788]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.22-16.47.56:790][788]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.22-16.47.56:790][788]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.3063869 seconds
+[2017.06.22-16.47.56:790][788]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.22-16.47.56:790][788]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.22-16.47.56:790][788]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-4997.dll
+[2017.06.22-16.47.56:790][788]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-4997.lib
+[2017.06.22-16.47.56:790][788]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-4997.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-4997.exp
+[2017.06.22-16.47.56:791][788]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-4997.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-4997.suppressed.exp
+[2017.06.22-16.47.56:791][788]CompilerResultsLog: Info Total build time: 16.11 seconds (Local executor: 2.94 seconds)
+[2017.06.22-16.47.56:791][788]LogMainFrame: MainFrame: Module compiling took 16.730 seconds
+[2017.06.22-16.47.56:990][788]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0035 seconds. Added 4 classes and 2 folders.
+[2017.06.22-16.47.56:993][788]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.22-16.47.57:271][788]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2251 classes and 459 folders.
+[2017.06.22-16.47.57:271][788]Display: HotReload took 17.2s.
+[2017.06.22-16.48.02:686][810]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-16.48.02:704][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-16.48.02:704][810]PIE: New page: PIE session: Start (22 Jun 2017 18:48:02)
+[2017.06.22-16.48.02:704][810]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.22-16.48.02:706][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001921s)
+[2017.06.22-16.48.02:707][810]LogAIModule: Creating AISystem for world Start
+[2017.06.22-16.48.02:707][810]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2017.06.22-16.48.02:707][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003256s)
+[2017.06.22-16.48.02:757][810]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-16.48.02:766][810]LogInit: FAudioDevice initialized.
+[2017.06.22-16.48.02:800][810]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.22-16.48.02:802][810]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.22-17.48.02
+[2017.06.22-16.48.02:802][810]LogWorld: Bringing up level for play took: 0.001255
+[2017.06.22-16.48.02:803][810]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.093
+[2017.06.22-16.59.59:698][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Animations/Shoot" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Shoot.uasset" SILENT=true
+[2017.06.22-16.59.59:709][843]LogSavePackage: Save=8.34ms
+[2017.06.22-16.59.59:709][843]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Shoot3C44F1454EF34F834922D0A2EE82116E.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Shoot.uasset'
+[2017.06.22-16.59.59:715][843]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Shoot.uasset
+[2017.06.22-17.00.46:354][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Animations/Slide" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Slide.uasset" SILENT=true
+[2017.06.22-17.00.46:364][988]LogSavePackage: Save=7.51ms
+[2017.06.22-17.00.46:364][988]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Slide5E2F7F9D43FA803718FA4CA55D8A72D7.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Slide.uasset'
+[2017.06.22-17.00.46:370][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Slide.uasset
+[2017.06.22-17.00.46:383][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Animations/Stab" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Stab.uasset" SILENT=true
+[2017.06.22-17.00.46:393][988]LogSavePackage: Save=6.85ms
+[2017.06.22-17.00.46:393][988]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/StabD7666A7D4642AE91A8052A947A7148E0.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Stab.uasset'
+[2017.06.22-17.00.46:398][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Stab.uasset
+[2017.06.22-17.00.46:412][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Animations/Damage" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Damage.uasset" SILENT=true
+[2017.06.22-17.00.46:422][988]LogSavePackage: Save=7.57ms
+[2017.06.22-17.00.46:422][988]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Damage28AE7D254D8BD63B4E88688F16026FDA.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Damage.uasset'
+[2017.06.22-17.00.46:428][988]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Damage.uasset
+[2017.06.22-17.01.16:378][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Animations/Throw" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Throw.uasset" SILENT=true
+[2017.06.22-17.01.16:389][407]LogSavePackage: Save=8.23ms
+[2017.06.22-17.01.16:389][407]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/ThrowE5276B71488D8013EF088D915D8F9134.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Throw.uasset'
+[2017.06.22-17.01.16:395][407]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Throw.uasset
+[2017.06.22-17.02.14:921][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Start' took 0.017
+[2017.06.22-17.02.14:923][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Shoot" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Shoot_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-17.02.14:928][ 41]LogSavePackage: Save=2.21ms
+[2017.06.22-17.02.14:928][ 41]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Shoot_Auto20A38DC174E97F1C3E182E499EE40F7E4.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Shoot_Auto2.uasset'
+[2017.06.22-17.02.14:931][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Shoot_Auto2.uasset
+[2017.06.22-17.02.14:933][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Stab" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Stab_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-17.02.14:938][ 41]LogSavePackage: Save=2.08ms
+[2017.06.22-17.02.14:938][ 41]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Stab_Auto23EAFBCBB42460F254FA410A92EBFECB8.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Stab_Auto2.uasset'
+[2017.06.22-17.02.14:941][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Stab_Auto2.uasset
+[2017.06.22-17.02.14:942][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Damage" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Damage_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-17.02.14:965][ 41]LogSavePackage: Save=2.09ms
+[2017.06.22-17.02.14:965][ 41]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Damage_Auto295E2ADCF4E426876786578A1C9202C18.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Damage_Auto2.uasset'
+[2017.06.22-17.02.14:968][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Damage_Auto2.uasset
+[2017.06.22-17.02.14:970][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Slide" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Slide_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-17.02.14:974][ 41]LogSavePackage: Save=2.06ms
+[2017.06.22-17.02.14:974][ 41]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Slide_Auto20E9F076D41146984D86A9E914925A33F.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Slide_Auto2.uasset'
+[2017.06.22-17.02.14:977][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Slide_Auto2.uasset
+[2017.06.22-17.02.14:979][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Throw" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Throw_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-17.02.14:983][ 41]LogSavePackage: Save=2.08ms
+[2017.06.22-17.02.14:983][ 41]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Throw_Auto2A9E44AC24AB88F0CE07A6FAC82333C02.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Throw_Auto2.uasset'
+[2017.06.22-17.02.14:986][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/Throw_Auto2.uasset
+[2017.06.22-17.02.14:987][ 41]LogFileHelpers: Auto-saving content packages took 0.065
+[2017.06.22-17.02.36:000][536]LogRenderer: Reallocating scene render targets to support 1528x900 NumSamples 1 (Frame:414815).
+[2017.06.22-17.06.43:371][ 26]LogRenderer: Reallocating scene render targets to support 1528x920 NumSamples 1 (Frame:440753).
+[2017.06.22-17.07.07:756][938]Cmd: TRANSACTION UNDO
+[2017.06.22-17.07.07:756][938]LogEditorTransaction: Undo Set Vector Property
+[2017.06.22-17.07.08:575][ 32]Cmd: TRANSACTION UNDO
+[2017.06.22-17.07.08:575][ 32]LogEditorTransaction: Undo Set Vector Property
+[2017.06.22-17.07.09:035][ 87]Cmd: TRANSACTION UNDO
+[2017.06.22-17.07.09:036][ 87]LogEditorTransaction: Undo Set Vector Property
+[2017.06.22-17.07.13:525][620]Cmd: TRANSACTION UNDO
+[2017.06.22-17.07.13:525][620]LogEditorTransaction: Undo Edit X
+[2017.06.22-17.07.14:315][710]Cmd: TRANSACTION UNDO
+[2017.06.22-17.07.14:316][710]LogEditorTransaction: Undo Edit X
+[2017.06.22-17.07.21:720][595]Cmd: TRANSACTION UNDO
+[2017.06.22-17.07.21:720][595]LogEditorTransaction: Undo Edit X
+[2017.06.22-17.07.22:301][661]Cmd: TRANSACTION UNDO
+[2017.06.22-17.07.22:302][661]LogEditorTransaction: Undo Edit X
+[2017.06.22-17.07.22:803][721]Cmd: TRANSACTION UNDO
+[2017.06.22-17.07.22:804][721]LogEditorTransaction: Undo Edit X
+[2017.06.22-17.07.23:364][788]Cmd: TRANSACTION UNDO
+[2017.06.22-17.07.23:364][788]LogEditorTransaction: Undo Edit X
+[2017.06.22-17.08.20:822][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Animations/Stab" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Stab.uasset" SILENT=true
+[2017.06.22-17.08.20:857][664]LogSavePackage: Save=6.42ms
+[2017.06.22-17.08.20:857][664]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/StabE8824EC448F668A33E4DDF8DA4EF4D9B.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Stab.uasset'
+[2017.06.22-17.08.20:862][664]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Stab.uasset
+[2017.06.22-17.08.34:814][120]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{dcd85bac-daf7-4bc2-af9e-62085d674f39} was removed. Shutting down audio device.
+[2017.06.22-17.12.15:555][781]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Start' took 0.027
+[2017.06.22-17.12.15:559][781]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Images/IMG_6438_Alpha_Sprite_47] ([1] browsable assets)...
+[2017.06.22-17.12.15:568][781]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Images/IMG_6438_Alpha_Sprite_47.IMG_6438_Alpha_Sprite_47]
+[2017.06.22-17.12.15:568][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/IMG_6438_Alpha_Sprite_47]
+[2017.06.22-17.12.15:614][781]LogSavePackage: Save=9.58ms
+[2017.06.22-17.12.15:614][781]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_47_Auto316253F5541FF7D710BBE64B3C9CA155F.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/IMG_6438_Alpha_Sprite_47_Auto3.uasset'
+[2017.06.22-17.12.15:619][781]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Autosaves/Game/Images/IMG_6438_Alpha_Sprite_47_Auto3.uasset
+[2017.06.22-17.12.15:619][781]LogFileHelpers: Auto-saving content packages took 0.062
+[2017.06.22-17.27.47:147][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_50" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_50.uasset" SILENT=true
+[2017.06.22-17.27.47:186][ 34]LogSavePackage: Save=10.88ms
+[2017.06.22-17.27.47:186][ 34]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_50B3799BC4466DE9C438EDE8B738237267.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_50.uasset'
+[2017.06.22-17.27.47:192][ 34]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_50.uasset
+[2017.06.22-17.28.11:997][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/IMG_6438_Alpha_Sprite_51" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_51.uasset" SILENT=true
+[2017.06.22-17.28.12:030][993]LogSavePackage: Save=8.57ms
+[2017.06.22-17.28.12:030][993]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/IMG_6438_Alpha_Sprite_5146FE86104702582F2D8FC39F98FA6A7E.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_51.uasset'
+[2017.06.22-17.28.12:036][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/IMG_6438_Alpha_Sprite_51.uasset
+[2017.06.22-17.28.16:920][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Animations/Sword" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Sword.uasset" SILENT=true
+[2017.06.22-17.28.16:952][568]LogSavePackage: Save=7.13ms
+[2017.06.22-17.28.16:952][568]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/SwordE1ABA35C488FD149224054BE6AD2F97B.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Sword.uasset'
+[2017.06.22-17.28.16:958][568]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Sword.uasset
+[2017.06.22-17.38.03:403][344]Running C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero Win64 Development -editorrecompile "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" -invalidatemakefilesonly
+[2017.06.22-17.38.03:811][344]Invalidating makefiles only in this run.
+[2017.06.22-17.38.04:105][344]Recompiling UE4_Zero...
+[2017.06.22-17.38.04:105][344]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 2778 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.22-17.38.21:838][344]CompilerResultsLog: New page: Compilation - 22 Jun 2017 19:38:21
+[2017.06.22-17.38.21:838][344]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.22-17.38.21:838][344]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.22-17.38.21:838][344]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.22-17.38.21:838][344]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.6624332 seconds
+[2017.06.22-17.38.21:838][344]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2017.06.22-17.38.21:838][344]CompilerResultsLog: Info UE4_Zero.generated.cpp
+[2017.06.22-17.38.21:839][344]CompilerResultsLog: Info Bullet.cpp
+[2017.06.22-17.38.21:839][344]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.22-17.38.21:839][344]CompilerResultsLog: Info [4/5] Link UE4Editor-UE4_Zero-2778.dll
+[2017.06.22-17.38.21:839][344]CompilerResultsLog: Info [5/5] Link UE4Editor-UE4_Zero-2778.lib
+[2017.06.22-17.38.21:839][344]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-2778.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-2778.exp
+[2017.06.22-17.38.21:839][344]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-2778.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-2778.suppressed.exp
+[2017.06.22-17.38.21:839][344]CompilerResultsLog: Info Total build time: 17.42 seconds (Local executor: 4.26 seconds)
+[2017.06.22-17.38.21:839][344]LogMainFrame: MainFrame: Module compiling took 17.741 seconds
+[2017.06.22-17.38.22:033][344]LogClass: Could not find existing class Bullet in package /Script/UE4_Zero for HotReload, assuming new class
+[2017.06.22-17.38.22:043][344]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.22-17.38.22:046][344]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.22-17.38.22:324][344]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2252 classes and 459 folders.
+[2017.06.22-17.38.22:324][344]Display: HotReload took 18.4s.
+[2017.06.22-17.38.22:325][344]Warning: HotReload operation took 18.4s.
+[2017.06.22-17.38.22:454][344]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/Bullet.h'
+[2017.06.22-17.38.22:531][344]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Source/UE4_Zero/Bullet.cpp'
+[2017.06.22-17.38.22:558][344]LogHotReload: New module detected: UE4Editor-UE4_Zero-2778.dll
+[2017.06.22-17.38.22:586][345]LogHotReload: Starting Hot-Reload from IDE
+[2017.06.22-17.38.22:819][345]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0031 seconds. Added 5 classes and 2 folders.
+[2017.06.22-17.38.22:822][345]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.22-17.38.23:051][345]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2252 classes and 459 folders.
+[2017.06.22-17.38.23:058][345]Display: HotReload took  0.5s.
