@@ -7,6 +7,8 @@
 
 #include "PaperFlipbookComponent.h"
 
+#define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::White,text)
+
 // Sets default values
 APlayerZero::APlayerZero()
 {
@@ -38,28 +40,10 @@ APlayerZero::APlayerZero()
 	if (m_Sprite)
 	{
 		m_Sprite->SetupAttachment(GetCapsuleComponent());
-		//m_Sprite->AlwaysLoadOnClient = true;
-		//m_Sprite->AlwaysLoadOnServer = true;
-		//m_Sprite->bOwnerNoSee = false;
-		//m_Sprite->bAffectDynamicIndirectLighting = true;
-		//m_Sprite->PrimaryComponentTick.TickGroup = TG_PrePhysics;
-		//static FName CollisionProfileName(TEXT("CharacterMesh"));
-		//m_Sprite->SetCollisionProfileName(CollisionProfileName);
-		//m_Sprite->bGenerateOverlapEvents = false;
 		m_Sprite->SetFlipbook(m_StandAnim);
 	}
 
-	m_Movement->m_WalkAnim = m_WalkAnim;
-	m_Movement->m_StandAnim = m_StandAnim;
-
-	//static ConstructorHelpers::FObjectFinder<const TArray<UPaperFlipbook>&> WalkAnim(TEXT("/Game/Images/Animations/Walk.uasset"));
-
-	//if (WalkAnim.Succeeded())
-	{
-		//UPaperFlipbook* walkAnimCast = static_cast <UPaperFlipbook*>();
-		//m_Animation = WalkAnim.Object;
-		//m_Sprite->SetFlipbook(m_Animation);
-	}
+	m_NextAnimation = m_StandAnim;
 
 }
 
@@ -75,6 +59,17 @@ void APlayerZero::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	UPaperFlipbook* DesiredAnimation = (m_Movement->GetPendingInputVector().IsNearlyZero()) ? m_WalkAnim : m_StandAnim;
+	
+	//UE_LOG(LogTemp, Warning, TEXT("Input Vector %s"), *m_Movement->GetPendingInputVector().ToString());
+
+	if (m_Sprite->GetFlipbook() != DesiredAnimation)
+	{
+		print("Animation change");
+		print (("Input Vector %s", *m_Movement->GetPendingInputVector().ToString()));
+	
+		m_Sprite->SetFlipbook(DesiredAnimation);
+	}
 }
 
 // Called to bind functionality to input
@@ -92,6 +87,11 @@ void APlayerZero::MoveHorizontal(float value)
 	{
 		if (value > 0.0f)
 		{
+			if (m_Sprite)
+			{
+				m_Sprite->SetFlipbook(m_WalkAnim);
+			}
+
 			if (!m_faceing_Left_Right)
 			{
 				FlipCharicter();
@@ -101,6 +101,11 @@ void APlayerZero::MoveHorizontal(float value)
 		}
 		else if (value < 0.0f)
 		{
+			if (m_Sprite)
+			{
+				m_Sprite->SetFlipbook(m_WalkAnim);
+			}
+
 			if (m_faceing_Left_Right)
 			{
 				FlipCharicter();
@@ -131,15 +136,15 @@ void APlayerZero::FlipCharicter()
 	if (m_faceing_Left_Right)
 	{
 		//EDIT
-		//m_Movement->m_Sprite->SetRelativeLocation(FVector(-30.0f, 0.0f, 90.0f));
+		m_Sprite->SetWorldRotation(FRotator(0.0f, 270.0f, 0.0f));
 
-		m_CameraArm->RelativeRotation = FRotator(-30.0f, 180.0f, 0.0f);
+		//m_CameraArm->RelativeRotation = FRotator(-30.0f, 180.0f, 0.0f);
 	}
 	else
 	{
-		//m_Movement->m_Sprite->SetRelativeLocation(FVector(30.0f, 0.0f, 270.0f));
+		m_Sprite->SetWorldRotation(FRotator(0.0f, 90.0f, 0.0f));
 
-		m_CameraArm->RelativeRotation = FRotator(-30.0f, 0.0f, 0.0f);
+		//m_CameraArm->RelativeRotation = FRotator(-30.0f, 0.0f, 0.0f);
 	}
 }
 

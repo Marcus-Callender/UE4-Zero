@@ -41,7 +41,7 @@ private:
 
 	class USpringArmComponent* m_CameraArm;
 
-	class UPaperFlipbook* m_Animation;
+	class UPaperFlipbook* m_NextAnimation;
 
 public:
 

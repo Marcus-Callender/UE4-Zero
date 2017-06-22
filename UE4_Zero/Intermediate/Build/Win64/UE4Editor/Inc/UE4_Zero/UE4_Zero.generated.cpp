@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 	void UPlayerMovement::StaticRegisterNativesUPlayerMovement()
 	{
 	}
-	IMPLEMENT_CLASS(UPlayerMovement, 193093228);
+	IMPLEMENT_CLASS(UPlayerMovement, 2394685012);
 	void APlayerZero::StaticRegisterNativesAPlayerZero()
 	{
 	}
@@ -31,8 +31,8 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
 	ENGINE_API class UClass* Z_Construct_UClass_UPawnMovementComponent();
-	PAPER2D_API class UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
+	PAPER2D_API class UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
 	PAPER2D_API class UClass* Z_Construct_UClass_UPaperFlipbookComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 
@@ -96,20 +96,12 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 				OuterClass->ClassFlags |= 0x20B00084;
 
 
-PRAGMA_DISABLE_DEPRECATION_WARNINGS
-				UProperty* NewProp_m_WalkAnim = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_WalkAnim"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_WalkAnim, UPlayerMovement), 0x0010000000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
-				UProperty* NewProp_m_StandAnim = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_StandAnim"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_StandAnim, UPlayerMovement), 0x0010000000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->ClassConfigName = FName(TEXT("Engine"));
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PlayerMovement.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PlayerMovement.h"));
-				MetaData->SetValue(NewProp_m_WalkAnim, TEXT("Category"), TEXT("Animations"));
-				MetaData->SetValue(NewProp_m_WalkAnim, TEXT("ModuleRelativePath"), TEXT("PlayerMovement.h"));
-				MetaData->SetValue(NewProp_m_StandAnim, TEXT("Category"), TEXT("Animations"));
-				MetaData->SetValue(NewProp_m_StandAnim, TEXT("ModuleRelativePath"), TEXT("PlayerMovement.h"));
 #endif
 			}
 		}
@@ -203,7 +195,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UE4_Zero")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x9F0361D8;
+			Guid.A = 0x32349C11;
 			Guid.B = 0xBF04E63C;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
