@@ -37,6 +37,7 @@ APlayerZero::APlayerZero()
 
 	m_Sprite = CreateDefaultSubobject<UPaperFlipbookComponent>("Sprite");
 
+	// checks the sprite creation was sucsesful before modifying it
 	if (m_Sprite)
 	{
 		m_Sprite->SetupAttachment(GetCapsuleComponent());
@@ -59,17 +60,15 @@ void APlayerZero::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	UPaperFlipbook* DesiredAnimation = (m_Movement->GetPendingInputVector().IsNearlyZero()) ? m_WalkAnim : m_StandAnim;
-	
-	//UE_LOG(LogTemp, Warning, TEXT("Input Vector %s"), *m_Movement->GetPendingInputVector().ToString());
-
-	if (m_Sprite->GetFlipbook() != DesiredAnimation)
+	// checks if the animation needs to change
+	if (m_Sprite->GetFlipbook() != m_NextAnimation)
 	{
-		print("Animation change");
-		print (("Input Vector %s", *m_Movement->GetPendingInputVector().ToString()));
-	
-		m_Sprite->SetFlipbook(DesiredAnimation);
+		// sets the new animation to play
+		m_Sprite->SetFlipbook(m_NextAnimation);
 	}
+
+	m_NextAnimation = m_StandAnim;
+
 }
 
 // Called to bind functionality to input
@@ -77,6 +76,7 @@ void APlayerZero::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	// assigns the axis inputs to call a required function so the inputs can be checked
 	InputComponent->BindAxis("Vertical", this, &APlayerZero::SetVerticalVelocity);
 	InputComponent->BindAxis("Horizontal", this, &APlayerZero::MoveHorizontal);
 }
@@ -87,10 +87,7 @@ void APlayerZero::MoveHorizontal(float value)
 	{
 		if (value > 0.0f)
 		{
-			if (m_Sprite)
-			{
-				m_Sprite->SetFlipbook(m_WalkAnim);
-			}
+			m_NextAnimation = m_WalkAnim;
 
 			if (!m_faceing_Left_Right)
 			{
@@ -101,10 +98,7 @@ void APlayerZero::MoveHorizontal(float value)
 		}
 		else if (value < 0.0f)
 		{
-			if (m_Sprite)
-			{
-				m_Sprite->SetFlipbook(m_WalkAnim);
-			}
+			m_NextAnimation = m_WalkAnim;
 
 			if (m_faceing_Left_Right)
 			{
@@ -122,6 +116,12 @@ void APlayerZero::SetVerticalVelocity(float value)
 {
 	if (m_Movement && (m_Movement->UpdatedComponent == RootComponent))
 	{
+		if (value != 0.0f)
+		{
+			// if there is vertical movement sets the animation to walking
+			m_NextAnimation = m_WalkAnim;
+		}
+
 		m_Movement->AddInputVector(GetActorForwardVector() * value);
 	}
 }
@@ -133,18 +133,15 @@ UPawnMovementComponent * APlayerZero::GetMovementComponent() const
 
 void APlayerZero::FlipCharicter()
 {
+	// rotates the playes sprite to face the direction of there input
+
 	if (m_faceing_Left_Right)
 	{
-		//EDIT
 		m_Sprite->SetWorldRotation(FRotator(0.0f, 270.0f, 0.0f));
-
-		//m_CameraArm->RelativeRotation = FRotator(-30.0f, 180.0f, 0.0f);
 	}
 	else
 	{
 		m_Sprite->SetWorldRotation(FRotator(0.0f, 90.0f, 0.0f));
-
-		//m_CameraArm->RelativeRotation = FRotator(-30.0f, 0.0f, 0.0f);
 	}
 }
 

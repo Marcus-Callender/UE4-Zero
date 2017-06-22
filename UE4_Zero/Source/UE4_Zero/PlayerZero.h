@@ -46,7 +46,7 @@ private:
 public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Character)
-	class UPaperFlipbookComponent* m_Sprite;
+		class UPaperFlipbookComponent* m_Sprite;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		class UPaperFlipbook* m_StandAnim;
