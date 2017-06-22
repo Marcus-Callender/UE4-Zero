@@ -31,7 +31,23 @@ APlayerZero::APlayerZero()
 
 	m_Movement->UpdatedComponent = RootComponent;
 
-	m_Sprite = CreateDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite"));
+	//m_Sprite = CreateDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite"));
+
+	m_Sprite = CreateDefaultSubobject<UPaperFlipbookComponent>("Sprite");
+
+	if (m_Sprite)
+	{
+		m_Sprite->SetupAttachment(GetCapsuleComponent());
+		//m_Sprite->AlwaysLoadOnClient = true;
+		//m_Sprite->AlwaysLoadOnServer = true;
+		//m_Sprite->bOwnerNoSee = false;
+		//m_Sprite->bAffectDynamicIndirectLighting = true;
+		//m_Sprite->PrimaryComponentTick.TickGroup = TG_PrePhysics;
+		//static FName CollisionProfileName(TEXT("CharacterMesh"));
+		//m_Sprite->SetCollisionProfileName(CollisionProfileName);
+		//m_Sprite->bGenerateOverlapEvents = false;
+		m_Sprite->SetFlipbook(m_StandAnim);
+	}
 
 	m_Movement->m_WalkAnim = m_WalkAnim;
 	m_Movement->m_StandAnim = m_StandAnim;
