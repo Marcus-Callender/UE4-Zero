@@ -7,6 +7,8 @@
 
 #include "PaperFlipbookComponent.h"
 
+#include "Bullet.h"
+
 #define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::White,text)
 
 // Sets default values
@@ -32,6 +34,8 @@ APlayerZero::APlayerZero()
 	m_Movement = CreateDefaultSubobject<UPlayerMovement>(TEXT("CustomMovement"));
 
 	m_Movement->UpdatedComponent = RootComponent;
+
+	m_collider = Cast<UCapsuleComponent>(this->GetComponentByClass(UCapsuleComponent::StaticClass()));
 
 	//m_Sprite = CreateDefaultSubobject<UPaperFlipbookComponent>(TEXT("Sprite"));
 
@@ -79,6 +83,9 @@ void APlayerZero::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	// assigns the axis inputs to call a required function so the inputs can be checked
 	InputComponent->BindAxis("Vertical", this, &APlayerZero::SetVerticalVelocity);
 	InputComponent->BindAxis("Horizontal", this, &APlayerZero::MoveHorizontal);
+
+	// called Attack when "Attack_1" is pressed
+	InputComponent->BindAction("Attack_1", IE_Pressed, this, &APlayerZero::Attack);
 }
 
 void APlayerZero::MoveHorizontal(float value)
@@ -143,5 +150,31 @@ void APlayerZero::FlipCharicter()
 	{
 		m_Sprite->SetWorldRotation(FRotator(0.0f, 90.0f, 0.0f));
 	}
+}
+
+void APlayerZero::FireBullet()
+{
+	if (m_Bullet)
+	{
+		UWorld* World = GetWorld();
+
+		if (World)
+		{
+			FActorSpawnParameters SpawnParams;
+			SpawnParams.Owner = this;
+			SpawnParams.Instigator = Instigator;
+			ABullet* Projectile = World->SpawnActor <ABullet> (m_Bullet, m_collider->GetComponentLocation(),  FRotator(0.0f, 1.0f, 0.0f), SpawnParams);
+			
+			if (Projectile)
+			{
+				Projectile->Fire(FVector(0.0f, 1.0f, 0.0f));
+			}
+		}
+	}
+}
+
+void APlayerZero::Attack()
+{
+	FireBullet();
 }
 

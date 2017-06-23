@@ -14,7 +14,7 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 	void ABullet::StaticRegisterNativesABullet()
 	{
 	}
-	IMPLEMENT_CLASS(ABullet, 444424619);
+	IMPLEMENT_CLASS(ABullet, 563708539);
 	void AMy_PlayerController::StaticRegisterNativesAMy_PlayerController()
 	{
 	}
@@ -26,7 +26,7 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 	void APlayerZero::StaticRegisterNativesAPlayerZero()
 	{
 	}
-	IMPLEMENT_CLASS(APlayerZero, 2627304757);
+	IMPLEMENT_CLASS(APlayerZero, 1128935404);
 	void AUE4_ZeroGameModeBase::StaticRegisterNativesAUE4_ZeroGameModeBase()
 	{
 	}
@@ -34,9 +34,12 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_APawn();
+	ENGINE_API class UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
 	ENGINE_API class UClass* Z_Construct_UClass_UPawnMovementComponent();
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
+	COREUOBJECT_API class UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	PAPER2D_API class UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
 	PAPER2D_API class UClass* Z_Construct_UClass_UPaperFlipbookComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
@@ -70,12 +73,23 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 				OuterClass->ClassFlags |= 0x20900080;
 
 
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_m_projecileMovement = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_projecileMovement"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_projecileMovement, ABullet), 0x00100000000a0009, Z_Construct_UClass_UProjectileMovementComponent_NoRegister());
+				UProperty* NewProp_m_colider = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_colider"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_colider, ABullet), 0x00100000000b0009, Z_Construct_UClass_USphereComponent_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Bullet.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Bullet.h"));
+				MetaData->SetValue(NewProp_m_projecileMovement, TEXT("Category"), TEXT("Movement"));
+				MetaData->SetValue(NewProp_m_projecileMovement, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_m_projecileMovement, TEXT("ModuleRelativePath"), TEXT("Bullet.h"));
+				MetaData->SetValue(NewProp_m_projecileMovement, TEXT("ToolTip"), TEXT("a class provided by UE4 for controling a projectiles movement"));
+				MetaData->SetValue(NewProp_m_colider, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_m_colider, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_m_colider, TEXT("ModuleRelativePath"), TEXT("Bullet.h"));
 #endif
 			}
 		}
@@ -168,6 +182,8 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_m_Bullet = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_Bullet"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(m_Bullet, APlayerZero), 0x0014000000010001, Z_Construct_UClass_ABullet_NoRegister(), UClass::StaticClass());
+				UProperty* NewProp_m_projectileOffset = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_projectileOffset"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(m_projectileOffset, APlayerZero), 0x0010000000000005, Z_Construct_UScriptStruct_FVector());
 				UProperty* NewProp_m_WalkAnim = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_WalkAnim"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_WalkAnim, APlayerZero), 0x0010000000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_m_StandAnim = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_StandAnim"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_StandAnim, APlayerZero), 0x0010000000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_m_Sprite = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_Sprite"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_Sprite, APlayerZero), 0x00100000000a001d, Z_Construct_UClass_UPaperFlipbookComponent_NoRegister());
@@ -178,6 +194,10 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PlayerZero.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PlayerZero.h"));
+				MetaData->SetValue(NewProp_m_Bullet, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_m_Bullet, TEXT("ModuleRelativePath"), TEXT("PlayerZero.h"));
+				MetaData->SetValue(NewProp_m_projectileOffset, TEXT("Category"), TEXT("Gameplay"));
+				MetaData->SetValue(NewProp_m_projectileOffset, TEXT("ModuleRelativePath"), TEXT("PlayerZero.h"));
 				MetaData->SetValue(NewProp_m_WalkAnim, TEXT("Category"), TEXT("Animations"));
 				MetaData->SetValue(NewProp_m_WalkAnim, TEXT("ModuleRelativePath"), TEXT("PlayerZero.h"));
 				MetaData->SetValue(NewProp_m_StandAnim, TEXT("Category"), TEXT("Animations"));
@@ -234,7 +254,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UE4_Zero")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x3725710D;
+			Guid.A = 0x25E90A0B;
 			Guid.B = 0x93D584E3;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

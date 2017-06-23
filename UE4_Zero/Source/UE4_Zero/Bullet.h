@@ -25,6 +25,12 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	
-	
+	void Fire(const FVector& dir);
+
+	UPROPERTY (VisibleDefaultsOnly, Category = Projectile)
+		USphereComponent* m_colider;
+
+	// a class provided by UE4 for controling a projectiles movement
+	UPROPERTY (VisibleAnywhere, Category = Movement)
+		UProjectileMovementComponent* m_projecileMovement;
 };

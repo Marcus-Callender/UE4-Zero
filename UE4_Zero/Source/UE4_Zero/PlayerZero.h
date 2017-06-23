@@ -37,11 +37,15 @@ private:
 
 	void FlipCharicter();
 
+	void FireBullet();
+
 	bool m_faceing_Left_Right = false;
 
 	class USpringArmComponent* m_CameraArm;
-
 	class UPaperFlipbook* m_NextAnimation;
+
+	UCapsuleComponent* m_collider;
+
 
 public:
 
@@ -53,4 +57,13 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		class UPaperFlipbook* m_WalkAnim;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		FVector m_projectileOffset;
+
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class ABullet> m_Bullet;
+
+	void Attack();
+
 };
