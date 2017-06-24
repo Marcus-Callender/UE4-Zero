@@ -62,6 +62,7 @@ APlayerZero::APlayerZero()
 
 	m_dir = new FVector(1.0f, 0.0f, 0.0f);
 	m_newDir = new FVector(0.0f, 0.0f, 0.0f);
+	m_currentAttack = NONE;
 }
 
 // Called when the game starts or when spawned
@@ -76,6 +77,24 @@ void APlayerZero::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (m_currentAttack == NONE)
+	{
+
+		if (!m_newDir->IsNearlyZero())
+		{
+			if (!m_newDir->Normalize())
+			{
+				print("Normalize failed");
+			}
+
+			m_dir = m_newDir;
+		}
+	}
+	else if (m_currentAttack == SHOOT)
+	{
+		TickShoot();
+	}
+
 	// checks if the animation needs to change
 	if (m_Sprite->GetFlipbook() != m_NextAnimation)
 	{
@@ -84,13 +103,6 @@ void APlayerZero::Tick(float DeltaTime)
 	}
 
 	m_NextAnimation = m_StandAnim;
-
-	if (m_newDir->X != 0.0f || m_newDir->Y != 0.0f)
-	{
-		m_dir = m_newDir;
-	}
-
-	//m_newDir = new FVector(0.0f, 0.0f, 0.0f);
 }
 
 // Called to bind functionality to input
@@ -108,56 +120,64 @@ void APlayerZero::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 void APlayerZero::MoveHorizontal(float value)
 {
-	if (m_Movement && (m_Movement->UpdatedComponent == RootComponent))
+	if (m_currentAttack == NONE)
 	{
-		if (value > 0.0f)
-		{
-			m_NextAnimation = m_WalkAnim;
 
-			if (!m_faceing_Left_Right)
+		if (m_Movement && (m_Movement->UpdatedComponent == RootComponent))
+		{
+			if (value > 0.0f)
 			{
-				FlipCharicter();
+				m_NextAnimation = m_WalkAnim;
+
+				if (!m_faceing_Left_Right)
+				{
+					FlipCharicter();
+				}
+
+				m_faceing_Left_Right = true;
+			}
+			else if (value < 0.0f)
+			{
+				m_NextAnimation = m_WalkAnim;
+
+				if (m_faceing_Left_Right)
+				{
+					FlipCharicter();
+				}
+
+				m_faceing_Left_Right = false;
 			}
 
-			m_faceing_Left_Right = true;
-		}
-		else if (value < 0.0f)
-		{
-			m_NextAnimation = m_WalkAnim;
-
-			if (m_faceing_Left_Right)
+			if (m_newDir)
 			{
-				FlipCharicter();
+				m_newDir->Y = value;
 			}
 
-			m_faceing_Left_Right = false;
+			m_Movement->AddInputVector(GetActorRightVector() * value);
 		}
-
-		if (m_newDir)
-		{
-			m_newDir->Y = value;
-		}
-
-		m_Movement->AddInputVector(GetActorRightVector() * value);
 	}
 }
 
 void APlayerZero::SetVerticalVelocity(float value)
 {
-	if (m_Movement && (m_Movement->UpdatedComponent == RootComponent))
+	if (m_currentAttack == NONE)
 	{
-		if (value != 0.0f)
-		{
-			// if there is vertical movement sets the animation to walking
-			m_NextAnimation = m_WalkAnim;
-		}
 
-		if (m_newDir)
+		if (m_Movement && (m_Movement->UpdatedComponent == RootComponent))
 		{
-			m_newDir->X = value;
-		}
+			if (value != 0.0f)
+			{
+				// if there is vertical movement sets the animation to walking
+				m_NextAnimation = m_WalkAnim;
+			}
 
-		m_Movement->AddInputVector(GetActorForwardVector() * value);
+			if (m_newDir)
+			{
+				m_newDir->X = value;
+			}
+
+			m_Movement->AddInputVector(GetActorForwardVector() * value);
+		}
 	}
 }
 
@@ -205,8 +225,33 @@ void APlayerZero::FireBullet()
 	}
 }
 
+void APlayerZero::TickShoot()
+{
+	m_NextAnimation = m_ShootAnim;
+
+	FString stringPos = FString::FromInt(m_Sprite->GetPlaybackPositionInFrames());
+	FString stringLen = FString::FromInt(m_Sprite->GetFlipbookLengthInFrames());
+
+	print(stringPos + " / " + stringLen);
+
+	if ((m_Sprite->GetFlipbookLengthInFrames() - 1 == m_Sprite->GetPlaybackPositionInFrames()) && m_Sprite->GetFlipbook() == m_ShootAnim)
+	{
+		print("End");
+		m_currentAttack = NONE;
+		m_Sprite->SetLooping(true);
+	}
+}
+
 void APlayerZero::Attack()
 {
-	FireBullet();
+	if (m_currentAttack == NONE)
+	{
+		m_currentAttack = SHOOT;
+		m_NextAnimation = m_ShootAnim;
+		m_Sprite->SetLooping(false);
+
+		FireBullet();
+
+	}
 }
 

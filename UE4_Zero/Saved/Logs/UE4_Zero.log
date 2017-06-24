@@ -476,3 +476,1351 @@ LogInit: Object subsystem initialized
 [2017.06.24-15.20.08:648][502]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-16.20.08
 [2017.06.24-15.20.08:648][502]LogWorld: Bringing up level for play took: 0.001100
 [2017.06.24-15.20.08:650][502]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.584
+[2017.06.24-15.27.05:767][277]Recompiling UE4_Zero...
+[2017.06.24-15.27.05:767][277]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 70 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-15.27.05:774][277]Warning: Starting HotReload took  0.0s.
+[2017.06.24-15.27.24:079][455]CompilerResultsLog: New page: Compilation - 24 Jun 2017 17:27:24
+[2017.06.24-15.27.24:079][455]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-15.27.24:079][455]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-15.27.24:079][455]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-15.27.24:080][455]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.3925132 seconds
+[2017.06.24-15.27.24:080][455]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-15.27.24:080][455]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-15.27.24:080][455]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-70.dll
+[2017.06.24-15.27.24:080][455]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-70.lib
+[2017.06.24-15.27.24:080][455]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-70.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-70.exp
+[2017.06.24-15.27.24:080][455]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-70.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-70.suppressed.exp
+[2017.06.24-15.27.24:080][455]CompilerResultsLog: Info Total build time: 17.93 seconds (Local executor: 3.70 seconds)
+[2017.06.24-15.27.24:081][455]LogMainFrame: MainFrame: Module compiling took 18.321 seconds
+[2017.06.24-15.27.24:266][455]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-15.27.24:268][455]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-15.27.24:296][455]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-15.27.24:296][455]Display: HotReload took 18.5s.
+[2017.06.24-15.27.25:882][645]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-15.27.25:896][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-15.27.25:896][645]PIE: New page: PIE session: Start (24 Jun 2017 17:27:25)
+[2017.06.24-15.27.25:897][645]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-15.27.25:898][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001819s)
+[2017.06.24-15.27.25:899][645]LogAIModule: Creating AISystem for world Start
+[2017.06.24-15.27.25:899][645]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2017.06.24-15.27.25:900][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003139s)
+[2017.06.24-15.27.25:912][645]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-15.27.25:919][645]LogInit: FAudioDevice initialized.
+[2017.06.24-15.27.25:952][645]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-15.27.25:954][645]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-16.27.25
+[2017.06.24-15.27.25:954][645]LogWorld: Bringing up level for play took: 0.001320
+[2017.06.24-15.27.25:955][645]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.111
+[2017.06.24-15.28.45:406][369]Recompiling UE4_Zero...
+[2017.06.24-15.28.45:406][369]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 2913 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-15.28.45:412][369]Warning: Starting HotReload took  0.0s.
+[2017.06.24-15.29.00:768][610]CompilerResultsLog: New page: Compilation - 24 Jun 2017 17:29:00
+[2017.06.24-15.29.00:768][610]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-15.29.00:768][610]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-15.29.00:768][610]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-15.29.00:768][610]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.2448186 seconds
+[2017.06.24-15.29.00:768][610]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-15.29.00:769][610]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-15.29.00:769][610]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(89) : error C2276: '!': illegal operation on bound member function expression
+[2017.06.24-15.29.00:769][610]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero-2913.dll
+[2017.06.24-15.29.00:769][610]CompilerResultsLog: Info Total build time: 14.82 seconds (Local executor: 0.00 seconds)
+[2017.06.24-15.29.00:769][610]LogMainFrame: MainFrame: Module compiling took 15.371 seconds
+[2017.06.24-15.29.00:769][610]Warning: HotReload failed, recompile failed
+[2017.06.24-15.29.15:778][655]Recompiling UE4_Zero...
+[2017.06.24-15.29.15:779][655]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 1952 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-15.29.15:785][655]Warning: Starting HotReload took  0.0s.
+[2017.06.24-15.29.33:966][820]CompilerResultsLog: New page: Compilation - 24 Jun 2017 17:29:33
+[2017.06.24-15.29.33:966][820]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-15.29.33:966][820]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-15.29.33:966][820]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-15.29.33:967][820]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.2322056 seconds
+[2017.06.24-15.29.33:967][820]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-15.29.33:967][820]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-15.29.33:967][820]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-1952.dll
+[2017.06.24-15.29.33:967][820]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-1952.lib
+[2017.06.24-15.29.33:967][820]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1952.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1952.exp
+[2017.06.24-15.29.33:967][820]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1952.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1952.suppressed.exp
+[2017.06.24-15.29.33:967][820]CompilerResultsLog: Info Total build time: 17.81 seconds (Local executor: 3.87 seconds)
+[2017.06.24-15.29.33:967][820]LogMainFrame: MainFrame: Module compiling took 18.197 seconds
+[2017.06.24-15.29.34:146][820]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-15.29.34:147][820]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-15.29.34:176][820]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-15.29.34:176][820]Display: HotReload took 18.4s.
+[2017.06.24-15.30.10:313][156]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-15.30.10:329][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-15.30.10:329][156]PIE: New page: PIE session: Start (24 Jun 2017 17:30:10)
+[2017.06.24-15.30.10:330][156]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-15.30.10:332][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001988s)
+[2017.06.24-15.30.10:332][156]LogAIModule: Creating AISystem for world Start
+[2017.06.24-15.30.10:333][156]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2017.06.24-15.30.10:333][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003312s)
+[2017.06.24-15.30.10:345][156]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-15.30.10:352][156]LogInit: FAudioDevice initialized.
+[2017.06.24-15.30.10:382][156]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-15.30.10:385][156]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-16.30.10
+[2017.06.24-15.30.10:385][156]LogWorld: Bringing up level for play took: 0.001265
+[2017.06.24-15.30.10:386][156]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.32
+[2017.06.24-16.08.14:103][161]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-16.08.14:118][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-16.08.14:119][161]PIE: New page: PIE session: Start (24 Jun 2017 18:08:14)
+[2017.06.24-16.08.14:119][161]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-16.08.14:121][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002114s)
+[2017.06.24-16.08.14:122][161]LogAIModule: Creating AISystem for world Start
+[2017.06.24-16.08.14:122][161]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2017.06.24-16.08.14:123][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003900s)
+[2017.06.24-16.08.14:136][161]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-16.08.14:144][161]LogInit: FAudioDevice initialized.
+[2017.06.24-16.08.14:175][161]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-16.08.14:177][161]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-17.08.14
+[2017.06.24-16.08.14:177][161]LogWorld: Bringing up level for play took: 0.001208
+[2017.06.24-16.08.14:179][161]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.113
+[2017.06.24-16.08.28:130][771]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-16.08.28:145][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-16.08.28:145][771]PIE: New page: PIE session: Start (24 Jun 2017 18:08:28)
+[2017.06.24-16.08.28:145][771]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-16.08.28:148][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002134s)
+[2017.06.24-16.08.28:148][771]LogAIModule: Creating AISystem for world Start
+[2017.06.24-16.08.28:149][771]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2017.06.24-16.08.28:149][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003488s)
+[2017.06.24-16.08.28:187][771]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-16.08.28:193][771]LogInit: FAudioDevice initialized.
+[2017.06.24-16.08.28:227][771]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-16.08.28:229][771]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-17.08.28
+[2017.06.24-16.08.28:229][771]LogWorld: Bringing up level for play took: 0.001295
+[2017.06.24-16.08.28:230][771]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.164
+[2017.06.24-16.08.31:797][174]Cmd: TRANSACTION UNDO
+[2017.06.24-16.08.31:797][174]LogEditorTransaction: Undo Create Actors
+[2017.06.24-16.08.33:192][334]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.24-16.08.33:203][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.24-16.08.33:262][334]LogSavePackage: Save=19.30ms
+[2017.06.24-16.08.33:263][334]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start53B1259145551E9C64B9BB891CC6175B.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap'
+[2017.06.24-16.08.33:269][334]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap
+[2017.06.24-16.08.33:300][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start_BuiltData" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset" SILENT=true
+[2017.06.24-16.08.33:339][334]LogSavePackage: Save=11.59ms
+[2017.06.24-16.08.33:339][334]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start_BuiltData6C5B379F45E69945D4877A933C004F48.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset'
+[2017.06.24-16.08.33:342][334]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset
+[2017.06.24-16.08.34:534][476]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-16.08.34:549][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-16.08.34:549][476]PIE: New page: PIE session: Start (24 Jun 2017 18:08:34)
+[2017.06.24-16.08.34:549][476]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-16.08.34:551][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001464s)
+[2017.06.24-16.08.34:552][476]LogAIModule: Creating AISystem for world Start
+[2017.06.24-16.08.34:552][476]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2017.06.24-16.08.34:552][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.002920s)
+[2017.06.24-16.08.34:562][476]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-16.08.34:568][476]LogInit: FAudioDevice initialized.
+[2017.06.24-16.08.34:600][476]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-16.08.34:602][476]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-17.08.34
+[2017.06.24-16.08.34:602][476]LogWorld: Bringing up level for play took: 0.000951
+[2017.06.24-16.08.34:603][476]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.537
+[2017.06.24-16.08.36:255][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.24-16.08.36:306][665]LogSavePackage: Save=18.17ms
+[2017.06.24-16.08.36:306][665]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start1928278246F8AFE9F8DE3398AA32E810.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap'
+[2017.06.24-16.08.36:309][665]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap
+[2017.06.24-16.08.36:341][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start_BuiltData" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset" SILENT=true
+[2017.06.24-16.08.36:377][665]LogSavePackage: Save=9.39ms
+[2017.06.24-16.08.36:377][665]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Start_BuiltData46137F604F0DB957759F6A8A2F9C0B72.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset'
+[2017.06.24-16.08.36:380][665]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start_BuiltData.uasset
+[2017.06.24-16.14.54:639][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.24-16.14.55:935][ 65]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.24-16.15.35:378][342]Recompiling UE4_Zero...
+[2017.06.24-16.15.35:379][342]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 9367 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-16.15.35:386][342]Warning: Starting HotReload took  0.0s.
+[2017.06.24-16.15.53:155][461]CompilerResultsLog: New page: Compilation - 24 Jun 2017 18:15:53
+[2017.06.24-16.15.53:155][461]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-16.15.53:155][461]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-16.15.53:155][461]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-16.15.53:155][461]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.9613497 seconds
+[2017.06.24-16.15.53:156][461]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-16.15.53:156][461]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-16.15.53:156][461]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-9367.dll
+[2017.06.24-16.15.53:156][461]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-9367.lib
+[2017.06.24-16.15.53:156][461]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9367.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9367.exp
+[2017.06.24-16.15.53:156][461]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9367.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9367.suppressed.exp
+[2017.06.24-16.15.53:156][461]CompilerResultsLog: Info Total build time: 17.41 seconds (Local executor: 3.78 seconds)
+[2017.06.24-16.15.53:156][461]LogMainFrame: MainFrame: Module compiling took 17.786 seconds
+[2017.06.24-16.15.53:343][461]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-16.15.53:344][461]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-16.15.53:373][461]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-16.15.53:373][461]Display: HotReload took 18.0s.
+[2017.06.24-16.16.09:708][421]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-16.16.09:723][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-16.16.09:723][421]PIE: New page: PIE session: Start (24 Jun 2017 18:16:09)
+[2017.06.24-16.16.09:724][421]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-16.16.09:726][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001838s)
+[2017.06.24-16.16.09:726][421]LogAIModule: Creating AISystem for world Start
+[2017.06.24-16.16.09:727][421]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2017.06.24-16.16.09:727][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003310s)
+[2017.06.24-16.16.09:739][421]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-16.16.09:747][421]LogInit: FAudioDevice initialized.
+[2017.06.24-16.16.09:776][421]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-16.16.09:778][421]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-17.16.09
+[2017.06.24-16.16.09:778][421]LogWorld: Bringing up level for play took: 0.001111
+[2017.06.24-16.16.09:779][421]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.287
+[2017.06.24-16.25.00:617][892]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-16.25.00:632][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-16.25.00:632][892]PIE: New page: PIE session: Start (24 Jun 2017 18:25:00)
+[2017.06.24-16.25.00:632][892]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-16.25.00:635][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002085s)
+[2017.06.24-16.25.00:636][892]LogAIModule: Creating AISystem for world Start
+[2017.06.24-16.25.00:636][892]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2017.06.24-16.25.00:636][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003692s)
+[2017.06.24-16.25.00:646][892]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-16.25.00:655][892]LogInit: FAudioDevice initialized.
+[2017.06.24-16.25.00:684][892]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-16.25.00:686][892]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-17.25.00
+[2017.06.24-16.25.00:687][892]LogWorld: Bringing up level for play took: 0.001465
+[2017.06.24-16.25.00:688][892]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.622
+[2017.06.24-16.25.01:988][ 14]LogSlate: Took 0.027206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.24-16.31.31:007][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.24-16.31.31:027][476]LogSavePackage: Save=9.38ms
+[2017.06.24-16.31.31:027][476]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Menu70D84A024B1852EAE31DB1AF856582A3.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Menu.umap'
+[2017.06.24-16.31.31:032][476]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Menu.umap
+[2017.06.24-16.31.31:033][476]LogFileHelpers: Saving map 'Menu' took 0.126
+[2017.06.24-16.31.32:401][627]Cmd: MAP LOAD FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.24-16.31.32:401][627]LightingResults: New page: Lighting Build
+[2017.06.24-16.31.32:403][627]LoadErrors: New page: Loading map: Menu.umap
+[2017.06.24-16.31.32:435][627]MapCheck: New page: Map Check
+[2017.06.24-16.31.32:436][627]LightingResults: New page: Lighting Build
+[2017.06.24-16.31.32:517][627]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.24-16.31.32:517][627]LogAIModule: Creating AISystem for world Menu
+[2017.06.24-16.31.32:554][627]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.24-16.31.32:653][627]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.385ms to complete.
+[2017.06.24-16.31.32:654][627]LogFileHelpers: Loading map 'Menu' took 0.259
+[2017.06.24-16.31.38:434][157]LightingResults: New page: Lighting Build
+[2017.06.24-16.31.38:434][157]MapCheck: New page: Map Check
+[2017.06.24-16.31.38:434][157]LightingResults: New page: Lighting Build
+[2017.06.24-16.31.38:445][157]LogAIModule: Creating AISystem for world Untitled
+[2017.06.24-16.31.38:506][157]LoadErrors: New page: New Map
+[2017.06.24-16.31.38:511][157]LogAIModule: Creating AISystem for world Menu
+[2017.06.24-16.31.40:761][345]LogAIModule: Creating AISystem for world Start
+[2017.06.24-16.31.40:797][345]Cmd: MAP LOAD FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.24-16.31.40:798][345]LightingResults: New page: Lighting Build
+[2017.06.24-16.31.40:799][345]LoadErrors: New page: Loading map: Start.umap
+[2017.06.24-16.31.40:800][345]MapCheck: New page: Map Check
+[2017.06.24-16.31.40:800][345]LightingResults: New page: Lighting Build
+[2017.06.24-16.31.40:887][345]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.24-16.31.40:912][345]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.24-16.31.41:010][345]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.775ms to complete.
+[2017.06.24-16.31.41:010][345]LogFileHelpers: Loading map 'Start' took 0.214
+[2017.06.24-16.31.42:931][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Start" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.24-16.31.42:986][544]LogSavePackage: Save=18.90ms
+[2017.06.24-16.31.42:986][544]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/StartE0CBA8A4426C08B32714C9B3AA189DA2.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap'
+[2017.06.24-16.31.42:990][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Maps/Start.umap
+[2017.06.24-16.31.43:017][544]LogFileHelpers: Saving map 'Start' took 0.186
+[2017.06.24-16.49.39:833][722]LogHttp:Warning: 000001747823A200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.24-16.49.39:834][722]LogHttp:Warning: 000001747823A200: libcurl info message cache 0 (Connection 24 seems to be dead!)
+[2017.06.24-16.49.39:834][722]LogHttp:Warning: 000001747823A200: libcurl info message cache 1 (Closing connection 24)
+[2017.06.24-16.49.39:834][722]LogHttp:Warning: 000001747823A200: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.06.24-16.49.39:834][722]LogHttp:Warning: 000001747823A200: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.24-16.49.39:834][722]LogHttp:Warning: 000001747823A200: libcurl info message cache 4 (Closing connection 25)
+[2017.06.24-16.50.39:828][917]LogHttp:Warning: 0000017478239F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.24-16.50.39:829][917]LogHttp:Warning: 0000017478239F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.24-16.50.39:829][917]LogHttp:Warning: 0000017478239F00: libcurl info message cache 1 (Closing connection 26)
+[2017.06.24-16.51.39:797][ 90]LogHttp:Warning: 0000017478239F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.24-16.51.39:798][ 90]LogHttp:Warning: 0000017478239F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.24-16.51.39:798][ 90]LogHttp:Warning: 0000017478239F00: libcurl info message cache 1 (Closing connection 27)
+[2017.06.24-16.52.28:782][957]LogHttp:Warning: 0000017478239A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.24-16.52.28:783][957]LogHttp:Warning: 0000017478239A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.24-16.52.28:783][957]LogHttp:Warning: 0000017478239A80: libcurl info message cache 1 (Closing connection 28)
+[2017.06.24-16.53.39:814][460]LogHttp:Warning: 0000017478239A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.24-16.53.39:814][460]LogHttp:Warning: 0000017478239A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.24-16.53.39:814][460]LogHttp:Warning: 0000017478239A80: libcurl info message cache 1 (Closing connection 29)
+[2017.06.24-17.02.59:065][309]LogHttp:Warning: 0000017478239900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.24-17.02.59:065][309]LogHttp:Warning: 0000017478239900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x17412802ae8 [can pipeline])
+[2017.06.24-17.02.59:066][309]LogHttp:Warning: 0000017478239900: libcurl info message cache 1 (Re-using existing connection! (#32) with host datarouter.ol.epicgames.com)
+[2017.06.24-17.02.59:066][309]LogHttp:Warning: 0000017478239900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.20.6) port 443 (#32))
+[2017.06.24-17.02.59:066][309]LogHttp:Warning: 0000017478239900: libcurl info message cache 3 (upload completely sent off: 346 out of 346 bytes)
+[2017.06.24-17.02.59:066][309]LogHttp:Warning: 0000017478239900: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.06.24-17.02.59:066][309]LogHttp:Warning: 0000017478239900: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.24-17.02.59:066][309]LogHttp:Warning: 0000017478239900: libcurl info message cache 6 (Closing connection 32)
+[2017.06.24-17.02.59:066][309]LogHttp:Warning: 0000017478239900: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC6770B72-45C2-CAF3-8515-74ADB350C8DA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=97d3f40d403ff4a258d6f980a741b4dc%7C969837ba78db4a5a8b4180254925176e%7C81706c51-5e4d-4c53-8181-bc8c50ced6a7&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.24-17.02.59:067][309]LogHttp:Warning: 0000017478239900: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.24-17.02.59:067][309]LogHttp:Warning: 0000017478239900: libcurl info message cache 9 (Closing connection 33)
+[2017.06.24-17.04.43:140][628]Recompiling UE4_Zero...
+[2017.06.24-17.04.43:141][628]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 7689 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.04.43:148][628]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.05.04:216][136]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:05:04
+[2017.06.24-17.05.04:216][136]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.05.04:216][136]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.05.04:217][136]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.05.04:217][136]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.233216 seconds
+[2017.06.24-17.05.04:217][136]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.05.04:217][136]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.05.04:217][136]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-7689.dll
+[2017.06.24-17.05.04:217][136]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-7689.lib
+[2017.06.24-17.05.04:217][136]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7689.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7689.exp
+[2017.06.24-17.05.04:217][136]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7689.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7689.suppressed.exp
+[2017.06.24-17.05.04:218][136]CompilerResultsLog: Info Total build time: 20.60 seconds (Local executor: 6.54 seconds)
+[2017.06.24-17.05.04:219][136]LogMainFrame: MainFrame: Module compiling took 21.086 seconds
+[2017.06.24-17.05.04:391][136]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-17.05.04:392][136]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-17.05.04:422][136]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-17.05.04:422][136]Display: HotReload took 21.3s.
+[2017.06.24-17.05.06:937][438]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.05.06:951][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.05.06:951][438]PIE: New page: PIE session: Start (24 Jun 2017 19:05:06)
+[2017.06.24-17.05.06:951][438]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.05.06:954][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002308s)
+[2017.06.24-17.05.06:955][438]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.05.06:955][438]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2017.06.24-17.05.06:955][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003838s)
+[2017.06.24-17.05.06:967][438]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.05.06:974][438]LogInit: FAudioDevice initialized.
+[2017.06.24-17.05.07:001][438]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.05.07:004][438]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.05.07
+[2017.06.24-17.05.07:004][438]LogWorld: Bringing up level for play took: 0.001133
+[2017.06.24-17.05.07:005][438]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.939
+[2017.06.24-17.27.40:557][124]LogHttp:Warning: 000001747823B700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.24-17.27.40:557][124]LogHttp:Warning: 000001747823B700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x17412802b18 [can pipeline])
+[2017.06.24-17.27.40:558][124]LogHttp:Warning: 000001747823B700: libcurl info message cache 1 (Re-using existing connection! (#36) with host datarouter.ol.epicgames.com)
+[2017.06.24-17.27.40:558][124]LogHttp:Warning: 000001747823B700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.20.6) port 443 (#36))
+[2017.06.24-17.27.40:558][124]LogHttp:Warning: 000001747823B700: libcurl info message cache 3 (upload completely sent off: 338 out of 338 bytes)
+[2017.06.24-17.27.40:558][124]LogHttp:Warning: 000001747823B700: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2017.06.24-17.27.40:558][124]LogHttp:Warning: 000001747823B700: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.24-17.27.40:558][124]LogHttp:Warning: 000001747823B700: libcurl info message cache 6 (Closing connection 36)
+[2017.06.24-17.27.40:558][124]LogHttp:Warning: 000001747823B700: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.06.24-17.27.40:558][124]LogHttp:Warning: 000001747823B700: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC6770B72-45C2-CAF3-8515-74ADB350C8DA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=97d3f40d403ff4a258d6f980a741b4dc%7C969837ba78db4a5a8b4180254925176e%7C81706c51-5e4d-4c53-8181-bc8c50ced6a7&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.24-17.27.40:559][124]LogHttp:Warning: 000001747823B700: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.24-17.27.40:559][124]LogHttp:Warning: 000001747823B700: libcurl info message cache 10 (Closing connection 37)
+[2017.06.24-17.28.39:892][302]LogHttp:Warning: 0000017478239D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.24-17.28.39:892][302]LogHttp:Warning: 0000017478239D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.24-17.28.39:892][302]LogHttp:Warning: 0000017478239D80: libcurl info message cache 1 (Closing connection 38)
+[2017.06.24-17.31.10:498][898]Recompiling UE4_Zero...
+[2017.06.24-17.31.10:499][898]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 9969 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.31.10:504][898]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.31.34:518][764]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:31:34
+[2017.06.24-17.31.34:518][764]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.31.34:518][764]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.31.34:518][764]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.31.34:518][764]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.0240339 seconds
+[2017.06.24-17.31.34:519][764]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2017.06.24-17.31.34:519][764]CompilerResultsLog: Info UE4_Zero.generated.cpp
+[2017.06.24-17.31.34:519][764]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.31.34:519][764]CompilerResultsLog: Info My_PlayerController.cpp
+[2017.06.24-17.31.34:519][764]CompilerResultsLog: Info [4/5] Link UE4Editor-UE4_Zero-9969.dll
+[2017.06.24-17.31.34:519][764]CompilerResultsLog: Info [5/5] Link UE4Editor-UE4_Zero-9969.lib
+[2017.06.24-17.31.34:519][764]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9969.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9969.exp
+[2017.06.24-17.31.34:519][764]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9969.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9969.suppressed.exp
+[2017.06.24-17.31.34:519][764]CompilerResultsLog: Info Total build time: 23.68 seconds (Local executor: 9.74 seconds)
+[2017.06.24-17.31.34:519][764]LogMainFrame: MainFrame: Module compiling took 24.028 seconds
+[2017.06.24-17.31.34:691][764]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0027 seconds. Added 5 classes and 2 folders.
+[2017.06.24-17.31.34:692][764]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-17.31.34:720][764]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-17.31.34:720][764]Display: HotReload took 24.2s.
+[2017.06.24-17.31.38:543][223]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.31.38:558][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.31.38:558][223]PIE: New page: PIE session: Start (24 Jun 2017 19:31:38)
+[2017.06.24-17.31.38:558][223]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.31.38:560][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001852s)
+[2017.06.24-17.31.38:561][223]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.31.38:561][223]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2017.06.24-17.31.38:561][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003091s)
+[2017.06.24-17.31.38:573][223]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.31.38:580][223]LogInit: FAudioDevice initialized.
+[2017.06.24-17.31.38:611][223]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.31.38:613][223]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.31.38
+[2017.06.24-17.31.38:613][223]LogWorld: Bringing up level for play took: 0.001122
+[2017.06.24-17.31.38:615][223]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.549
+[2017.06.24-17.33.04:234][823]Recompiling UE4_Zero...
+[2017.06.24-17.33.04:234][823]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 359 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.33.04:242][823]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.33.22:490][997]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:33:22
+[2017.06.24-17.33.22:490][997]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.33.22:490][997]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.33.22:490][997]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.33.22:491][997]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.9266184 seconds
+[2017.06.24-17.33.22:491][997]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.33.22:491][997]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.33.22:491][997]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-359.dll
+[2017.06.24-17.33.22:491][997]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-359.lib
+[2017.06.24-17.33.22:491][997]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-359.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-359.exp
+[2017.06.24-17.33.22:491][997]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-359.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-359.suppressed.exp
+[2017.06.24-17.33.22:492][997]CompilerResultsLog: Info Total build time: 17.90 seconds (Local executor: 4.27 seconds)
+[2017.06.24-17.33.22:492][997]LogMainFrame: MainFrame: Module compiling took 18.268 seconds
+[2017.06.24-17.33.22:671][997]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0029 seconds. Added 5 classes and 2 folders.
+[2017.06.24-17.33.22:672][997]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-17.33.22:701][997]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-17.33.22:701][997]Display: HotReload took 18.5s.
+[2017.06.24-17.34.14:449][206]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.34.14:464][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.34.14:464][206]PIE: New page: PIE session: Start (24 Jun 2017 19:34:14)
+[2017.06.24-17.34.14:464][206]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.34.14:467][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001954s)
+[2017.06.24-17.34.14:467][206]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.34.14:468][206]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2017.06.24-17.34.14:468][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003269s)
+[2017.06.24-17.34.14:480][206]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.34.14:487][206]LogInit: FAudioDevice initialized.
+[2017.06.24-17.34.14:517][206]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.34.14:519][206]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.34.14
+[2017.06.24-17.34.14:519][206]LogWorld: Bringing up level for play took: 0.001190
+[2017.06.24-17.34.14:521][206]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.455
+[2017.06.24-17.36.11:616][806]Recompiling UE4_Zero...
+[2017.06.24-17.36.11:616][806]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 1691 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.36.11:622][806]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.36.30:236][ 24]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:36:30
+[2017.06.24-17.36.30:236][ 24]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.36.30:236][ 24]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.36.30:236][ 24]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.36.30:236][ 24]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.1026491 seconds
+[2017.06.24-17.36.30:236][ 24]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.36.30:236][ 24]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.36.30:236][ 24]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-1691.dll
+[2017.06.24-17.36.30:237][ 24]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-1691.lib
+[2017.06.24-17.36.30:237][ 24]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1691.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1691.exp
+[2017.06.24-17.36.30:237][ 24]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1691.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1691.suppressed.exp
+[2017.06.24-17.36.30:237][ 24]CompilerResultsLog: Info Total build time: 18.26 seconds (Local executor: 4.37 seconds)
+[2017.06.24-17.36.30:237][ 24]LogMainFrame: MainFrame: Module compiling took 18.631 seconds
+[2017.06.24-17.36.30:478][ 24]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-17.36.30:479][ 24]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-17.36.30:509][ 24]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-17.36.30:509][ 24]Display: HotReload took 18.9s.
+[2017.06.24-17.36.38:042][922]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.36.38:057][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.36.38:058][922]PIE: New page: PIE session: Start (24 Jun 2017 19:36:38)
+[2017.06.24-17.36.38:058][922]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.36.38:060][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001802s)
+[2017.06.24-17.36.38:060][922]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.36.38:061][922]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2017.06.24-17.36.38:061][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.002992s)
+[2017.06.24-17.36.38:072][922]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.36.38:080][922]LogInit: FAudioDevice initialized.
+[2017.06.24-17.36.38:115][922]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.36.38:117][922]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.36.38
+[2017.06.24-17.36.38:117][922]LogWorld: Bringing up level for play took: 0.001210
+[2017.06.24-17.36.38:118][922]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.052
+[2017.06.24-17.42.57:427][215]Recompiling UE4_Zero...
+[2017.06.24-17.42.57:428][215]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 7534 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.42.57:434][215]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.43.16:516][219]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:43:16
+[2017.06.24-17.43.16:517][219]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.43.16:517][219]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.43.16:517][219]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.43.16:518][219]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 8.0823705 seconds
+[2017.06.24-17.43.16:518][219]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.43.16:518][219]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.43.16:518][219]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-7534.dll
+[2017.06.24-17.43.16:518][219]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-7534.lib
+[2017.06.24-17.43.16:518][219]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7534.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7534.exp
+[2017.06.24-17.43.16:518][219]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7534.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7534.suppressed.exp
+[2017.06.24-17.43.16:518][219]CompilerResultsLog: Info Total build time: 18.59 seconds (Local executor: 3.04 seconds)
+[2017.06.24-17.43.16:518][219]LogMainFrame: MainFrame: Module compiling took 19.099 seconds
+[2017.06.24-17.43.16:843][219]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0030 seconds. Added 5 classes and 2 folders.
+[2017.06.24-17.43.16:844][219]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-17.43.16:875][219]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-17.43.16:875][219]Display: HotReload took 19.5s.
+[2017.06.24-17.43.20:421][410]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.43.20:435][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.43.20:436][410]PIE: New page: PIE session: Start (24 Jun 2017 19:43:20)
+[2017.06.24-17.43.20:436][410]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.43.20:438][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001781s)
+[2017.06.24-17.43.20:438][410]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.43.20:439][410]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2017.06.24-17.43.20:439][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003073s)
+[2017.06.24-17.43.20:448][410]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.43.20:455][410]LogInit: FAudioDevice initialized.
+[2017.06.24-17.43.20:486][410]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.43.20:488][410]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.43.20
+[2017.06.24-17.43.20:489][410]LogWorld: Bringing up level for play took: 0.001138
+[2017.06.24-17.43.20:490][410]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.424
+[2017.06.24-17.43.43:267][220]Recompiling UE4_Zero...
+[2017.06.24-17.43.43:267][220]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 9455 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.43.43:273][220]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.44.00:990][332]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:44:00
+[2017.06.24-17.44.00:990][332]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.44.00:991][332]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.44.00:991][332]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.44.00:991][332]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.1140872 seconds
+[2017.06.24-17.44.00:991][332]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.44.00:991][332]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.44.00:991][332]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-9455.dll
+[2017.06.24-17.44.00:991][332]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-9455.lib
+[2017.06.24-17.44.00:991][332]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9455.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9455.exp
+[2017.06.24-17.44.00:991][332]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9455.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9455.suppressed.exp
+[2017.06.24-17.44.00:992][332]CompilerResultsLog: Info Total build time: 17.38 seconds (Local executor: 3.46 seconds)
+[2017.06.24-17.44.00:992][332]LogMainFrame: MainFrame: Module compiling took 17.733 seconds
+[2017.06.24-17.44.01:168][332]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-17.44.01:169][332]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-17.44.01:200][332]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-17.44.01:200][332]Display: HotReload took 17.9s.
+[2017.06.24-17.44.59:440][320]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.44.59:455][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.44.59:456][320]PIE: New page: PIE session: Start (24 Jun 2017 19:44:59)
+[2017.06.24-17.44.59:456][320]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.44.59:458][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002069s)
+[2017.06.24-17.44.59:459][320]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.44.59:460][320]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2017.06.24-17.44.59:460][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003982s)
+[2017.06.24-17.44.59:472][320]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.44.59:480][320]LogInit: FAudioDevice initialized.
+[2017.06.24-17.44.59:512][320]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.44.59:514][320]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.44.59
+[2017.06.24-17.44.59:514][320]LogWorld: Bringing up level for play took: 0.001108
+[2017.06.24-17.44.59:516][320]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.55
+[2017.06.24-17.46.38:176][220]Recompiling UE4_Zero...
+[2017.06.24-17.46.38:177][220]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 9022 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.46.38:183][220]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.46.55:374][714]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:46:55
+[2017.06.24-17.46.55:374][714]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.46.55:375][714]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.46.55:375][714]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.46.55:375][714]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.3370646 seconds
+[2017.06.24-17.46.55:375][714]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.46.55:375][714]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.46.55:375][714]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-9022.dll
+[2017.06.24-17.46.55:375][714]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-9022.lib
+[2017.06.24-17.46.55:375][714]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9022.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9022.exp
+[2017.06.24-17.46.55:375][714]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9022.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9022.suppressed.exp
+[2017.06.24-17.46.55:376][714]CompilerResultsLog: Info Total build time: 16.72 seconds (Local executor: 3.74 seconds)
+[2017.06.24-17.46.55:376][714]LogMainFrame: MainFrame: Module compiling took 17.209 seconds
+[2017.06.24-17.46.55:576][714]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-17.46.55:577][714]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-17.46.55:610][714]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-17.46.55:610][714]Display: HotReload took 17.4s.
+[2017.06.24-17.46.58:744][729]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.46.58:760][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.46.58:760][729]PIE: New page: PIE session: Start (24 Jun 2017 19:46:58)
+[2017.06.24-17.46.58:760][729]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.46.58:762][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001907s)
+[2017.06.24-17.46.58:763][729]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.46.58:763][729]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2017.06.24-17.46.58:763][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003161s)
+[2017.06.24-17.46.58:775][729]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.46.58:784][729]LogInit: FAudioDevice initialized.
+[2017.06.24-17.46.58:813][729]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.46.58:815][729]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.46.58
+[2017.06.24-17.46.58:815][729]LogWorld: Bringing up level for play took: 0.001233
+[2017.06.24-17.46.58:817][729]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.751
+[2017.06.24-17.47.04:930][452]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.47.04:945][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.47.04:946][452]PIE: New page: PIE session: Start (24 Jun 2017 19:47:04)
+[2017.06.24-17.47.04:946][452]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.47.04:948][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001627s)
+[2017.06.24-17.47.04:948][452]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.47.04:949][452]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2017.06.24-17.47.04:949][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003167s)
+[2017.06.24-17.47.04:960][452]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.47.04:968][452]LogInit: FAudioDevice initialized.
+[2017.06.24-17.47.05:000][452]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.47.05:001][452]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.47.05
+[2017.06.24-17.47.05:002][452]LogWorld: Bringing up level for play took: 0.000946
+[2017.06.24-17.47.05:003][452]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.937
+[2017.06.24-17.48.04:047][751]LogRenderer: Reallocating scene render targets to support 1528x788 NumSamples 1 (Frame:29552).
+[2017.06.24-17.48.22:178][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Animations/Shoot" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Shoot.uasset" SILENT=true
+[2017.06.24-17.48.22:274][905]LogSavePackage: Save=63.31ms
+[2017.06.24-17.48.22:274][905]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Shoot50F51F7A4A439B87B39388AD2BD12526.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Shoot.uasset'
+[2017.06.24-17.48.22:278][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Shoot.uasset
+[2017.06.24-17.49.05:782][285]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.49.05:798][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.49.05:798][285]PIE: New page: PIE session: Start (24 Jun 2017 19:49:05)
+[2017.06.24-17.49.05:798][285]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.49.05:800][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001975s)
+[2017.06.24-17.49.05:801][285]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.49.05:801][285]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2017.06.24-17.49.05:801][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003218s)
+[2017.06.24-17.49.05:833][285]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.49.05:841][285]LogInit: FAudioDevice initialized.
+[2017.06.24-17.49.05:872][285]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.49.05:874][285]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.49.05
+[2017.06.24-17.49.05:875][285]LogWorld: Bringing up level for play took: 0.001335
+[2017.06.24-17.49.05:877][285]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.19
+[2017.06.24-17.49.13:131][599]Recompiling UE4_Zero...
+[2017.06.24-17.49.13:131][599]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 1086 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.49.13:137][599]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.49.29:863][595]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:49:29
+[2017.06.24-17.49.29:863][595]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.49.29:864][595]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.49.29:864][595]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.49.29:865][595]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.9161709 seconds
+[2017.06.24-17.49.29:865][595]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.49.29:865][595]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.49.29:865][595]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-1086.dll
+[2017.06.24-17.49.29:865][595]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-1086.lib
+[2017.06.24-17.49.29:865][595]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1086.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1086.exp
+[2017.06.24-17.49.29:866][595]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1086.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1086.suppressed.exp
+[2017.06.24-17.49.29:866][595]CompilerResultsLog: Info Total build time: 16.40 seconds (Local executor: 2.78 seconds)
+[2017.06.24-17.49.29:866][595]LogMainFrame: MainFrame: Module compiling took 16.744 seconds
+[2017.06.24-17.49.30:050][595]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0029 seconds. Added 5 classes and 2 folders.
+[2017.06.24-17.49.30:051][595]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-17.49.30:083][595]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-17.49.30:083][595]Display: HotReload took 17.0s.
+[2017.06.24-17.49.36:859][388]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.49.36:875][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.49.36:875][388]PIE: New page: PIE session: Start (24 Jun 2017 19:49:36)
+[2017.06.24-17.49.36:875][388]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.49.36:877][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002213s)
+[2017.06.24-17.49.36:878][388]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.49.36:879][388]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2017.06.24-17.49.36:879][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.004010s)
+[2017.06.24-17.49.36:890][388]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.49.36:897][388]LogInit: FAudioDevice initialized.
+[2017.06.24-17.49.36:928][388]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.49.36:930][388]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.49.36
+[2017.06.24-17.49.36:930][388]LogWorld: Bringing up level for play took: 0.000974
+[2017.06.24-17.49.36:931][388]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.865
+[2017.06.24-17.50.45:314][344]Recompiling UE4_Zero...
+[2017.06.24-17.50.45:314][344]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 6689 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.50.45:321][344]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.51.03:075][458]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:51:03
+[2017.06.24-17.51.03:075][458]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.51.03:075][458]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.51.03:075][458]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.51.03:075][458]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.8652033 seconds
+[2017.06.24-17.51.03:075][458]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.51.03:075][458]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.51.03:075][458]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-6689.dll
+[2017.06.24-17.51.03:076][458]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-6689.lib
+[2017.06.24-17.51.03:076][458]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6689.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6689.exp
+[2017.06.24-17.51.03:076][458]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6689.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6689.suppressed.exp
+[2017.06.24-17.51.03:076][458]CompilerResultsLog: Info Total build time: 17.40 seconds (Local executor: 3.77 seconds)
+[2017.06.24-17.51.03:076][458]LogMainFrame: MainFrame: Module compiling took 17.771 seconds
+[2017.06.24-17.51.03:257][458]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0030 seconds. Added 5 classes and 2 folders.
+[2017.06.24-17.51.03:258][458]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-17.51.03:288][458]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-17.51.03:288][458]Display: HotReload took 18.0s.
+[2017.06.24-17.51.04:827][643]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.51.04:841][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.51.04:842][643]PIE: New page: PIE session: Start (24 Jun 2017 19:51:04)
+[2017.06.24-17.51.04:842][643]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.51.04:843][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001672s)
+[2017.06.24-17.51.04:845][643]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.51.04:845][643]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2017.06.24-17.51.04:845][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003359s)
+[2017.06.24-17.51.04:856][643]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.51.04:863][643]LogInit: FAudioDevice initialized.
+[2017.06.24-17.51.04:891][643]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.51.04:893][643]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.51.04
+[2017.06.24-17.51.04:893][643]LogWorld: Bringing up level for play took: 0.001199
+[2017.06.24-17.51.04:895][643]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.829
+[2017.06.24-17.51.26:887][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Animations/Shoot" FILE="../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Shoot.uasset" SILENT=true
+[2017.06.24-17.51.26:919][840]LogSavePackage: Save=2.57ms
+[2017.06.24-17.51.26:919][840]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Saved/Shoot541A17D1405E37B57492DFB3AFB2DD7D.tmp' to '../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Shoot.uasset'
+[2017.06.24-17.51.26:923][840]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/Content/Images/Animations/Shoot.uasset
+[2017.06.24-17.51.34:245][706]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.51.34:262][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.51.34:262][706]PIE: New page: PIE session: Start (24 Jun 2017 19:51:34)
+[2017.06.24-17.51.34:262][706]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.51.34:264][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001878s)
+[2017.06.24-17.51.34:265][706]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.51.34:266][706]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2017.06.24-17.51.34:266][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.004199s)
+[2017.06.24-17.51.34:276][706]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.51.34:284][706]LogInit: FAudioDevice initialized.
+[2017.06.24-17.51.34:316][706]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.51.34:317][706]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.51.34
+[2017.06.24-17.51.34:318][706]LogWorld: Bringing up level for play took: 0.001083
+[2017.06.24-17.51.34:319][706]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.253
+[2017.06.24-17.52.57:838][952]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.52.57:852][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.52.57:853][952]PIE: New page: PIE session: Start (24 Jun 2017 19:52:57)
+[2017.06.24-17.52.57:853][952]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.52.57:855][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001805s)
+[2017.06.24-17.52.57:855][952]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.52.57:856][952]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2017.06.24-17.52.57:856][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003084s)
+[2017.06.24-17.52.57:866][952]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.52.57:873][952]LogInit: FAudioDevice initialized.
+[2017.06.24-17.52.57:903][952]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.52.57:905][952]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.52.57
+[2017.06.24-17.52.57:905][952]LogWorld: Bringing up level for play took: 0.001150
+[2017.06.24-17.52.57:906][952]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.16
+[2017.06.24-17.53.01:437][367]Recompiling UE4_Zero...
+[2017.06.24-17.53.01:438][367]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 1672 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.53.01:444][367]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.53.17:249][254]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:53:17
+[2017.06.24-17.53.17:250][254]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.53.17:250][254]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.53.17:250][254]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.53.17:250][254]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.9344486 seconds
+[2017.06.24-17.53.17:250][254]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.53.17:250][254]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.53.17:250][254]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(239) : error C2659: '=': function as left operand
+[2017.06.24-17.53.17:251][254]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(251) : error C2659: '=': function as left operand
+[2017.06.24-17.53.17:251][254]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero-1672.dll
+[2017.06.24-17.53.17:251][254]CompilerResultsLog: Info Total build time: 15.47 seconds (Local executor: 0.00 seconds)
+[2017.06.24-17.53.17:251][254]LogMainFrame: MainFrame: Module compiling took 15.820 seconds
+[2017.06.24-17.53.17:251][254]Warning: HotReload failed, recompile failed
+[2017.06.24-17.53.28:742][773]Recompiling UE4_Zero...
+[2017.06.24-17.53.28:742][773]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 134 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.53.28:749][773]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.53.44:709][679]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:53:44
+[2017.06.24-17.53.44:710][679]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.53.44:710][679]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.53.44:710][679]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.53.44:710][679]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.2111921 seconds
+[2017.06.24-17.53.44:710][679]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.53.44:710][679]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.53.44:710][679]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(239) : error C2659: '=': function as left operand
+[2017.06.24-17.53.44:711][679]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero-134.dll
+[2017.06.24-17.53.44:711][679]CompilerResultsLog: Info Total build time: 15.63 seconds (Local executor: 0.00 seconds)
+[2017.06.24-17.53.44:711][679]LogMainFrame: MainFrame: Module compiling took 15.977 seconds
+[2017.06.24-17.53.44:711][679]Warning: HotReload failed, recompile failed
+[2017.06.24-17.54.13:396][514]Recompiling UE4_Zero...
+[2017.06.24-17.54.13:396][514]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 3993 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.54.13:403][514]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.54.30:362][536]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:54:30
+[2017.06.24-17.54.30:362][536]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.54.30:362][536]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.54.30:362][536]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.54.30:363][536]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.8962469 seconds
+[2017.06.24-17.54.30:363][536]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.54.30:363][536]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.54.30:363][536]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-3993.dll
+[2017.06.24-17.54.30:363][536]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-3993.lib
+[2017.06.24-17.54.30:364][536]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3993.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3993.exp
+[2017.06.24-17.54.30:364][536]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3993.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3993.suppressed.exp
+[2017.06.24-17.54.30:364][536]CompilerResultsLog: Info Total build time: 16.60 seconds (Local executor: 2.97 seconds)
+[2017.06.24-17.54.30:365][536]LogMainFrame: MainFrame: Module compiling took 16.977 seconds
+[2017.06.24-17.54.30:538][536]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-17.54.30:539][536]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-17.54.30:569][536]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-17.54.30:569][536]Display: HotReload took 17.2s.
+[2017.06.24-17.55.25:306][103]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.55.25:322][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.55.25:322][103]PIE: New page: PIE session: Start (24 Jun 2017 19:55:25)
+[2017.06.24-17.55.25:322][103]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.55.25:324][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001948s)
+[2017.06.24-17.55.25:325][103]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.55.25:326][103]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2017.06.24-17.55.25:326][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003419s)
+[2017.06.24-17.55.25:337][103]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.55.25:344][103]LogInit: FAudioDevice initialized.
+[2017.06.24-17.55.25:374][103]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.55.25:376][103]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.55.25
+[2017.06.24-17.55.25:377][103]LogWorld: Bringing up level for play took: 0.001242
+[2017.06.24-17.55.25:378][103]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.688
+[2017.06.24-17.55.43:688][810]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-17.55.43:703][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-17.55.43:703][810]PIE: New page: PIE session: Start (24 Jun 2017 19:55:43)
+[2017.06.24-17.55.43:703][810]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-17.55.43:706][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002543s)
+[2017.06.24-17.55.43:706][810]LogAIModule: Creating AISystem for world Start
+[2017.06.24-17.55.43:707][810]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2017.06.24-17.55.43:707][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003784s)
+[2017.06.24-17.55.43:718][810]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-17.55.43:726][810]LogInit: FAudioDevice initialized.
+[2017.06.24-17.55.43:757][810]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-17.55.43:759][810]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-18.55.43
+[2017.06.24-17.55.43:759][810]LogWorld: Bringing up level for play took: 0.001000
+[2017.06.24-17.55.43:760][810]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.306
+[2017.06.24-17.59.26:001][993]Recompiling UE4_Zero...
+[2017.06.24-17.59.26:001][993]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 2253 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-17.59.26:007][993]Warning: Starting HotReload took  0.0s.
+[2017.06.24-17.59.42:786][992]CompilerResultsLog: New page: Compilation - 24 Jun 2017 19:59:42
+[2017.06.24-17.59.42:787][992]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-17.59.42:787][992]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-17.59.42:787][992]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-17.59.42:787][992]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.9786045 seconds
+[2017.06.24-17.59.42:787][992]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-17.59.42:787][992]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-17.59.42:787][992]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(236) : error C4002: too many actual parameters for macro 'print'
+[2017.06.24-17.59.42:788][992]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero-2253.dll
+[2017.06.24-17.59.42:788][992]CompilerResultsLog: Info Total build time: 16.45 seconds (Local executor: 0.00 seconds)
+[2017.06.24-17.59.42:788][992]LogMainFrame: MainFrame: Module compiling took 16.795 seconds
+[2017.06.24-17.59.42:788][992]Warning: HotReload failed, recompile failed
+[2017.06.24-18.00.33:171][955]Recompiling UE4_Zero...
+[2017.06.24-18.00.33:171][955]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 3936 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-18.00.33:177][955]Warning: Starting HotReload took  0.0s.
+[2017.06.24-18.00.48:987][844]CompilerResultsLog: New page: Compilation - 24 Jun 2017 20:00:48
+[2017.06.24-18.00.48:987][844]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-18.00.48:988][844]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-18.00.48:988][844]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-18.00.48:988][844]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.0330827 seconds
+[2017.06.24-18.00.48:988][844]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-18.00.48:988][844]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-18.00.48:988][844]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(236) : error C4002: too many actual parameters for macro 'TEXT'
+[2017.06.24-18.00.48:988][844]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(236) : error C3861: 'L': identifier not found
+[2017.06.24-18.00.48:989][844]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero-3936.dll
+[2017.06.24-18.00.48:989][844]CompilerResultsLog: Info Total build time: 15.46 seconds (Local executor: 0.00 seconds)
+[2017.06.24-18.00.48:989][844]LogMainFrame: MainFrame: Module compiling took 15.827 seconds
+[2017.06.24-18.00.48:990][844]Warning: HotReload failed, recompile failed
+[2017.06.24-18.01.09:239][ 20]Recompiling UE4_Zero...
+[2017.06.24-18.01.09:239][ 20]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 5236 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-18.01.09:246][ 20]Warning: Starting HotReload took  0.0s.
+[2017.06.24-18.01.24:979][894]CompilerResultsLog: New page: Compilation - 24 Jun 2017 20:01:24
+[2017.06.24-18.01.24:979][894]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-18.01.24:979][894]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-18.01.24:979][894]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-18.01.24:980][894]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.0191081 seconds
+[2017.06.24-18.01.24:980][894]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-18.01.24:980][894]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-18.01.24:980][894]CompilerResultsLog:Error: Error C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(236) : error C3861: 'L': identifier not found
+[2017.06.24-18.01.24:980][894]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero-5236.dll
+[2017.06.24-18.01.24:980][894]CompilerResultsLog: Info Total build time: 15.38 seconds (Local executor: 0.00 seconds)
+[2017.06.24-18.01.24:980][894]LogMainFrame: MainFrame: Module compiling took 15.750 seconds
+[2017.06.24-18.01.24:980][894]Warning: HotReload failed, recompile failed
+[2017.06.24-18.24.06:220][465]Recompiling UE4_Zero...
+[2017.06.24-18.24.06:221][465]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 6302 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-18.24.06:227][465]Warning: Starting HotReload took  0.0s.
+[2017.06.24-18.24.23:655][543]CompilerResultsLog: New page: Compilation - 24 Jun 2017 20:24:23
+[2017.06.24-18.24.23:655][543]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-18.24.23:655][543]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-18.24.23:655][543]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-18.24.23:655][543]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.2333692 seconds
+[2017.06.24-18.24.23:655][543]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-18.24.23:656][543]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-18.24.23:656][543]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-6302.dll
+[2017.06.24-18.24.23:656][543]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-6302.lib
+[2017.06.24-18.24.23:656][543]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6302.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6302.exp
+[2017.06.24-18.24.23:656][543]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6302.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6302.suppressed.exp
+[2017.06.24-18.24.23:656][543]CompilerResultsLog: Info Total build time: 17.07 seconds (Local executor: 2.90 seconds)
+[2017.06.24-18.24.23:656][543]LogMainFrame: MainFrame: Module compiling took 17.443 seconds
+[2017.06.24-18.24.23:834][543]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0029 seconds. Added 5 classes and 2 folders.
+[2017.06.24-18.24.23:836][543]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-18.24.23:865][543]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-18.24.23:865][543]Display: HotReload took 17.7s.
+[2017.06.24-18.36.32:157][888]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-18.36.32:173][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-18.36.32:174][888]PIE: New page: PIE session: Start (24 Jun 2017 20:36:32)
+[2017.06.24-18.36.32:174][888]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-18.36.32:176][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001869s)
+[2017.06.24-18.36.32:176][888]LogAIModule: Creating AISystem for world Start
+[2017.06.24-18.36.32:177][888]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2017.06.24-18.36.32:177][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003204s)
+[2017.06.24-18.36.32:191][888]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-18.36.32:202][888]LogInit: FAudioDevice initialized.
+[2017.06.24-18.36.32:233][888]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-18.36.32:235][888]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-19.36.32
+[2017.06.24-18.36.32:235][888]LogWorld: Bringing up level for play took: 0.001221
+[2017.06.24-18.36.32:237][888]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.171
+[2017.06.24-18.36.42:530][642]Recompiling UE4_Zero...
+[2017.06.24-18.36.42:530][642]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 245 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-18.36.42:536][642]Warning: Starting HotReload took  0.0s.
+[2017.06.24-18.36.48:978][410]CompilerResultsLog: New page: Compilation - 24 Jun 2017 20:36:48
+[2017.06.24-18.36.48:978][410]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-18.36.48:978][410]CompilerResultsLog: Info Target is up to date
+[2017.06.24-18.36.48:978][410]CompilerResultsLog: Info Total build time: 6.08 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.06.24-18.36.48:978][410]LogMainFrame: MainFrame: Module compiling took 6.457 seconds
+[2017.06.24-18.36.49:002][410]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-18.36.49:003][410]Display: HotReload took  6.5s.
+[2017.06.24-18.37.05:137][345]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-18.37.05:152][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-18.37.05:152][345]PIE: New page: PIE session: Start (24 Jun 2017 20:37:05)
+[2017.06.24-18.37.05:152][345]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-18.37.05:154][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001717s)
+[2017.06.24-18.37.05:155][345]LogAIModule: Creating AISystem for world Start
+[2017.06.24-18.37.05:155][345]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2017.06.24-18.37.05:155][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003108s)
+[2017.06.24-18.37.05:167][345]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-18.37.05:175][345]LogInit: FAudioDevice initialized.
+[2017.06.24-18.37.05:204][345]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-18.37.05:207][345]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-19.37.05
+[2017.06.24-18.37.05:207][345]LogWorld: Bringing up level for play took: 0.001165
+[2017.06.24-18.37.05:208][345]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.858
+[2017.06.24-18.55.19:710][410]Recompiling UE4_Zero...
+[2017.06.24-18.55.19:710][410]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 1277 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-18.55.19:717][410]Warning: Starting HotReload took  0.0s.
+[2017.06.24-18.55.37:569][540]CompilerResultsLog: New page: Compilation - 24 Jun 2017 20:55:37
+[2017.06.24-18.55.37:569][540]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-18.55.37:569][540]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-18.55.37:569][540]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-18.55.37:569][540]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.1877043 seconds
+[2017.06.24-18.55.37:569][540]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-18.55.37:570][540]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-18.55.37:570][540]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-1277.dll
+[2017.06.24-18.55.37:570][540]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-1277.lib
+[2017.06.24-18.55.37:570][540]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1277.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1277.exp
+[2017.06.24-18.55.37:570][540]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1277.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1277.suppressed.exp
+[2017.06.24-18.55.37:570][540]CompilerResultsLog: Info Total build time: 17.50 seconds (Local executor: 3.57 seconds)
+[2017.06.24-18.55.37:570][540]LogMainFrame: MainFrame: Module compiling took 17.870 seconds
+[2017.06.24-18.55.37:743][540]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0029 seconds. Added 5 classes and 2 folders.
+[2017.06.24-18.55.37:746][540]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-18.55.37:775][540]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-18.55.37:775][540]Display: HotReload took 18.1s.
+[2017.06.24-18.55.54:523][547]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-18.55.54:538][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-18.55.54:538][547]PIE: New page: PIE session: Start (24 Jun 2017 20:55:54)
+[2017.06.24-18.55.54:538][547]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-18.55.54:540][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002024s)
+[2017.06.24-18.55.54:541][547]LogAIModule: Creating AISystem for world Start
+[2017.06.24-18.55.54:542][547]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2017.06.24-18.55.54:542][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003432s)
+[2017.06.24-18.55.54:554][547]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-18.55.54:561][547]LogInit: FAudioDevice initialized.
+[2017.06.24-18.55.54:593][547]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-18.55.54:594][547]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-19.55.54
+[2017.06.24-18.55.54:595][547]LogWorld: Bringing up level for play took: 0.001153
+[2017.06.24-18.55.54:596][547]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.53
+[2017.06.24-18.56.33:764][259]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.24-18.56.34:026][259]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.06.24-18.56.34:054][259]Recompiling UE4_Zero...
+[2017.06.24-18.56.34:055][259]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 6965 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-18.56.34:061][259]Warning: Starting HotReload took  0.0s.
+[2017.06.24-18.56.51:465][335]CompilerResultsLog: New page: Compilation - 24 Jun 2017 20:56:51
+[2017.06.24-18.56.51:466][335]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-18.56.51:466][335]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-18.56.51:466][335]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-18.56.51:466][335]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.1086037 seconds
+[2017.06.24-18.56.51:466][335]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-18.56.51:466][335]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-18.56.51:466][335]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-6965.dll
+[2017.06.24-18.56.51:466][335]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-6965.lib
+[2017.06.24-18.56.51:467][335]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6965.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6965.exp
+[2017.06.24-18.56.51:467][335]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6965.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6965.suppressed.exp
+[2017.06.24-18.56.51:467][335]CompilerResultsLog: Info Total build time: 17.09 seconds (Local executor: 3.17 seconds)
+[2017.06.24-18.56.51:467][335]LogMainFrame: MainFrame: Module compiling took 17.422 seconds
+[2017.06.24-18.56.51:640][335]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-18.56.51:642][335]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-18.56.51:670][335]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-18.56.51:670][335]Display: HotReload took 17.6s.
+[2017.06.24-18.56.52:619][442]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.24-18.56.52:619][442]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.24-18.56.57:634][ 44]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-18.56.57:649][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-18.56.57:649][ 44]PIE: New page: PIE session: Start (24 Jun 2017 20:56:57)
+[2017.06.24-18.56.57:650][ 44]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-18.56.57:651][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001732s)
+[2017.06.24-18.56.57:652][ 44]LogAIModule: Creating AISystem for world Start
+[2017.06.24-18.56.57:652][ 44]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2017.06.24-18.56.57:653][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.002899s)
+[2017.06.24-18.56.57:664][ 44]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-18.56.57:671][ 44]LogInit: FAudioDevice initialized.
+[2017.06.24-18.56.57:700][ 44]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-18.56.57:702][ 44]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-19.56.57
+[2017.06.24-18.56.57:702][ 44]LogWorld: Bringing up level for play took: 0.001019
+[2017.06.24-18.56.57:704][ 44]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.362
+[2017.06.24-18.59.25:189][648]Recompiling UE4_Zero...
+[2017.06.24-18.59.25:189][648]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 9122 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-18.59.25:197][648]Warning: Starting HotReload took  0.0s.
+[2017.06.24-18.59.45:426][928]CompilerResultsLog: New page: Compilation - 24 Jun 2017 20:59:45
+[2017.06.24-18.59.45:427][928]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-18.59.45:427][928]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-18.59.45:427][928]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-18.59.45:427][928]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 8.2095913 seconds
+[2017.06.24-18.59.45:427][928]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-18.59.45:427][928]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-18.59.45:427][928]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-9122.dll
+[2017.06.24-18.59.45:427][928]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-9122.lib
+[2017.06.24-18.59.45:427][928]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9122.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9122.exp
+[2017.06.24-18.59.45:428][928]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9122.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9122.suppressed.exp
+[2017.06.24-18.59.45:428][928]CompilerResultsLog: Info Total build time: 19.84 seconds (Local executor: 4.11 seconds)
+[2017.06.24-18.59.45:428][928]LogMainFrame: MainFrame: Module compiling took 20.247 seconds
+[2017.06.24-18.59.45:601][928]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0029 seconds. Added 5 classes and 2 folders.
+[2017.06.24-18.59.45:603][928]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-18.59.45:632][928]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-18.59.45:632][928]Display: HotReload took 20.5s.
+[2017.06.24-19.00.04:510][191]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.00.04:525][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.00.04:525][191]PIE: New page: PIE session: Start (24 Jun 2017 21:00:04)
+[2017.06.24-19.00.04:525][191]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.00.04:527][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001808s)
+[2017.06.24-19.00.04:528][191]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.00.04:528][191]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2017.06.24-19.00.04:528][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003267s)
+[2017.06.24-19.00.04:538][191]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.00.04:546][191]LogInit: FAudioDevice initialized.
+[2017.06.24-19.00.04:575][191]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.00.04:577][191]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.00.04
+[2017.06.24-19.00.04:578][191]LogWorld: Bringing up level for play took: 0.001332
+[2017.06.24-19.00.04:579][191]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.513
+[2017.06.24-19.01.04:448][392]Recompiling UE4_Zero...
+[2017.06.24-19.01.04:448][392]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 8330 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-19.01.04:454][392]Warning: Starting HotReload took  0.0s.
+[2017.06.24-19.01.22:023][488]CompilerResultsLog: New page: Compilation - 24 Jun 2017 21:01:22
+[2017.06.24-19.01.22:023][488]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-19.01.22:023][488]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-19.01.22:023][488]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-19.01.22:024][488]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.1447256 seconds
+[2017.06.24-19.01.22:024][488]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-19.01.22:024][488]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-19.01.22:024][488]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-8330.dll
+[2017.06.24-19.01.22:024][488]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-8330.lib
+[2017.06.24-19.01.22:024][488]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-8330.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-8330.exp
+[2017.06.24-19.01.22:024][488]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-8330.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-8330.suppressed.exp
+[2017.06.24-19.01.22:025][488]CompilerResultsLog: Info Total build time: 17.21 seconds (Local executor: 3.26 seconds)
+[2017.06.24-19.01.22:025][488]LogMainFrame: MainFrame: Module compiling took 17.585 seconds
+[2017.06.24-19.01.22:199][488]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0030 seconds. Added 5 classes and 2 folders.
+[2017.06.24-19.01.22:201][488]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-19.01.22:231][488]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-19.01.22:231][488]Display: HotReload took 17.8s.
+[2017.06.24-19.03.26:802][433]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.03.26:818][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.03.26:818][433]PIE: New page: PIE session: Start (24 Jun 2017 21:03:26)
+[2017.06.24-19.03.26:818][433]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.03.26:820][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001986s)
+[2017.06.24-19.03.26:821][433]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.03.26:821][433]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2017.06.24-19.03.26:821][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003334s)
+[2017.06.24-19.03.26:833][433]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.03.26:841][433]LogInit: FAudioDevice initialized.
+[2017.06.24-19.03.26:872][433]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.03.26:874][433]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.03.26
+[2017.06.24-19.03.26:874][433]LogWorld: Bringing up level for play took: 0.001360
+[2017.06.24-19.03.26:876][433]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.81
+[2017.06.24-19.03.32:073][ 49]Cmd: POLY SELECT ADJACENT WALLS
+[2017.06.24-19.03.44:842][209]Recompiling UE4_Zero...
+[2017.06.24-19.03.44:843][209]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 1574 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-19.03.44:849][209]Warning: Starting HotReload took  0.0s.
+[2017.06.24-19.03.50:989][939]CompilerResultsLog: New page: Compilation - 24 Jun 2017 21:03:50
+[2017.06.24-19.03.50:989][939]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-19.03.50:989][939]CompilerResultsLog: Info Target is up to date
+[2017.06.24-19.03.50:989][939]CompilerResultsLog: Info Total build time: 5.79 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.06.24-19.03.50:989][939]LogMainFrame: MainFrame: Module compiling took 6.157 seconds
+[2017.06.24-19.03.51:013][939]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-19.03.51:013][939]Display: HotReload took  6.2s.
+[2017.06.24-19.03.59:227][923]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.03.59:241][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.03.59:241][923]PIE: New page: PIE session: Start (24 Jun 2017 21:03:59)
+[2017.06.24-19.03.59:242][923]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.03.59:243][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001521s)
+[2017.06.24-19.03.59:244][923]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.03.59:244][923]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.06.24-19.03.59:244][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.002776s)
+[2017.06.24-19.03.59:256][923]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.03.59:263][923]LogInit: FAudioDevice initialized.
+[2017.06.24-19.03.59:297][923]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.03.59:299][923]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.03.59
+[2017.06.24-19.03.59:299][923]LogWorld: Bringing up level for play took: 0.001053
+[2017.06.24-19.03.59:300][923]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.766
+[2017.06.24-19.04.04:652][558]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.04.04:667][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.04.04:667][558]PIE: New page: PIE session: Start (24 Jun 2017 21:04:04)
+[2017.06.24-19.04.04:667][558]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.04.04:669][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001641s)
+[2017.06.24-19.04.04:671][558]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.04.04:671][558]LogPlayLevel: PIE: World Init took: (0.001849s)
+[2017.06.24-19.04.04:671][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.004007s)
+[2017.06.24-19.04.04:686][558]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.04.04:692][558]LogInit: FAudioDevice initialized.
+[2017.06.24-19.04.04:725][558]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.04.04:726][558]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.04.04
+[2017.06.24-19.04.04:727][558]LogWorld: Bringing up level for play took: 0.001002
+[2017.06.24-19.04.04:728][558]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.661
+[2017.06.24-19.06.46:595][602]Recompiling UE4_Zero...
+[2017.06.24-19.06.46:596][602]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 1858 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-19.06.46:603][602]Warning: Starting HotReload took  0.0s.
+[2017.06.24-19.07.03:537][621]CompilerResultsLog: New page: Compilation - 24 Jun 2017 21:07:03
+[2017.06.24-19.07.03:537][621]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-19.07.03:537][621]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-19.07.03:537][621]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-19.07.03:538][621]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.0037031 seconds
+[2017.06.24-19.07.03:538][621]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-19.07.03:538][621]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-19.07.03:538][621]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-1858.dll
+[2017.06.24-19.07.03:538][621]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-1858.lib
+[2017.06.24-19.07.03:538][621]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1858.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1858.exp
+[2017.06.24-19.07.03:538][621]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1858.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-1858.suppressed.exp
+[2017.06.24-19.07.03:538][621]CompilerResultsLog: Info Total build time: 16.57 seconds (Local executor: 2.78 seconds)
+[2017.06.24-19.07.03:539][621]LogMainFrame: MainFrame: Module compiling took 16.954 seconds
+[2017.06.24-19.07.03:716][621]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0029 seconds. Added 5 classes and 2 folders.
+[2017.06.24-19.07.03:718][621]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-19.07.03:748][621]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-19.07.03:749][621]Display: HotReload took 17.2s.
+[2017.06.24-19.07.28:980][648]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.07.28:995][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.07.28:996][648]PIE: New page: PIE session: Start (24 Jun 2017 21:07:28)
+[2017.06.24-19.07.28:996][648]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.07.28:998][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001880s)
+[2017.06.24-19.07.28:998][648]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.07.28:999][648]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2017.06.24-19.07.28:999][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003223s)
+[2017.06.24-19.07.29:010][648]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.07.29:018][648]LogInit: FAudioDevice initialized.
+[2017.06.24-19.07.29:050][648]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.07.29:052][648]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.07.29
+[2017.06.24-19.07.29:052][648]LogWorld: Bringing up level for play took: 0.001188
+[2017.06.24-19.07.29:054][648]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.987
+[2017.06.24-19.07.51:287][433]Recompiling UE4_Zero...
+[2017.06.24-19.07.51:287][433]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 1110 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-19.07.51:293][433]Warning: Starting HotReload took  0.0s.
+[2017.06.24-19.07.58:587][302]CompilerResultsLog: New page: Compilation - 24 Jun 2017 21:07:58
+[2017.06.24-19.07.58:587][302]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-19.07.58:587][302]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-19.07.58:587][302]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-19.07.58:587][302]LogMainFrame: MainFrame: Module compiling took 7.311 seconds
+[2017.06.24-19.07.58:587][302]Warning: HotReload failed, recompile failed
+[2017.06.24-19.08.02:265][389]Recompiling UE4_Zero...
+[2017.06.24-19.08.02:266][389]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 6182 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-19.08.02:272][389]Warning: Starting HotReload took  0.0s.
+[2017.06.24-19.08.20:942][557]CompilerResultsLog: New page: Compilation - 24 Jun 2017 21:08:20
+[2017.06.24-19.08.20:943][557]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-19.08.20:943][557]CompilerResultsLog: Info Performing full C++ include scan (no include cache file)
+[2017.06.24-19.08.20:943][557]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-19.08.20:943][557]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-19.08.20:944][557]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.0689148 seconds
+[2017.06.24-19.08.20:944][557]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-19.08.20:944][557]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-19.08.20:944][557]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-6182.dll
+[2017.06.24-19.08.20:944][557]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-6182.lib
+[2017.06.24-19.08.20:944][557]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6182.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6182.exp
+[2017.06.24-19.08.20:944][557]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6182.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-6182.suppressed.exp
+[2017.06.24-19.08.20:945][557]CompilerResultsLog: Info Total build time: 18.26 seconds (Local executor: 2.96 seconds)
+[2017.06.24-19.08.20:945][557]LogMainFrame: MainFrame: Module compiling took 18.687 seconds
+[2017.06.24-19.08.21:120][557]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-19.08.21:122][557]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-19.08.21:151][557]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-19.08.21:151][557]Display: HotReload took 18.9s.
+[2017.06.24-19.09.14:575][207]Recompiling UE4_Zero...
+[2017.06.24-19.09.14:576][207]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 5426 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-19.09.14:582][207]Warning: Starting HotReload took  0.0s.
+[2017.06.24-19.09.31:174][182]CompilerResultsLog: New page: Compilation - 24 Jun 2017 21:09:31
+[2017.06.24-19.09.31:174][182]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-19.09.31:175][182]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-19.09.31:175][182]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-19.09.31:175][182]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.8746896 seconds
+[2017.06.24-19.09.31:175][182]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-19.09.31:175][182]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-19.09.31:175][182]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-5426.dll
+[2017.06.24-19.09.31:175][182]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-5426.lib
+[2017.06.24-19.09.31:175][182]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-5426.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-5426.exp
+[2017.06.24-19.09.31:175][182]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-5426.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-5426.suppressed.exp
+[2017.06.24-19.09.31:176][182]CompilerResultsLog: Info Total build time: 16.23 seconds (Local executor: 2.69 seconds)
+[2017.06.24-19.09.31:176][182]LogMainFrame: MainFrame: Module compiling took 16.610 seconds
+[2017.06.24-19.09.31:354][182]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-19.09.31:355][182]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-19.09.31:385][182]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-19.09.31:385][182]Display: HotReload took 16.8s.
+[2017.06.24-19.09.37:621][930]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.09.37:636][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.09.37:636][930]PIE: New page: PIE session: Start (24 Jun 2017 21:09:37)
+[2017.06.24-19.09.37:636][930]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.09.37:638][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001843s)
+[2017.06.24-19.09.37:639][930]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.09.37:640][930]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2017.06.24-19.09.37:640][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003356s)
+[2017.06.24-19.09.37:651][930]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.09.37:659][930]LogInit: FAudioDevice initialized.
+[2017.06.24-19.09.37:692][930]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.09.37:694][930]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.09.37
+[2017.06.24-19.09.37:694][930]LogWorld: Bringing up level for play took: 0.001222
+[2017.06.24-19.09.37:696][930]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.37
+[2017.06.24-19.11.44:228][594]Recompiling UE4_Zero...
+[2017.06.24-19.11.44:228][594]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 9386 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-19.11.44:235][594]Warning: Starting HotReload took  0.0s.
+[2017.06.24-19.12.01:072][600]CompilerResultsLog: New page: Compilation - 24 Jun 2017 21:12:01
+[2017.06.24-19.12.01:072][600]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-19.12.01:072][600]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-19.12.01:072][600]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-19.12.01:072][600]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.9955203 seconds
+[2017.06.24-19.12.01:073][600]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-19.12.01:073][600]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-19.12.01:073][600]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-9386.dll
+[2017.06.24-19.12.01:073][600]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-9386.lib
+[2017.06.24-19.12.01:073][600]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9386.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9386.exp
+[2017.06.24-19.12.01:073][600]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9386.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9386.suppressed.exp
+[2017.06.24-19.12.01:073][600]CompilerResultsLog: Info Total build time: 16.49 seconds (Local executor: 2.76 seconds)
+[2017.06.24-19.12.01:073][600]LogMainFrame: MainFrame: Module compiling took 16.854 seconds
+[2017.06.24-19.12.01:249][600]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-19.12.01:250][600]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-19.12.01:280][600]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-19.12.01:280][600]Display: HotReload took 17.1s.
+[2017.06.24-19.12.08:850][508]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.12.08:865][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.12.08:866][508]PIE: New page: PIE session: Start (24 Jun 2017 21:12:08)
+[2017.06.24-19.12.08:866][508]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.12.08:868][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001894s)
+[2017.06.24-19.12.08:868][508]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.12.08:869][508]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2017.06.24-19.12.08:869][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003171s)
+[2017.06.24-19.12.08:880][508]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.12.08:888][508]LogInit: FAudioDevice initialized.
+[2017.06.24-19.12.08:921][508]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.12.08:923][508]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.12.08
+[2017.06.24-19.12.08:923][508]LogWorld: Bringing up level for play took: 0.001272
+[2017.06.24-19.12.08:924][508]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.858
+[2017.06.24-19.14.17:920][379]Recompiling UE4_Zero...
+[2017.06.24-19.14.17:921][379]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 7168 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-19.14.17:928][379]Warning: Starting HotReload took  0.0s.
+[2017.06.24-19.14.35:039][416]CompilerResultsLog: New page: Compilation - 24 Jun 2017 21:14:35
+[2017.06.24-19.14.35:039][416]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-19.14.35:039][416]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-19.14.35:039][416]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-19.14.35:040][416]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 7.101065 seconds
+[2017.06.24-19.14.35:040][416]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-19.14.35:040][416]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-19.14.35:040][416]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-7168.dll
+[2017.06.24-19.14.35:040][416]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-7168.lib
+[2017.06.24-19.14.35:040][416]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7168.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7168.exp
+[2017.06.24-19.14.35:040][416]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7168.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-7168.suppressed.exp
+[2017.06.24-19.14.35:041][416]CompilerResultsLog: Info Total build time: 16.72 seconds (Local executor: 2.86 seconds)
+[2017.06.24-19.14.35:041][416]LogMainFrame: MainFrame: Module compiling took 17.131 seconds
+[2017.06.24-19.14.35:217][416]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0026 seconds. Added 5 classes and 2 folders.
+[2017.06.24-19.14.35:219][416]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-19.14.35:249][416]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-19.14.35:249][416]Display: HotReload took 17.3s.
+[2017.06.24-19.14.38:243][775]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.14.38:258][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.14.38:258][775]PIE: New page: PIE session: Start (24 Jun 2017 21:14:38)
+[2017.06.24-19.14.38:258][775]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.14.38:260][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001786s)
+[2017.06.24-19.14.38:261][775]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.14.38:261][775]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2017.06.24-19.14.38:261][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003310s)
+[2017.06.24-19.14.38:273][775]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.14.38:281][775]LogInit: FAudioDevice initialized.
+[2017.06.24-19.14.38:315][775]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.14.38:317][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.14.38
+[2017.06.24-19.14.38:317][775]LogWorld: Bringing up level for play took: 0.001107
+[2017.06.24-19.14.38:319][775]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.252
+[2017.06.24-19.14.51:598][149]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.14.51:614][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.14.51:614][149]PIE: New page: PIE session: Start (24 Jun 2017 21:14:51)
+[2017.06.24-19.14.51:614][149]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.14.51:616][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001695s)
+[2017.06.24-19.14.51:617][149]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.14.51:617][149]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2017.06.24-19.14.51:617][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003211s)
+[2017.06.24-19.14.51:628][149]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.14.51:637][149]LogInit: FAudioDevice initialized.
+[2017.06.24-19.14.51:666][149]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.14.51:669][149]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.14.51
+[2017.06.24-19.14.51:669][149]LogWorld: Bringing up level for play took: 0.001424
+[2017.06.24-19.14.51:671][149]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.395
+[2017.06.24-19.14.53:812][397]Recompiling UE4_Zero...
+[2017.06.24-19.14.53:813][397]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 3833 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-19.14.53:819][397]Warning: Starting HotReload took  0.0s.
+[2017.06.24-19.15.10:264][358]CompilerResultsLog: New page: Compilation - 24 Jun 2017 21:15:10
+[2017.06.24-19.15.10:264][358]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-19.15.10:264][358]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-19.15.10:264][358]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-19.15.10:265][358]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.8424449 seconds
+[2017.06.24-19.15.10:265][358]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-19.15.10:265][358]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-19.15.10:265][358]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-3833.dll
+[2017.06.24-19.15.10:265][358]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-3833.lib
+[2017.06.24-19.15.10:265][358]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3833.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3833.exp
+[2017.06.24-19.15.10:265][358]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3833.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3833.suppressed.exp
+[2017.06.24-19.15.10:265][358]CompilerResultsLog: Info Total build time: 16.11 seconds (Local executor: 2.57 seconds)
+[2017.06.24-19.15.10:265][358]LogMainFrame: MainFrame: Module compiling took 16.462 seconds
+[2017.06.24-19.15.10:437][358]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0027 seconds. Added 5 classes and 2 folders.
+[2017.06.24-19.15.10:438][358]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-19.15.10:467][358]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-19.15.10:467][358]Display: HotReload took 16.7s.
+[2017.06.24-19.15.12:219][568]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.15.12:233][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.15.12:234][568]PIE: New page: PIE session: Start (24 Jun 2017 21:15:12)
+[2017.06.24-19.15.12:234][568]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.15.12:235][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001558s)
+[2017.06.24-19.15.12:236][568]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.15.12:236][568]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2017.06.24-19.15.12:236][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.002658s)
+[2017.06.24-19.15.12:248][568]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.15.12:254][568]LogInit: FAudioDevice initialized.
+[2017.06.24-19.15.12:286][568]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.15.12:288][568]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.15.12
+[2017.06.24-19.15.12:288][568]LogWorld: Bringing up level for play took: 0.000936
+[2017.06.24-19.15.12:289][568]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.223
+[2017.06.24-19.16.34:126][556]Recompiling UE4_Zero...
+[2017.06.24-19.16.34:126][556]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 3408 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-19.16.34:133][556]Warning: Starting HotReload took  0.0s.
+[2017.06.24-19.16.50:875][553]CompilerResultsLog: New page: Compilation - 24 Jun 2017 21:16:50
+[2017.06.24-19.16.50:876][553]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-19.16.50:876][553]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-19.16.50:876][553]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-19.16.50:876][553]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.9220548 seconds
+[2017.06.24-19.16.50:876][553]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-19.16.50:876][553]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-19.16.50:876][553]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-3408.dll
+[2017.06.24-19.16.50:876][553]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-3408.lib
+[2017.06.24-19.16.50:876][553]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3408.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3408.exp
+[2017.06.24-19.16.50:876][553]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3408.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-3408.suppressed.exp
+[2017.06.24-19.16.50:877][553]CompilerResultsLog: Info Total build time: 16.39 seconds (Local executor: 2.78 seconds)
+[2017.06.24-19.16.50:877][553]LogMainFrame: MainFrame: Module compiling took 16.759 seconds
+[2017.06.24-19.16.51:052][553]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.06.24-19.16.51:053][553]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-19.16.51:083][553]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-19.16.51:083][553]Display: HotReload took 17.0s.
+[2017.06.24-19.16.52:403][711]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.16.52:418][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.16.52:418][711]PIE: New page: PIE session: Start (24 Jun 2017 21:16:52)
+[2017.06.24-19.16.52:418][711]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.16.52:420][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001771s)
+[2017.06.24-19.16.52:421][711]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.16.52:421][711]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2017.06.24-19.16.52:422][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003117s)
+[2017.06.24-19.16.52:433][711]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.16.52:441][711]LogInit: FAudioDevice initialized.
+[2017.06.24-19.16.52:475][711]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.16.52:477][711]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.16.52
+[2017.06.24-19.16.52:477][711]LogWorld: Bringing up level for play took: 0.001105
+[2017.06.24-19.16.52:478][711]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.412
+[2017.06.24-19.16.57:263][277]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.16.57:278][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.16.57:278][277]PIE: New page: PIE session: Start (24 Jun 2017 21:16:57)
+[2017.06.24-19.16.57:278][277]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.16.57:280][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001646s)
+[2017.06.24-19.16.57:281][277]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.16.57:281][277]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2017.06.24-19.16.57:281][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003191s)
+[2017.06.24-19.16.57:302][277]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.16.57:309][277]LogInit: FAudioDevice initialized.
+[2017.06.24-19.16.57:343][277]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.16.57:345][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.16.57
+[2017.06.24-19.16.57:346][277]LogWorld: Bringing up level for play took: 0.001077
+[2017.06.24-19.16.57:347][277]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.72
+[2017.06.24-19.17.24:813][ 58]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.17.24:827][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.17.24:827][ 58]PIE: New page: PIE session: Start (24 Jun 2017 21:17:24)
+[2017.06.24-19.17.24:828][ 58]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.17.24:830][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001817s)
+[2017.06.24-19.17.24:830][ 58]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.17.24:830][ 58]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2017.06.24-19.17.24:831][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.002986s)
+[2017.06.24-19.17.24:842][ 58]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.17.24:849][ 58]LogInit: FAudioDevice initialized.
+[2017.06.24-19.17.24:882][ 58]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.17.24:884][ 58]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.17.24
+[2017.06.24-19.17.24:884][ 58]LogWorld: Bringing up level for play took: 0.001145
+[2017.06.24-19.17.24:886][ 58]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.82
+[2017.06.24-19.17.28:053][431]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.17.28:068][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.17.28:068][431]PIE: New page: PIE session: Start (24 Jun 2017 21:17:28)
+[2017.06.24-19.17.28:068][431]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.17.28:070][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001815s)
+[2017.06.24-19.17.28:071][431]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.17.28:072][431]LogPlayLevel: PIE: World Init took: (0.001585s)
+[2017.06.24-19.17.28:072][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003869s)
+[2017.06.24-19.17.28:089][431]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.17.28:097][431]LogInit: FAudioDevice initialized.
+[2017.06.24-19.17.28:131][431]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.17.28:133][431]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.17.28
+[2017.06.24-19.17.28:133][431]LogWorld: Bringing up level for play took: 0.001079
+[2017.06.24-19.17.28:134][431]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.068
+[2017.06.24-19.18.23:453][951]Recompiling UE4_Zero...
+[2017.06.24-19.18.23:453][951]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4_Zero -ModuleWithSuffix UE4_Zero 9185 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Desktop/GitHub/UE4-Zero/UE4_Zero/UE4_Zero.uproject" ]
+[2017.06.24-19.18.23:459][951]Warning: Starting HotReload took  0.0s.
+[2017.06.24-19.18.40:298][962]CompilerResultsLog: New page: Compilation - 24 Jun 2017 21:18:40
+[2017.06.24-19.18.40:298][962]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.06.24-19.18.40:298][962]CompilerResultsLog: Info Parsing headers for UE4_ZeroEditor
+[2017.06.24-19.18.40:298][962]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.06.24-19.18.40:299][962]CompilerResultsLog: Info Reflection code generated for UE4_ZeroEditor in 6.8815276 seconds
+[2017.06.24-19.18.40:299][962]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.06.24-19.18.40:299][962]CompilerResultsLog: Info PlayerZero.cpp
+[2017.06.24-19.18.40:299][962]CompilerResultsLog: Info [2/3] Link UE4Editor-UE4_Zero-9185.dll
+[2017.06.24-19.18.40:299][962]CompilerResultsLog: Info [3/3] Link UE4Editor-UE4_Zero-9185.lib
+[2017.06.24-19.18.40:299][962]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9185.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9185.exp
+[2017.06.24-19.18.40:299][962]CompilerResultsLog: Info    Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9185.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-9185.suppressed.exp
+[2017.06.24-19.18.40:299][962]CompilerResultsLog: Info Total build time: 16.50 seconds (Local executor: 2.87 seconds)
+[2017.06.24-19.18.40:299][962]LogMainFrame: MainFrame: Module compiling took 16.854 seconds
+[2017.06.24-19.18.40:476][962]LogContentBrowser: Native class hierarchy updated for 'UE4_Zero' in 0.0029 seconds. Added 5 classes and 2 folders.
+[2017.06.24-19.18.40:478][962]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.06.24-19.18.40:508][962]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2252 classes and 459 folders.
+[2017.06.24-19.18.40:508][962]Display: HotReload took 17.1s.
+[2017.06.24-19.18.43:136][277]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.18.43:150][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.18.43:151][277]PIE: New page: PIE session: Start (24 Jun 2017 21:18:43)
+[2017.06.24-19.18.43:151][277]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.18.43:153][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001735s)
+[2017.06.24-19.18.43:154][277]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.18.43:154][277]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2017.06.24-19.18.43:154][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.003161s)
+[2017.06.24-19.18.43:163][277]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.18.43:171][277]LogInit: FAudioDevice initialized.
+[2017.06.24-19.18.43:200][277]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.18.43:202][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.18.43
+[2017.06.24-19.18.43:202][277]LogWorld: Bringing up level for play took: 0.001261
+[2017.06.24-19.18.43:203][277]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start -0.863
+[2017.06.24-19.18.46:813][698]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.24-19.18.46:827][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.24-19.18.46:828][698]PIE: New page: PIE session: Start (24 Jun 2017 21:18:46)
+[2017.06.24-19.18.46:828][698]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Start
+[2017.06.24-19.18.46:829][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001475s)
+[2017.06.24-19.18.46:830][698]LogAIModule: Creating AISystem for world Start
+[2017.06.24-19.18.46:830][698]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2017.06.24-19.18.46:831][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Start.Start to /Game/Maps/UEDPIE_0_Start.Start (0.002775s)
+[2017.06.24-19.18.46:844][698]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.24-19.18.46:851][698]LogInit: FAudioDevice initialized.
+[2017.06.24-19.18.46:881][698]LogLoad: Game class is 'My_UE4_ZeroGameModeBase_C'
+[2017.06.24-19.18.46:883][698]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2017.06.24-20.18.46
+[2017.06.24-19.18.46:883][698]LogWorld: Bringing up level for play took: 0.001004
+[2017.06.24-19.18.46:885][698]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Start 0.819

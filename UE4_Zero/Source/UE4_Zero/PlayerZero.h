@@ -36,8 +36,8 @@ public:
 private:
 
 	void FlipCharicter();
-
 	void FireBullet();
+	void TickShoot();
 
 	bool m_faceing_Left_Right = false;
 
