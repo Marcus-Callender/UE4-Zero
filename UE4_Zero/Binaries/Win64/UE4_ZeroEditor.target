@@ -2,7 +2,7 @@
 	"TargetName" : "UE4_ZeroEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "fefd10ff-423b-436d-86a7-a8c4b3df187c",
+	"BuildId" : "9f285d07-d9d9-41bd-b0fd-ede65034c83b",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-UE4_Zero.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-UE4_Zero-8319.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-UE4_Zero.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-UE4_Zero-8319.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-UE4_Zero.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-UE4_Zero-8319.lib",
 			"Type" : "ImportLibrary"
 		},
 		{

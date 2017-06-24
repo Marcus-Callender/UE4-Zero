@@ -26,7 +26,7 @@ void EmptyLinkFunctionForGeneratedCode1UE4_Zero() {}
 	void APlayerZero::StaticRegisterNativesAPlayerZero()
 	{
 	}
-	IMPLEMENT_CLASS(APlayerZero, 1128935404);
+	IMPLEMENT_CLASS(APlayerZero, 1975589682);
 	void AUE4_ZeroGameModeBase::StaticRegisterNativesAUE4_ZeroGameModeBase()
 	{
 	}
@@ -184,6 +184,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				UProperty* NewProp_m_Bullet = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_Bullet"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(m_Bullet, APlayerZero), 0x0014000000010001, Z_Construct_UClass_ABullet_NoRegister(), UClass::StaticClass());
 				UProperty* NewProp_m_projectileOffset = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_projectileOffset"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(m_projectileOffset, APlayerZero), 0x0010000000000005, Z_Construct_UScriptStruct_FVector());
+				UProperty* NewProp_m_SwordAnim = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_SwordAnim"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_SwordAnim, APlayerZero), 0x0010000000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
+				UProperty* NewProp_m_ShootAnim = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_ShootAnim"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_ShootAnim, APlayerZero), 0x0010000000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_m_WalkAnim = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_WalkAnim"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_WalkAnim, APlayerZero), 0x0010000000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_m_StandAnim = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_StandAnim"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_StandAnim, APlayerZero), 0x0010000000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_m_Sprite = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_Sprite"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_Sprite, APlayerZero), 0x00100000000a001d, Z_Construct_UClass_UPaperFlipbookComponent_NoRegister());
@@ -198,6 +200,10 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_m_Bullet, TEXT("ModuleRelativePath"), TEXT("PlayerZero.h"));
 				MetaData->SetValue(NewProp_m_projectileOffset, TEXT("Category"), TEXT("Gameplay"));
 				MetaData->SetValue(NewProp_m_projectileOffset, TEXT("ModuleRelativePath"), TEXT("PlayerZero.h"));
+				MetaData->SetValue(NewProp_m_SwordAnim, TEXT("Category"), TEXT("Animations"));
+				MetaData->SetValue(NewProp_m_SwordAnim, TEXT("ModuleRelativePath"), TEXT("PlayerZero.h"));
+				MetaData->SetValue(NewProp_m_ShootAnim, TEXT("Category"), TEXT("Animations"));
+				MetaData->SetValue(NewProp_m_ShootAnim, TEXT("ModuleRelativePath"), TEXT("PlayerZero.h"));
 				MetaData->SetValue(NewProp_m_WalkAnim, TEXT("Category"), TEXT("Animations"));
 				MetaData->SetValue(NewProp_m_WalkAnim, TEXT("ModuleRelativePath"), TEXT("PlayerZero.h"));
 				MetaData->SetValue(NewProp_m_StandAnim, TEXT("Category"), TEXT("Animations"));
@@ -254,7 +260,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/UE4_Zero")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x25E90A0B;
+			Guid.A = 0x940F4CBF;
 			Guid.B = 0x93D584E3;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

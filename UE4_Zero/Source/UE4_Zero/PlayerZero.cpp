@@ -11,6 +11,16 @@
 
 #define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::White,text)
 
+
+UENUM(BlueprintType)
+
+enum E_Attack
+{
+	NONE,
+	SHOOT,
+	SWORD
+};
+
 // Sets default values
 APlayerZero::APlayerZero()
 {
@@ -75,6 +85,11 @@ void APlayerZero::Tick(float DeltaTime)
 
 	m_NextAnimation = m_StandAnim;
 
+	if (m_newDir->X != 0.0f || m_newDir->Y != 0.0f)
+	{
+		m_dir = m_newDir;
+	}
+
 	//m_newDir = new FVector(0.0f, 0.0f, 0.0f);
 }
 
@@ -105,11 +120,6 @@ void APlayerZero::MoveHorizontal(float value)
 			}
 
 			m_faceing_Left_Right = true;
-
-			if (m_dir)
-			{
-				m_dir->X = value;
-			}
 		}
 		else if (value < 0.0f)
 		{
@@ -121,16 +131,11 @@ void APlayerZero::MoveHorizontal(float value)
 			}
 
 			m_faceing_Left_Right = false;
-
-			if (m_dir)
-			{
-				m_dir->X = value;
-			}
 		}
 
 		if (m_newDir)
 		{
-			m_newDir->X = value;
+			m_newDir->Y = value;
 		}
 
 		m_Movement->AddInputVector(GetActorRightVector() * value);
@@ -145,11 +150,6 @@ void APlayerZero::SetVerticalVelocity(float value)
 		{
 			// if there is vertical movement sets the animation to walking
 			m_NextAnimation = m_WalkAnim;
-
-			if (m_dir)
-			{
-				m_dir->Y = value;
-			}
 		}
 
 		if (m_newDir)
@@ -192,20 +192,14 @@ void APlayerZero::FireBullet()
 			SpawnParams.Owner = this;
 			SpawnParams.Instigator = this;
 			SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn;
-			//ABullet* Projectile = World->SpawnActor <ABullet> (m_Bullet, m_collider->GetComponentLocation(),  FRotator(0.0f, 1.0f, 0.0f), SpawnParams);
 
-			if (m_newDir->X != 0.0f && m_newDir->Y != 0.0f)
-			{
-				m_dir = m_newDir;
+			FVector offset = m_projectileOffset * (m_faceing_Left_Right ? 1.0f : -1.0f);
 
-			}
-
-			ABullet* Projectile = World->SpawnActor <ABullet>(m_Bullet, m_collider->GetComponentLocation() + m_projectileOffset, m_dir->Rotation(), SpawnParams);
+			ABullet* Projectile = World->SpawnActor <ABullet>(m_Bullet, m_collider->GetComponentLocation() + offset, m_dir->Rotation(), SpawnParams);
 
 			if (Projectile)
 			{
-				Projectile->Fire(FVector(0.0f, 1.0f, 0.0f));
-				//Projectile->Fire(*m_dir);
+				Projectile->Fire(*m_dir);
 			}
 		}
 	}

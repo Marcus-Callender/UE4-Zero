@@ -45,8 +45,11 @@ private:
 	class UPaperFlipbook* m_NextAnimation;
 
 	UCapsuleComponent* m_collider;
+
 	FVector* m_dir;
 	FVector* m_newDir;
+
+	enum E_Attack m_currentAttack;
 
 
 public:
@@ -59,6 +62,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		class UPaperFlipbook* m_WalkAnim;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+		class UPaperFlipbook* m_ShootAnim;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+		class UPaperFlipbook* m_SwordAnim;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 		FVector m_projectileOffset;

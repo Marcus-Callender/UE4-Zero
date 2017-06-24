@@ -1,13 +1,14 @@
-﻿  Parsing headers for UE4_ZeroEditor
+﻿  Compiling game modules for hot reload
+  Parsing headers for UE4_ZeroEditor
     Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for UE4_ZeroEditor in 6.2214379 seconds
+  Reflection code generated for UE4_ZeroEditor in 6.5785239 seconds
   Performing 5 actions (4 in parallel)
   My_PlayerController.cpp
-  PlayerZero.cpp
   UE4_Zero.generated.cpp
-  [4/5] Link UE4Editor-UE4_Zero.dll
-  [5/5] Link UE4Editor-UE4_Zero.lib
-     Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.exp
-     Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.suppressed.exp
+  PlayerZero.cpp
+  [4/5] Link UE4Editor-UE4_Zero-8319.dll
+  [5/5] Link UE4Editor-UE4_Zero-8319.lib
+     Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-8319.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-8319.exp
+     Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-8319.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero-8319.suppressed.exp
   Deploying UE4_ZeroEditor Win64 Development...
-  Total build time: 11.19 seconds (Local executor: 2.88 seconds)
+  Total build time: 16.47 seconds (Local executor: 2.95 seconds)
