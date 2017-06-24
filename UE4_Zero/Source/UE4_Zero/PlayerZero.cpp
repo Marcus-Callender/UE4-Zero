@@ -50,6 +50,8 @@ APlayerZero::APlayerZero()
 
 	m_NextAnimation = m_StandAnim;
 
+	m_dir = new FVector(1.0f, 0.0f, 0.0f);
+	m_newDir = new FVector(0.0f, 0.0f, 0.0f);
 }
 
 // Called when the game starts or when spawned
@@ -73,6 +75,7 @@ void APlayerZero::Tick(float DeltaTime)
 
 	m_NextAnimation = m_StandAnim;
 
+	//m_newDir = new FVector(0.0f, 0.0f, 0.0f);
 }
 
 // Called to bind functionality to input
@@ -102,6 +105,11 @@ void APlayerZero::MoveHorizontal(float value)
 			}
 
 			m_faceing_Left_Right = true;
+
+			if (m_dir)
+			{
+				m_dir->X = value;
+			}
 		}
 		else if (value < 0.0f)
 		{
@@ -113,6 +121,16 @@ void APlayerZero::MoveHorizontal(float value)
 			}
 
 			m_faceing_Left_Right = false;
+
+			if (m_dir)
+			{
+				m_dir->X = value;
+			}
+		}
+
+		if (m_newDir)
+		{
+			m_newDir->X = value;
 		}
 
 		m_Movement->AddInputVector(GetActorRightVector() * value);
@@ -127,6 +145,16 @@ void APlayerZero::SetVerticalVelocity(float value)
 		{
 			// if there is vertical movement sets the animation to walking
 			m_NextAnimation = m_WalkAnim;
+
+			if (m_dir)
+			{
+				m_dir->Y = value;
+			}
+		}
+
+		if (m_newDir)
+		{
+			m_newDir->X = value;
 		}
 
 		m_Movement->AddInputVector(GetActorForwardVector() * value);
@@ -162,12 +190,22 @@ void APlayerZero::FireBullet()
 		{
 			FActorSpawnParameters SpawnParams;
 			SpawnParams.Owner = this;
-			SpawnParams.Instigator = Instigator;
-			ABullet* Projectile = World->SpawnActor <ABullet> (m_Bullet, m_collider->GetComponentLocation(),  FRotator(0.0f, 1.0f, 0.0f), SpawnParams);
-			
+			SpawnParams.Instigator = this;
+			SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn;
+			//ABullet* Projectile = World->SpawnActor <ABullet> (m_Bullet, m_collider->GetComponentLocation(),  FRotator(0.0f, 1.0f, 0.0f), SpawnParams);
+
+			if (m_newDir->X != 0.0f && m_newDir->Y != 0.0f)
+			{
+				m_dir = m_newDir;
+
+			}
+
+			ABullet* Projectile = World->SpawnActor <ABullet>(m_Bullet, m_collider->GetComponentLocation() + m_projectileOffset, m_dir->Rotation(), SpawnParams);
+
 			if (Projectile)
 			{
 				Projectile->Fire(FVector(0.0f, 1.0f, 0.0f));
+				//Projectile->Fire(*m_dir);
 			}
 		}
 	}

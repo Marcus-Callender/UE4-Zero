@@ -1,12 +1,13 @@
-﻿  Compiling game modules for hot reload
-  Performing full C++ include scan (no include cache file)
-  Parsing headers for UE4_ZeroEditor
+﻿  Parsing headers for UE4_ZeroEditor
     Running UnrealHeaderTool "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4_ZeroEditor\Development\UE4_ZeroEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for UE4_ZeroEditor in 6.250284 seconds
-  Performing 3 actions (4 in parallel)
+  Reflection code generated for UE4_ZeroEditor in 6.2214379 seconds
+  Performing 5 actions (4 in parallel)
+  My_PlayerController.cpp
   PlayerZero.cpp
-C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(164): error C3867: 'FTransform::TransformPosition': non-standard syntax; use '&' to create a pointer to member
-C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Source\UE4_Zero\PlayerZero.cpp(168): error C2059: syntax error: 'const'
-ERROR : UBT error : Failed to produce item: C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Binaries\Win64\UE4Editor-UE4_Zero-7574.dll
-  Total build time: 15.77 seconds (Local executor: 0.00 seconds)
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" UE4_ZeroEditor Win64 Development "C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\UE4_Zero.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.
+  UE4_Zero.generated.cpp
+  [4/5] Link UE4Editor-UE4_Zero.dll
+  [5/5] Link UE4Editor-UE4_Zero.lib
+     Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.exp
+     Creating library C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.suppressed.lib and object C:\Users\Marcus\Desktop\GitHub\UE4-Zero\UE4_Zero\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4_Zero.suppressed.exp
+  Deploying UE4_ZeroEditor Win64 Development...
+  Total build time: 11.19 seconds (Local executor: 2.88 seconds)

@@ -13,6 +13,9 @@ ABullet::ABullet()
 	m_colider = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComponent"));
 	
 	m_colider->InitSphereRadius(15.0f);
+	m_colider->bGenerateOverlapEvents = true;
+	//m_colider->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	m_colider->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	
 	RootComponent = m_colider;
 
@@ -23,6 +26,8 @@ ABullet::ABullet()
 	m_projecileMovement->bRotationFollowsVelocity = true;
 	m_projecileMovement->bShouldBounce = true;
 	m_projecileMovement->Bounciness = 0.3f;
+
+	MoveIgnoreActorAdd(Instigator);
 }
 
 // Called when the game starts or when spawned

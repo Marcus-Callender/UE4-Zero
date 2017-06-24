@@ -45,6 +45,8 @@ private:
 	class UPaperFlipbook* m_NextAnimation;
 
 	UCapsuleComponent* m_collider;
+	FVector* m_dir;
+	FVector* m_newDir;
 
 
 public:
